@@ -1,3 +1,13 @@
-# First Chapter
+# Publishing Standards Overview
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+The standards we cover fall into broad categories:
+
+- Boundaries
+  - Neighborhoods
+  - Supervisor Districts
+  - etc.
+- Formats
+  - Addresses
+  - Categorical Data
+  - Date/Time
+  - Location - Points
