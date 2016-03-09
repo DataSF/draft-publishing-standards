@@ -1,5 +1,5 @@
 # Census Boundaries
-Census data is available from the Federal Census Bureau. For certain City administrative datasets, we assign census boundaries to make linking these to Census data easier.
+Census data is available from the [Federal Census Burea](http://census.gov)u. For certain City administrative datasets, we assign census boundaries to make linking these to Census data easier.
 
 For census boundary IDs we present the full ID starting with State ID and going down to the most granular ID represented by the field (e.g. tract, block or block group). The full IDs are presented as strings, not numbers. You can learn more about geographic [boundaries and identifiers on the Census website](https://www.census.gov/geo/reference/geocodes.html). The full IDs are constructed in the following order:
 
