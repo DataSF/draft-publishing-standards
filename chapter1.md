@@ -3,9 +3,9 @@
 The standards we cover fall into broad categories:
 
 - Boundaries
-  - Neighborhoods
-  - Supervisor Districts
-  - etc.
+  - Neighborhoods (draft)
+  - Supervisor Districts (draft)
+  - Census Boundaries (draft)
 - Formats
   - Addresses
   - Categorical Data
