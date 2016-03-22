@@ -11,7 +11,7 @@ The table below includes:
 
 | Dataset | Column Name (Human Readable) | API Name | Short Name | Number of Districts |
 | -- | -- | -- | -- |
-| [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhoood | neighborhood | NBHD | 42 | 
-| [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhood Group | neighborhood_group | NBHDGRP | 37 |
-| [SF Realtor Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns) | Realtor Neighborhood | realtor_neighborhood | NBHDSFRA | 92 |
-| [SFFind Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4) | SFFind Neighborhood | sffind_neighborhood | NBHDSFFIND | 117 |
+| [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhooods - Analysis Boundaries | neighborhoods_analysis_boundaries | NBHDANA | 42 | 
+| [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhoods - Group Boundaries | neighborhoods_group_boundaries | NBHDGRP | 37 |
+| [SF Realtor Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns) | Neighborhoods - Realtor Boundaries | neighborhoods_realtor_boundaries | NBHDSFRA | 92 |
+| [SFFind Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4) | Neighborhoods - SFFind boundaries | neighborhoods_sffind_boundaries | NBHDSFFIND | 117 |
