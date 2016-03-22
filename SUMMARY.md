@@ -6,5 +6,5 @@
    * [Neighborhoods](boundaries/neighborhoods.md)
    * [Supervisor Districts](boundaries/supervisor_districts.md)
    * [Census](boundaries/census.md)
-* Formats
+* [Formats](formats.md)
 
