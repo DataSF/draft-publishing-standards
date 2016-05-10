@@ -11,3 +11,4 @@ The standards we cover fall into broad categories:
   - Categorical Data
   - Date/Time
   - Location - Points
+  - Multiline, multipolygon or multipoint geography
