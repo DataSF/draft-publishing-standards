@@ -9,7 +9,7 @@ The table below includes:
 - the shortname used when there are character limits (e.g. in shapefile formats)
 - the number of districts included in the dataset
 
-| Dataset | Column Name (Human Readable) | API Name | Short Name | Number of Districts |
+| Dataset | Column Name (Human Readable) | API Name | Short Name | Number of Neighborhoods |
 | -- | -- | -- | -- |
 | [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhooods - Analysis Boundaries | neighborhoods_analysis_boundaries | NBHDANA | 42 | 
 | [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhoods - Group Boundaries | neighborhoods_group_boundaries | NBHDGRP | 37 |
