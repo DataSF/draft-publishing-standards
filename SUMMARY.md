@@ -3,8 +3,9 @@
 * [Introduction](README.md)
 * [Outline](chapter1.md)
 * [Formats](formats.md)
-  * [Addresses](addresses.md)
+  * [Column Headers](column-headers.md)
   * [Column Order](column-order.md)
+  * [Addresses](addresses.md)
   * [Multishapes](multishapes.md)
 * Canonical Lists
 * [Canonical Boundaries](boundaries/intro.md)
