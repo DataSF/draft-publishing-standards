@@ -7,9 +7,10 @@
   * [Column Order](column-order.md)
   * [Date and Time](date-and-time.md)
   * [Text](text.md)
+  * [Numeric](numeric.md)
+  * [Location \(coordinates\)](location-coordinates.md)
   * [Addresses](addresses.md)
   * [Multishapes](multishapes.md)
-  * [Numeric](numeric.md)
 * Canonical Lists
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
