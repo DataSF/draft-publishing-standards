@@ -9,6 +9,7 @@ The table below includes:
 * the application programming interface \(API\) name
 * the shortname used when there are character limits \(e.g. in shapefile formats\)
 * the number of districts included in the dataset
+* a quick link to download a CSV of just the boundary names \(without geometry\)
 
 | Dataset | Column Name \(Human Readable\) | API Name | Short Name | Number of Neighborhoods |
 | :--- | :--- | :--- | :--- | :--- |
