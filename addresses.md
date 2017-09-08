@@ -6,7 +6,7 @@ We'll accept the following formats
 
 ## Address components as separate fields
 
-| Name | |
+| Name |  |
 | :--- | :--- |
 | From Street |  |
 | To Street |  |
@@ -20,11 +20,7 @@ We'll accept the following formats
 | State |  |
 | Zipcode |  |
 
-
-
 ## Addresses as a single string
 
-100 Van Ness Ave Unit 316
-
-
+100 Van Ness Ave Unit 316A, San Francisco, CA 94102
 
