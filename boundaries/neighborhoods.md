@@ -14,9 +14,9 @@ The table below includes:
 | Dataset | Column Name \(Human Readable\) | API Name | Short Name | Number of Neighborhoods | Download Boundary Names |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhooods - Analysis Boundaries | neighborhoods\_analysis\_boundaries | NBHDANA | 42 | [Download](https://data.sfgov.org/resource/xfcw-9evu.csv?$select=nhood) |
-| [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhoods - Group Boundaries | neighborhoods\_group\_boundaries | NBHDGRP | 37 |  |
-| [SF Realtor Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns) | Neighborhoods - Realtor Boundaries | neighborhoods\_realtor\_boundaries | NBHDSFRA | 92 |  |
-| [SFFind Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4) | Neighborhoods - SFFind boundaries | neighborhoods\_sffind\_boundaries | NBHDSFFIND | 117 |  |
+| [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhoods - Group Boundaries | neighborhoods\_group\_boundaries | NBHDGRP | 37 | [Download](https://data.sfgov.org/resource/aivd-8yrg.csv?$select=neighborho) |
+| [SF Realtor Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns) | Neighborhoods - Realtor Boundaries | neighborhoods\_realtor\_boundaries | NBHDSFRA | 92 | [Download](https://data.sfgov.org/resource/743h-p4bq.csv?$select=nbrhood) |
+| [SFFind Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4) | Neighborhoods - SFFind boundaries | neighborhoods\_sffind\_boundaries | NBHDSFFIND | 117 | [Download](https://data.sfgov.org/resource/6ia5-2f8k.csv?$select=name) |
 
 **Note:** Datasets published before we codified this practice may not reflect the above. We are actively improving existing datasets on a rolling basis. Please consult the data dictionary and other related documentation under the dataset's About tab. If it's still unclear, [contact DataSF](http://support.datasf.org/customer/portal/emails/new), and we'll be happy to help.
 
