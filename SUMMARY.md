@@ -5,6 +5,7 @@
 * [Formats](formats.md)
   * [Column Headers](column-headers.md)
   * [Column Order](column-order.md)
+  * [Date and Time](date-and-time.md)
   * [Addresses](addresses.md)
   * [Multishapes](multishapes.md)
 * Canonical Lists
