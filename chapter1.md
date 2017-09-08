@@ -12,7 +12,6 @@ The standards we cover fall into broad categories:
   * Location \(addresses\)
   * Location \(coordinates\)
   * Geometry \(line and polygon\)
-
   * Null/negligible values
   * Reserved column names
 * Canonical Lists and Standards
