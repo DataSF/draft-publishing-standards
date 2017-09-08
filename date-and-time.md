@@ -1,6 +1,6 @@
 # Date and Time
 - [Based on ISO8601](https://en.wikipedia.org/wiki/ISO_8601), an international standard for representing date and time. We chose the "extended format" with the hyphens because it is humanly more readable.
-    - Compare 2016-01-01 to 20160101
+- Compare 2016-01-01 to 20160101
 
 - All date and time variables must be in UTC -7hrs unless specified.
 
