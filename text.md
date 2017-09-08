@@ -11,10 +11,10 @@
     - This helps with analysis across departments and data systems
 - Common ones are provided as reference within this document, including the departmental steward of the list where applicable and links to the reference data
 
-## Case formatting
+## Character case
 Text should be presented in the easiest to interpret/read format where appropriate.
 
-Title Case
+Title case
 * Address String
 * Categories when either the source system presents them this way or it is easy to interpret from the source
 

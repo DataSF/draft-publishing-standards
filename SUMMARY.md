@@ -9,6 +9,7 @@
   * [Text](text.md)
   * [Addresses](addresses.md)
   * [Multishapes](multishapes.md)
+  * [Numeric](numeric.md)
 * Canonical Lists
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
