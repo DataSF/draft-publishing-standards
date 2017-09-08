@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Outline](chapter1.md)
 * [Formats](formats.md)
-  * Addresses
+  * [Addresses](addresses.md)
   * [Multishapes](multishapes.md)
 * Canonical Lists
 * [Canonical Boundaries](boundaries/intro.md)
