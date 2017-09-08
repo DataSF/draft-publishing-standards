@@ -1,4 +1,4 @@
-# Location (coordinates)
+# Location \(coordinates\)
 
 - Coordinates in [EPSG 4326](https://epsg.io/4326) or [EPSG 2227](https://epsg.io/2227)
 - Only EPSG 4326 coordinates can be mapped within the open data portal
