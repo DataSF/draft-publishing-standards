@@ -33,7 +33,7 @@
     | Time only   | `time`      | hh:mm                      | 12:00               |
     |             |             | *or* hh:mm:ss              | 12:00:00            |
 
-- Specify the timezone if it is not UTC -7hrs:
+**Specify the timezone if it is not UTC -7hrs:**
 
     | Type        | Column name | Format                     | Example               |
     |-------------|-------------|----------------------------|-----------------------|
