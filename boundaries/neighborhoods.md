@@ -13,7 +13,7 @@ The table below includes:
 
 | Dataset | Column Name \(Human Readable\) | API Name | Short Name | Number of Neighborhoods | Download Boundary Names |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhooods - Analysis Boundaries | neighborhoods\_analysis\_boundaries | NBHDANA | 42 |  |
+| [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) | Neighborhooods - Analysis Boundaries | neighborhoods\_analysis\_boundaries | NBHDANA | 42 | [Download](https://data.sfgov.org/resource/xfcw-9evu.csv?$select=nhood) |
 | [Neighborhood Groups](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Neighborhood-Groups-Map/iacs-ws63) | Neighborhoods - Group Boundaries | neighborhoods\_group\_boundaries | NBHDGRP | 37 |  |
 | [SF Realtor Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Realtor-Neighborhoods/5gzd-g9ns) | Neighborhoods - Realtor Boundaries | neighborhoods\_realtor\_boundaries | NBHDSFRA | 92 |  |
 | [SFFind Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/SF-Find-Neighborhoods/pty2-tcw4) | Neighborhoods - SFFind boundaries | neighborhoods\_sffind\_boundaries | NBHDSFFIND | 117 |  |
