@@ -1,10 +1,9 @@
 # Date and Time
 - [Based on ISO8601](https://en.wikipedia.org/wiki/ISO_8601), an international standard for representing date and time. We chose the "extended format" with the hyphens because it is humanly more readable.
-- Compare 2016-01-01 to 20160101
-
+    - Compare 2016-01-01 to 20160101
 - All date and time variables must be in UTC -7hrs unless specified.
 
-- Date variables:
+## Date variables
 
     | Interval    | Column name | Format     | Range of values    | Example   |
     |-------------|-------------|------------|--------------------|-----------|
@@ -15,7 +14,7 @@
     | Quarterly   | `quarter`   | YYYY-[Q]Q  | [Q]Q: Q1 to Q4     | 2015-Q1   |
     | Half-yearly | `half_year` | YYYY-[H]H  | [H]H: H1 or H2     | 2015-H1   |
     
-- For fiscal periods, prefix “fiscal_” to column name:
+**For fiscal periods, prefix “fiscal_” to column name**
 
     | Interval               | Column name           | Format    | Example |
     |------------------------|-----------------------|-----------|---------|
@@ -25,7 +24,7 @@
 
     - Fiscal year start-date must be indicated in the metadata
 
-- For date-time variables:
+## Date-time variables
 
     | Type        | Column name | Format                     | Example             |
     |-------------|-------------|----------------------------|---------------------|
