@@ -5,8 +5,8 @@
 - No units of measurement
     - Units should be in metadata instead
 - Express as full number where possible
-    - If rounded, indicate in metadata
     - e.g. "1200000" instead of "1.2" (million)
+    - If rounded, indicate in metadata  
 - No rounding if possible
     - Give raw numbers as far as possible
     - If rounding is needed, try to provide at least 2 decimal places of precision
