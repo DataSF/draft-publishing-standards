@@ -1,4 +1,4 @@
-# Standard Boundaries
+# Canonical Boundaries
 
 * Testing
 
