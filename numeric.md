@@ -1,7 +1,7 @@
 # Numeric
 
 - No commas
-    - E.g. "1000" instead of "1,000"
+    - e.g. "1000" instead of "1,000"
 - No units of measurement
     - Units should be in metadata instead
 - Express as full number where possible
