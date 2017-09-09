@@ -11,7 +11,7 @@ The standards we cover fall into broad categories:
   * Boolean
   * Location \(addresses\)
   * Location \(coordinates\)
-  * Geometry \(line and polygon\)
+
   * Null/negligible values
   * Reserved column names
 * Canonical Lists and Standards
@@ -31,6 +31,7 @@ The standards we cover fall into broad categories:
   * Sexual Orientation and Gender Identity \(SOGI\)
 
 * Canonical Boundaries
+
   * Neighborhoods \(draft\)
   * Supervisor Districts \(draft\)
   * Census Boundaries \(draft\)
