@@ -10,7 +10,6 @@
   * [Numeric](numeric.md)
   * [Location \(coordinates\)](location-coordinates.md)
   * [Location \(addresses\)](addresses.md)
-  * [Multishapes](multishapes.md)
 * Canonical Lists
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
