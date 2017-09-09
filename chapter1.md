@@ -15,8 +15,10 @@ The standards we cover fall into broad categories:
   * Null/negligible values
   * Reserved column names
 * Canonical Lists and Standards
+
   * Assessor Parcel Numbers
   * Street Names
+  * Street Type Abbreviations
   * Enterprise Addresses
   * Street Centerline and Intersection Identifiers
   * Zoning
@@ -27,6 +29,7 @@ The standards we cover fall into broad categories:
   * Race and Ethnicity
 
   * Sexual Orientation and Gender Identity \(SOGI\)
+
 * Canonical Boundaries
   * Neighborhoods \(draft\)
   * Supervisor Districts \(draft\)

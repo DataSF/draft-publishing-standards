@@ -10,7 +10,7 @@
   * [Numeric](numeric.md)
   * [Location \(coordinates\)](location-coordinates.md)
   * [Location \(addresses\)](addresses.md)
-* Canonical Lists
+* [Canonical Lists](canonical-lists.md)
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
