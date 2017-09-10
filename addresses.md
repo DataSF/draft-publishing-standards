@@ -8,10 +8,14 @@ You may output these as individual fields or as full address strings. When forma
 
 ## Address components
 
+Below are components of an address. 
+ - make sure the individual components of an address comply with the guidance below
+ - you can publish addresses as either single strings or break into separate fields
+
 | Component Name | Data Type | Definition | When to use |
 | :--- | :--- | :--- | :--- |
-| From Street | Numeric | Start of an address range, e.g in 1000-1500 Main Street, 1000 would be the From Street | When the record location is associated with a range of addresses |
-| To Street | Numeric | End of an address range, e.g in 1000-1500 Main Street, 1500 would be the To Street | When the record location is associated with a range of addresses |
+| From Street | Numeric |  First part of a range: **1000**-1100 Main Street, San Francisco, CA 94102 | When the record location is associated with a range of addresses |
+| To Street | Numeric | Second part of a range: 1000-**1500** Main Street, San Francisco, CA 94102 | When the record location is associated with a range of addresses |
 | Street Number | Numeric | The precise address number; e.g in 315 Main Street, 315 is the Street Number | When the record location is associated with a specific address |
 | Street Number Suffix | Text | The letter following a street number; e.g. 315A Main Street, A is the Street Number Suffix | When there is a letter following the street number |
 | Street Name | Text | Just the street name, excluding type; e.g. 315 Main Street, Main is the Street Name | Always |

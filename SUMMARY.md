@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Outline](chapter1.md)
-* [Formats](formats.md)
+* [Data Structure and Formats](formats.md)
   * [Column Headers](column-headers.md)
   * [Column Order](column-order.md)
   * [Date and Time](date-and-time.md)
