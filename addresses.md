@@ -10,11 +10,11 @@ Below are components of an address.
  - make sure the individual components of an address comply with the guidance below
  - you can publish addresses as either single strings or break into separate fields; provide this information in your data dictionary
 
-| Component Name | Data Type | Definition | Valid Values |
+| Component Name | Data Type | Definition | References |
 | :--- | :--- | :--- | :--- |
-| From Street | Numeric |  First part of a range: **1000**-1100 Main Street, San Francisco, CA 94102 | Valid ranges along each street are encoded in the  |
-| To Street | Numeric | Second part of a range: 1000-**1500** Main Street, San Francisco, CA 94102 | When the record location is associated with a range of addresses |
-| Street Number | Numeric | The precise address number; e.g in 315 Main Street, 315 is the Street Number | When the record location is associated with a specific address |
+| From Street | Numeric |  First part of a range: **1000**-1100 Main Street, San Francisco, CA 94102 | [For each street centerline](https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Basemap-Street-Centerlines/7hfy-8sz8) on the right side: `rt_fadd`; on the left side: `lf_fadd` |
+| To Street | Numeric | Second part of a range: 1000-**1500** Main Street, San Francisco, CA 94102 | [For each street centerline](https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Basemap-Street-Centerlines/7hfy-8sz8) on the right side: `rt_toadd`; on the left side: `lf_toadd` |
+| Street Number | Numeric | The precise address number; e.g in 315 Main Street, 315 is the Street Number | Official address numbers are recorded by the Department of Building Inspection |
 | Street Number Suffix | Text | The letter following a street number; e.g. 315A Main Street, A is the Street Number Suffix | When there is a letter following the street number |
 | Street | Text | Just the street name, excluding type; e.g. 315 Main Street, Main is the Street Name | Always |
 | Street Type | Text | Just the street type following the name; e.g. 315 Main Street, Street is the type | Always |
