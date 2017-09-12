@@ -13,7 +13,7 @@
   * [Reserved Column Names](reserved-column-names.md)
   * [Null/negligible/intentionally blank values](nullnegligible-values.md)
 * [Canonical Lists](canonical-lists.md)
-  * Address Numbers
+  * [Official Addresses](canonical-lists/address-numbers.md)
   * Street Names
   * [Street Suffix Abbreviations](canonical-lists/postal-service-street-suffix-abbreviations.md)
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
