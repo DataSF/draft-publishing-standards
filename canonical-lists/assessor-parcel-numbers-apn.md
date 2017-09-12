@@ -14,6 +14,7 @@ This identifier is used to tie deeds and other legal records to a precise proper
 
 * Recordation of final parcels maps happens with the Office of the Assessor-Recorder 
 * Before being recorded, subdivision maps must be approved by the County Surveyor, the Public Works Director and the Board of Supervisors
+* More information about the [subdivision process and related codes on the Public Works website](http://sfpublicworks.org/services/subdivisions-and-mapping)
 
 ## Reference
 
