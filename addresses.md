@@ -8,6 +8,7 @@
 
 Below are components of an address. 
  - not all addresses will have all components
+ - address granularity will be driven by the business need, so not all systems will collect every component
  - make sure the individual components of an address comply with the guidance below
  - you can publish addresses as either single strings or break into separate fields; provide this information in your data dictionary and be consistent
 
