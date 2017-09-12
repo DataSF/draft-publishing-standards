@@ -14,13 +14,15 @@
   * [Null/negligible/intentionally blank values](nullnegligible-values.md)
 * [Canonical Lists](canonical-lists.md)
   * [Official Addresses](canonical-lists/address-numbers.md)
-  * Street Names
+  * [Street Names](canonical-lists/street-names.md)
   * [Street Suffix Abbreviations](canonical-lists/postal-service-street-suffix-abbreviations.md)
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
-  * Street Centerline and Intersection Identifiers
-  * Zoning
+  * Building Identifiers
+  * [Street Centerline and Intersection Identifiers](canonical-lists/street-centerline-and-intersection-identifiers.md)
+  * [Zoning](canonical-lists/zoning.md)
+  * [Land Use](canonical-lists/land-use.md)
   * Race and Ethnicity
-  * Sexual Orientation and Gender Identity \(SOGI\)
+  * Land Use
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
