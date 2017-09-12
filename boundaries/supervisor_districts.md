@@ -17,5 +17,11 @@ There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each 
 | ... | 10 |
 | ... | 11 |
 
-## Why is there a district 0 or no district?
-Sometimes a dataset doesn't have accurate geographic information or there just isn't a relevant location for the record. For example, [not all 311 cases](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6) have a location. Some are people seeking information as opposed to making a service request. In these cases, you'll find either a 0 or a blank value for Supervisor District.
+## Acceptable values for no district
+Sometimes a dataset doesn't have accurate geographic information or there just isn't a relevant location for the record. For example, [not all 311 cases](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6) have a location.
+
+- Acceptable ways to indicate no district include
+    - `null` meaning the field has no value or whitespace
+    - `-1` or `0` 
+- Please indicate how no district is represented in your data dictionary
+
