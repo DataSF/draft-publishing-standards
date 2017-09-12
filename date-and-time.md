@@ -16,13 +16,13 @@
     
 **For fiscal periods, prefix “fiscal_” to column name**
 
-    | Interval               | Column name           | Format    | Example |
-    |------------------------|-----------------------|-----------|---------|
-    | Fiscal, annual      | `fiscal_year`      | YYYY      | 2015    |
-    | Fiscal, quarterly   | `fiscal_quarter`   | YYYY-[Q]Q | 2015-Q1 |
-    | Fiscal, half-yearly | `fiscal_half_year` | YYYY-[H]H | 2015-H1 |
+| Interval               | Column name           | Format    | Example |
+|------------------------|-----------------------|-----------|---------|
+| Fiscal, annual      | `fiscal_year`      | YYYY      | 2015    |
+| Fiscal, quarterly   | `fiscal_quarter`   | YYYY-[Q]Q | 2015-Q1 |
+| Fiscal, half-yearly | `fiscal_half_year` | YYYY-[H]H | 2015-H1 |
 
-    - Fiscal year start-date must be indicated in the metadata
+- Fiscal year start-date must be indicated in the metadata
 
 ## Date-time variables
 
