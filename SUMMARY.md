@@ -17,6 +17,10 @@
   * Street Names
   * [Street Suffix Abbreviations](canonical-lists/postal-service-street-suffix-abbreviations.md)
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
+  * Street Centerline and Intersection Identifiers
+  * Zoning
+  * Race and Ethnicity
+  * Sexual Orientation and Gender Identity \(SOGI\)
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
