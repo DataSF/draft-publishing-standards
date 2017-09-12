@@ -13,7 +13,7 @@ This identifier is used to tie deeds and other legal records to a precise proper
 ## Authority
 
 * Recordation of final parcels maps happens with the Office of the Assessor-Recorder 
-* Before being recorded, subdivision maps must be approved by goes through the subdivision process and is approved by the Board of Supervisors per local codes. The City and County Surveyor sits at Public Works. The assignment of block
+* Before being recorded, subdivision maps must be approved by the County Surveyor, the Public Works Director and the Board of Supervisors
 
 ## Reference
 
