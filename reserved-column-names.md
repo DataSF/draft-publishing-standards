@@ -16,3 +16,6 @@ The following column names should be used only if they adhere to the definitions
 - x_coord
 - y_coord
 - zip_code
+- supervisor_district
+- unit
+- unit_suffix
