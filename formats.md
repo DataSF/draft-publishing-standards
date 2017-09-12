@@ -1,4 +1,4 @@
-# Formats
+# Data Structure and Formats
 Some scratch thoughts on string formats:
 
 Camel case
