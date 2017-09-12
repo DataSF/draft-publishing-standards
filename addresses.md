@@ -21,9 +21,9 @@ Below are components of an address.
 | Street Type | Text | Just the street type following the name: 315A Main **Street**, San Francisco, CA 94102 | Either spell out or use the [Postal Service Standard Suffix Abbreviations](https://pe.usps.com/text/pub28/28apc_002.htm) |
 | Unit | Numeric | The unit number, for example if the address refers to an apartment: 315A Main Street, Apt **2**, San Francisco, CA 94102| There is no complete reference of units at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
 | Unit Suffix | Text | The non-numeric component of a unit, if there is one: 315A Main Street, Apt 2**A**, San Francisco, CA 94102; if no numeric portion of unit present: 315 Main Street, Apt **B**, San Francisco, CA 94102 \(Unit would be empty\) | There is no complete reference of units at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
-| City | Text | The city the address sits within; e.g. 315 Main Street, San Francisco CA | When the city is useful to differentiate among addresses; if all addresses are in one City, you can leave out and document that in the metadata |
-| State | Text |  | When the state is useful to differentiate among addreses; if all addresses are in one State, you can leave out and document that in the metadata |
-| Zipcode | Numeric |  | Always |
+| City | Text | The city the address sits within: 315A Main Street, **San Francisco**, CA 94102 | You can leave this out if all addresses are consistently within the same City, but indicate this in your metadata |
+| State | Text | The state the address sits within: 315A Main Street, San Francisco, **CA** 94102 | Recommend using standard state abbreviations. Spell out if you can do so without introducing misspellings. |
+| Zipcode | Numeric | The address zipcode as defined by the USPS: 315A Main Street, San Francisco, CA **94102** | Note, zip codes are not actually boundaries, but are defined by routes. A [list of valid San Francisco zipcodes can be downloaded here](https://data.sfgov.org/resource/srq6-hmpi.csv?$select=zip_code).  |
 
 ## Address formats
 
