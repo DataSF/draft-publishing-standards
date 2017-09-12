@@ -2,4 +2,5 @@
 
 DataSF operates the City and County of San Francisco's official open data portal, [SF OpenData](http://data.sfgov.org). We are establishing standards to make data more useful and consistent across the City and at scale. These standards focus on the global perspective across datasets rather than on particular datasets. For example, it may be hard for a data user to trace which neighborhood boundary a field references. The standards contained in this document attempt to address that issue among others.
 
-The DataSF team learns more every day, so this document is always in draft and open to feedback. Also, we're writing this as we go, so we have not documented all emerging standards here yet.
+DataSF did not create these standards contained here. Rather we are centralizing and documenting existing standards \(some of them codified already in local law or emergent standards\) as a resource to data publishers, application developers, and other data users.
+
