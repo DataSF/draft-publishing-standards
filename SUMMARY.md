@@ -11,6 +11,7 @@
   * [Location \(coordinates\)](location-coordinates.md)
   * [Location \(addresses\)](addresses.md)
   * [Reserved Column Names](reserved-column-names.md)
+  * [Null/negligible/intentionally blank values](nullnegligible-values.md)
 * [Canonical Lists](canonical-lists.md)
 * [Canonical Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)

@@ -8,7 +8,6 @@ The standards we cover fall into broad categories:
   * Date and Time
   * Text
   * Numeric
-  * Boolean
   * Location \(addresses\)
   * Location \(coordinates\)
   * Null/negligible values
