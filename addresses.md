@@ -9,7 +9,7 @@
 Below are components of an address. 
  - not all addresses will have all components
  - make sure the individual components of an address comply with the guidance below
- - you can publish addresses as either single strings or break into separate fields; provide this information in your data dictionary
+ - you can publish addresses as either single strings or break into separate fields; provide this information in your data dictionary and be consistent
 
 | Component Name | Data Type | Definition | Valid Values |
 | :--- | :--- | :--- | :--- |
@@ -27,5 +27,10 @@ Below are components of an address.
 
 ## Address formats
 
-100 Van Ness Ave Unit 316A, San Francisco, CA 94102
+- Addresses should be output with the level of detail relevant to the data
+ - e.g. permits can be applied down to the unit level; this information should be present where applicable
+- If providing addresses in a single string, make sure the addresses are well formed and consistent for easy parsing
+- When providing multiple addresses within a dataset, be internally consistent with naming structure; prepend your column names with the type of address
+ - e.g. business_address vs. mailing_address vs. physical_address
+ 
 
