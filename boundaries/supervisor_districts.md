@@ -1,5 +1,5 @@
 # Supervisor Districts
-There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each representing a geographic district. [Those supervisor districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Supervisor-Districts-as-of-April-2012/xz9b-wyfc) are a common boundary of interest to those doing citywide analysis. Historically, there have been many ways of representing these districts in datasets. We are standardizing these fields so that the name will always be `Supervisor District` (or `supervisor_district`). The record will indicate the number of the district without any leading text.
+There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each representing a geographic district. [Those supervisor districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/gq7k-pfb2) are a common boundary of interest to those doing citywide analysis. Historically, there have been many ways of representing these districts in datasets. We are standardizing these fields so that the name will always be `Supervisor District` (or `supervisor_district`). The record will indicate the number of the district without any leading text.
 
 **For Example:**
 
