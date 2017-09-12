@@ -5,14 +5,14 @@
 
 ## Date variables
 
-    | Interval    | Column name | Format     | Range of values    | Example   |
-    |-------------|-------------|------------|--------------------|-----------|
-    | Annual      | `year`      | YYYY       | YYYY: 1776 onwards | 2015      |
-    | Monthly     | `month`     | YYYY-MM    | MM: 01 to 12       | 2015-01   |
-    | Daily       | `date`      | YYYY-MM-DD | DD: 01 to 31       | 2015-01-01|
-    | Weekly      | `week`      | YYYY-[W]WW | [W]WW: W01 to W52  | 2015-W01  |
-    | Quarterly   | `quarter`   | YYYY-[Q]Q  | [Q]Q: Q1 to Q4     | 2015-Q1   |
-    | Half-yearly | `half_year` | YYYY-[H]H  | [H]H: H1 or H2     | 2015-H1   |
+| Interval    | Column name | Format     | Range of values    | Example   |
+|-------------|-------------|------------|--------------------|-----------|
+| Annual      | `year`      | YYYY       | YYYY: 1776 onwards | 2015      |
+| Monthly     | `month`     | YYYY-MM    | MM: 01 to 12       | 2015-01   |
+| Daily       | `date`      | YYYY-MM-DD | DD: 01 to 31       | 2015-01-01|
+| Weekly      | `week`      | YYYY-[W]WW | [W]WW: W01 to W52  | 2015-W01  |
+| Quarterly   | `quarter`   | YYYY-[Q]Q  | [Q]Q: Q1 to Q4     | 2015-Q1   |
+| Half-yearly | `half_year` | YYYY-[H]H  | [H]H: H1 or H2     | 2015-H1   |
     
 **For fiscal periods, prefix “fiscal_” to column name**
 
