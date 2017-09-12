@@ -26,16 +26,16 @@
 
 ## Date-time variables
 
-    | Type        | Column name | Format                     | Example             |
-    |-------------|-------------|----------------------------|---------------------|
-    | Date + time | `date_time` | YYYY-MM-DD[T]hh:mm         | 2015-01-01T12:00    |
-    |             |             | *or* YYYY-MM-DD[T]hh:mm:ss | 2015-01-01T12:00:00 |
-    | Time only   | `time`      | hh:mm                      | 12:00               |
-    |             |             | *or* hh:mm:ss              | 12:00:00            |
+| Type        | Column name | Format                     | Example             |
+|-------------|-------------|----------------------------|---------------------|
+| Date + time | `date_time` | YYYY-MM-DD[T]hh:mm         | 2015-01-01T12:00    |
+|             |             | *or* YYYY-MM-DD[T]hh:mm:ss | 2015-01-01T12:00:00 |
+| Time only   | `time`      | hh:mm                      | 12:00               |
+|             |             | *or* hh:mm:ss              | 12:00:00            |
 
 **Specify the timezone if it is not UTC -7hrs:**
 
-    | Type        | Column name | Format                     | Example               |
-    |-------------|-------------|----------------------------|-----------------------|
-    | Date + time | `date_time` | YYYY-MM-DD[T]hh:mm+hh:mm   | 2015-01-01T12:00+00:00|
-    |             |             | *or* YYYY-MM-DD[T]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
+| Type        | Column name | Format                     | Example               |
+|-------------|-------------|----------------------------|-----------------------|
+| Date + time | `date_time` | YYYY-MM-DD[T]hh:mm+hh:mm   | 2015-01-01T12:00+00:00|
+|             |             | *or* YYYY-MM-DD[T]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
