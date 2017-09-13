@@ -31,7 +31,7 @@
   * Do not separate the block and lot number with space or other characters
     * 1000015A instead of 1000/015A
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
-  * Also provide the block and lot separately for flexibility
+  * Also provide the block and lot as separate fields
 
 ## Reference
 
