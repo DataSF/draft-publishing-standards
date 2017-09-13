@@ -22,12 +22,13 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 * As a location identifier for a number of citywide business processes including noticing, permitting, business registrations, etc.
 
 ### Accepted values
-* Any values in the Enterprise Addressing System have been entered by trained, authorized staff, see below
-* If you believe a valid address to be missing from here, please ?????
 * Street numbers are assigned according to rules laid out in AB-035, these specify:
   * The start and end point of address assignment
   * How many addresses are allocated between intersections and where that differs
   * Where even and odd numbers are assigned
+* Any values in the Enterprise Addressing System have been entered by staff according to these rules
+* If you believe there's been an error or a missing address, please ????
+
   
 ## Reference
 
