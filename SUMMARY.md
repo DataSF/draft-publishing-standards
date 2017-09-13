@@ -11,7 +11,7 @@
   * [Location \(coordinates\)](location-coordinates.md)
   * [Location \(addresses\)](addresses.md)
   * [Reserved Column Names](reserved-column-names.md)
-  * [Null/negligible/intentionally blank values](nullnegligible-values.md)
+  * [Null/Negligible/Intentionally Blank Values](nullnegligible-values.md)
 * [Canonical Lists](canonical-lists.md)
   * [Street Numbers \(Addresses\)](canonical-lists/address-numbers.md)
   * [Street Names](canonical-lists/street-names.md)

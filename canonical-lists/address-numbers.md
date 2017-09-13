@@ -6,10 +6,7 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 
 > All primary entrances from the street to all buildings and all direct entrances from the street to separate tenant spaces or dwelling units shall be numbered
 
-* These street numbers are associated with a specific property entrance, in practice they are digitized within the parcel
-
-
-
+* These street numbers are associated with a specific property entrance, in practice they are digitized [within the parcel](/canonical-lists/assessor-parcel-numbers-apn.md)
 
 ## Authority
 
