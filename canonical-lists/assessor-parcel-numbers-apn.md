@@ -9,7 +9,7 @@
   * The City is broken up into approximately XX blocks and over 200,000 individual lots
 
 ## Use
- * To tie deeds and other legal records to a precise property mapped through a land subdivision process defined in local and state codes
+ * To tie deeds and legal records to a property mapped through an official land subdivision process
  * To assess and collect taxes on land and improvements 
  * As a common administrative identifier for a number of processes like permitting
  * Should be provided in a dataset as at least 2 separate fields:
