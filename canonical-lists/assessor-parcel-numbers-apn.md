@@ -23,12 +23,6 @@
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
   * Also provide the block and lot separately for flexibility
 
-### Accepted values
-
-| Type | Accepted column names |  |
-| --- | --- | --- |
-|  |  |  |
-
 ## Examples
 
 ## Authority
