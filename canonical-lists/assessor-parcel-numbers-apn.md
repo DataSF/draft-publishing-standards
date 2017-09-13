@@ -6,7 +6,7 @@
 * It is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded normally by streets on all sides
   * Lots are sub-divided within the blocks
-  * The City is broken up into over 6000 blocks and over 200,000 individual lots
+  * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
 ### Illustration
 
