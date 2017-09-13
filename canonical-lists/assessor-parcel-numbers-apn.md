@@ -16,7 +16,7 @@
 * To assess and collect taxes on land and improvements 
 * As a common administrative identifier for a number of processes like permitting
 
-## Accepted values
+### Accepted values
 * Should be provided in a dataset as at least 2 separate fields:
   * Block as `blk` or `block` or `block_num`
   * Lot as `lot` or `lot_num`
