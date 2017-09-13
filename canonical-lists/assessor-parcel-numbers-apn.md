@@ -19,7 +19,7 @@
    * Concatenate the block and lot together
    * Do not separate the block and lot number with space or other characters
      * 1000015A instead of 1000/015A
-   * Do not prepend with text like `APN` or `Block and Lot Number`
+   * Do not prepend with additional text like `APN` or `Block and Lot Number`
 
 ## Examples
 
