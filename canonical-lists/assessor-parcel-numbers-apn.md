@@ -2,7 +2,7 @@
 
 ## Definition
 
-* The assessor parcel number is the unique identifier for a contiguous piece of real property that is assigned ownership 
+* The assessor parcel number is the unique identifier for a contiguous piece of property to which ownership can be assigned
 * It is comprised of a block number and a lot number
   * Blocks are contiguous groups of lots bounded normally by streets on all sides
   * Lots are sub-divided within the blocks
