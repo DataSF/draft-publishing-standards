@@ -1,1 +1,12 @@
-{}
+{
+  "plugins": [
+    "edit-link"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "placement": "left",
+      "base": "https://github.com/DataSF/draft-publishing-standards/edit/master",
+      "label": "Edit This Page"
+    }
+  }
+}

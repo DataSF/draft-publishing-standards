@@ -9,4 +9,6 @@
     - A full description can and should be provided with the data dictionary
 
 
+### Is anything wrong, unclear, missing?
 
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Column-Headers&body=Comment:Column-Headers)
