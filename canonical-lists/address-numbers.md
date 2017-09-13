@@ -32,3 +32,6 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 | :--- | :--- | :--- |
 | [Addresses - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | The EAS is the system of record for DBI when assigning official addresses. Associated coordinates are most often associated with the center of a parcel or close to it, rather than at the door or entry. This still allows associations, but it means that in certain cases a building footprint cannot be spatially matched with it's addresses. | `address_number` |
 
+### Is anything wrong, unclear, missing?
+
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Numbers-Addresses&body=Comment:Street-Numbers-Addresses)
