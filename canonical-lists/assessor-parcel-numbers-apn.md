@@ -10,6 +10,12 @@
 
 ### Illustration
 
+### Authority
+
+* Recordation of final parcel maps happens with the Office of the Assessor-Recorder 
+* Before being recorded, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
+  * More information about the [subdivision process and related codes on the Public Works website](http://sfpublicworks.org/services/subdivisions-and-mapping)
+
 ## Use
 
 * To tie deeds and legal records to a property mapped [through an official land subdivision process](http://sfpublicworks.org/services/subdivisions-and-mapping)
@@ -26,13 +32,6 @@
     * 1000015A instead of 1000/015A
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
   * Also provide the block and lot separately for flexibility
-
-
-## Authority
-
-* Recordation of final parcel maps happens with the Office of the Assessor-Recorder 
-* Before being recorded, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
-  * More information about the [subdivision process and related codes on the Public Works website](http://sfpublicworks.org/services/subdivisions-and-mapping)
 
 ## Reference
 
