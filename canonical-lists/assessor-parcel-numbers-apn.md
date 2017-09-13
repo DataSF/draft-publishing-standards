@@ -2,28 +2,34 @@
 
 ## Definition
 
-* The assessor parcel number is the unique identifier for a contiguous piece of land which is owned (real property)
-* It is comprised of a block number and a lot number
+* The assessor parcel number is the unique identifier for a contiguous piece of land which is owned \(real property\)
+* It is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded normally by streets on all sides
   * Lots are sub-divided within the blocks
   * The City is broken up into approximately XX blocks and over 200,000 individual lots
 
 ## Use
- * To tie deeds and legal records to a property mapped [through an official land subdivision process](http://sfpublicworks.org/services/subdivisions-and-mapping)
- * To assess and collect taxes on land and improvements 
- * As a common administrative identifier for a number of processes like permitting
- * Should be provided in a dataset as at least 2 separate fields:
-   * Block as `blk` or `block` or `block_num`
-   * Lot as `lot` or `lot_num`
- * When representing the fully qualified APN in a dataset:
-   * Concatenate the block and lot together
-   * Do not separate the block and lot number with space or other characters
-     * 1000015A instead of 1000/015A
-   * Do not prepend with additional text like `APN` or `Block and Lot Number`
+
+* To tie deeds and legal records to a property mapped [through an official land subdivision process](http://sfpublicworks.org/services/subdivisions-and-mapping)
+* To assess and collect taxes on land and improvements 
+* As a common administrative identifier for a number of processes like permitting
+* Should be provided in a dataset as at least 2 separate fields:
+  * Block as `blk` or `block` or `block_num`
+  * Lot as `lot` or `lot_num`
+* When representing the fully qualified APN as a single field:
+  * Concatenate the block and lot together
+  * Do not separate the block and lot number with space or other characters
+    * 1000015A instead of 1000/015A
+  * Do not prepend with additional text like `APN` or `Block and Lot Number`
+  * Also provide the block and lot separately for flexibility
+
+### Accepted values
+
+| Type | Accepted column names |  |
+| --- | --- | --- |
+|  |  |  |
 
 ## Examples
-
-
 
 ## Authority
 
