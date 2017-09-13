@@ -24,8 +24,14 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 ### Accepted values
 * Any values in the Enterprise Addressing System have been entered by trained, authorized staff, see below
 * If you believe a valid address to be missing from here, please ?????
-
+* Street numbers are assigned according to rules laid out in AB-035, these specify:
+  * The start and end point of address assignment
+  * How many addresses are allocated between intersections and where that differs
+  * Where even and odd numbers are assigned
+  
 ## Reference
 
-
+| Dataset | Description and Constraints | Street Number Column |
+| :--- | :--- | :--- |
+| Enterprise Address System (EAS) Addresses |  | `address_number` |
 
