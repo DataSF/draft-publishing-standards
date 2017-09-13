@@ -8,6 +8,8 @@
   * Lots are sub-divided within the blocks
   * The City is broken up into approximately XX blocks and over 200,000 individual lots
 
+### Illustration
+
 ## Use
 
 * To tie deeds and legal records to a property mapped [through an official land subdivision process](http://sfpublicworks.org/services/subdivisions-and-mapping)
