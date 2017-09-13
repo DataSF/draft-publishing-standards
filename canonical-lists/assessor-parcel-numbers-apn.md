@@ -4,11 +4,22 @@
 
 * The assessor parcel number is the unique identifier for a contiguous piece of real property that is assigned ownership 
 * It is comprised of a block number and a lot number
-  * Blocks are contiguous groups of parcels bounded normally by streets on all sides
+  * Blocks are contiguous groups of lots bounded normally by streets on all sides
   * Lots are sub-divided within the blocks
   * The City is broken up into approximately XX blocks and over 200,000 individual lots
 
-This identifier is used to tie deeds and other legal records to a precise property mapped through a land subdivision process defined in local and state codes. It is also used to assess and collect taxes on land and improvements and is a common administrative identifier for a number of other processes.
+## Use
+ * To tie deeds and other legal records to a precise property mapped through a land subdivision process defined in local and state codes
+ * To assess and collect taxes on land and improvements 
+ * A common administrative identifier for a number of other processes like permitting
+ * Should be provided in a dataset as at least 2 separate fields:
+   * Block as `blk` or `block` or `block_num`
+   * Lot as `lot` or `lot_num`
+ * When the full
+
+## Examples
+
+
 
 ## Authority
 
