@@ -11,11 +11,15 @@
 ## Use
  * To tie deeds and other legal records to a precise property mapped through a land subdivision process defined in local and state codes
  * To assess and collect taxes on land and improvements 
- * A common administrative identifier for a number of other processes like permitting
+ * As a common administrative identifier for a number of processes like permitting
  * Should be provided in a dataset as at least 2 separate fields:
    * Block as `blk` or `block` or `block_num`
    * Lot as `lot` or `lot_num`
- * When the full
+ * When representing the fully qualified APN in a dataset:
+   * Concatenate the block and lot together
+   * Do not separate the block and lot number with space or other characters
+     * 1000015A instead of 1000/015A
+   * Do not prepend with text like `APN` or `Block and Lot Number`
 
 ## Examples
 
