@@ -4,15 +4,10 @@
 
 ### Authority
 
-
 ## Use
 
-
-
 ### Accepted values
-
-
-  
+ 
 ## Reference
 
 | Dataset | Description and Constraints | Street Number Column |
