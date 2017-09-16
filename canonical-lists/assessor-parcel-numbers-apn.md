@@ -20,6 +20,8 @@
   * Blocks are 4 digits with an optional suffix - 117 becomes 0117
   * Lots are 3 digits with an optional suffix - 4 becomes 004
   * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
+* These are [recorded in paper maps](http://sfplanninggis.org/BlockBooks/AssessorBlock0117.pdf) in the Office of the Assessor Recorder and digitized
+  * Digital versions below in reference
 
 ![](/assets/block_lots.png)
 
@@ -43,7 +45,7 @@
 * When representing the fully qualified APN as a single field:
   * Concatenate the block and lot together
   * Do not separate the block and lot number with space or other characters
-    * 1000015A instead of 1000/015A
+    * 0585012D instead of 0585/012D
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
   * Also provide the block and lot as separate fields
 
