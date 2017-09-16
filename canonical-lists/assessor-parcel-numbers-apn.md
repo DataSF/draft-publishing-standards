@@ -21,7 +21,7 @@
   * Lots are 3 digits with an optional suffix - 4 becomes 004
   * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
 * These are [recorded in paper maps](http://sfplanninggis.org/BlockBooks/AssessorBlock0117.pdf) in the Office of the Assessor Recorder and digitized
-  * Digital versions below in reference
+  * Digital versions below under reference
 
 ![](/assets/block_lots.png)
 

@@ -10,8 +10,8 @@
   * [Numeric](numeric.md)
   * [Location \(coordinates\)](location-coordinates.md)
   * [Location \(addresses\)](addresses.md)
-  * [Reserved Column Names](reserved-column-names.md)
   * [Null/Negligible/Intentionally Blank Values](nullnegligible-values.md)
+  * [Reserved Column Names](reserved-column-names.md)
 * [Canonical Reference Lists](canonical-lists.md)
   * [Street Numbers \(Addresses\)](canonical-lists/address-numbers.md)
   * [Street Names](canonical-lists/street-names.md)
@@ -19,10 +19,11 @@
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
   * [Building Identifiers](canonical-lists/building-identifiers.md)
   * [Street Centerline and Intersection Identifiers](canonical-lists/street-centerline-and-intersection-identifiers.md)
+  * Department Names and Codes
   * [Zoning](canonical-lists/zoning.md)
   * [Land Use](canonical-lists/land-use.md)
   * Race and Ethnicity
-  * Land Use
+  * Department Names and Codes
 * [Canonical Reference Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
