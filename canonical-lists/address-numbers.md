@@ -2,7 +2,7 @@
 
 ## Definition
 
-_[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](http://library.amlegal.com/nxt/gateway.dll/California/sfbuilding/buildingcode2016edition/administrativebulletins?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_AB-035)_:
+[_Per Administrative Bulletin 035 \(AB-035\) in the San Francisco Building Codes_](http://library.amlegal.com/nxt/gateway.dll/California/sfbuilding/buildingcode2016edition/administrativebulletins?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_AB-035):
 
 > All primary entrances from the street to all buildings and all direct entrances from the street to separate tenant spaces or dwelling units shall be numbered
 
@@ -18,6 +18,7 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 * As a location identifier for a number of citywide business processes including noticing, permitting, business registrations, etc.
 
 ### Accepted values
+
 * Street numbers are assigned according to rules laid out in AB-035, these specify:
   * The start and end point of address assignment
   * How many addresses are allocated between intersections and where that differs
@@ -25,13 +26,13 @@ _[Per Administrative Bulletin 035 (AB-035) in the San Francisco Building Codes](
 * Any values in the Enterprise Addressing System have been entered by staff according to these rules
 * If you believe there's been an error or a missing address, please ????
 
-  
 ## Reference
 
 | Dataset | Description and Constraints | Street Number Column |
 | :--- | :--- | :--- |
-| [Addresses - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | The EAS is the system of record for DBI when assigning official addresses. Associated coordinates are most often associated with the center of a parcel or close to it, rather than at the door or entry. This still allows associations, but it means that in certain cases a building footprint cannot be spatially matched with it's addresses. | `address_number` |
+| [Addresses - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | The EAS is the system of record for DBI when assigning official addresses. Associated coordinates are most often associated with the center of a parcel or close to it, rather than at the door or entry. This still allows associations, but it means that in certain cases a building footprint cannot be spatially matched via intersection or "point in polygon" with it's addresses. | `address_number` |
 
 ### Is anything wrong, unclear, missing?
 
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Numbers-Addresses&body=Comment:Street-Numbers-Addresses)
+
