@@ -4,12 +4,24 @@
 
 * The assessor parcel number is the unique identifier for a contiguous piece of owned land \(real property\)
 * It is comprised of a **block number** and a **lot number**
-  * Blocks are contiguous groups of lots bounded normally by streets on all sides
+  * Blocks are contiguous groups of lots bounded by streets or other features on all sides
+    * Blocks can be split in the middle by other streets
   * Lots are sub-divided within the blocks
   * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
 ### Illustration
 
+* Block 117 below is bounded 
+  * On the North and South by Union and Green Streets
+  * On the East and West by Stockton and Powell Streets
+  * Columbus Avenue bisects it, but both sides are still part of the same block 117
+* The block is subdivided into lots numbered from 1 through 21 below
+* A full Assessor Parcel Number would be the concatenation of the block and lot with zero padding
+  * Blocks are 4 digits with an optional suffix - 117 becomes 0117
+  * Lots are 3 digits with an optional suffix - 4 becomes 004
+  * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
+
+![](/assets/block_lots.png)
 
 ### Authority
 
@@ -24,6 +36,7 @@
 * As a common administrative identifier for a number of processes like permitting
 
 ### Accepted values
+
 * Should be provided in a dataset as at least 2 separate fields:
   * Block as `blk` or `block` or `block_num`
   * Lot as `lot` or `lot_num`
@@ -34,7 +47,7 @@
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
   * Also provide the block and lot as separate fields
 
-## Reference
+### Reference
 
 | Dataset | Description and Constraints | Block Column | Lot Column | APN Column |
 | :--- | :--- | :--- | :--- | :--- |
@@ -45,6 +58,4 @@
 ### Is anything wrong, unclear, missing?
 
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Assessor-Parcel-Numbers-APN&body=Comment:Assessor-Parcel-Numbers-APN)
-
-
 
