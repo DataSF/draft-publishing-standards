@@ -1,13 +1,18 @@
+# Street Names
+
 ## Definition
 
-### Illustration
+* The official street name assigned to a length of street
 
 ### Authority
 
+* 
 ## Use
 
 ### Accepted values
- 
+
+* Street names
+
 ## Reference
 
 | Dataset | Description and Constraints | Street Number Column |
@@ -17,3 +22,4 @@
 ### Is anything wrong, unclear, missing?
 
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Names&body=Comment:Street-Names)
+
