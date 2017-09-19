@@ -43,6 +43,7 @@
   * Block as `blk` or `block` or `block_num`
   * Lot as `lot` or `lot_num`
 * When representing the fully qualified APN as a single field:
+  * Name the field either `apn` or `blklot` or `block_and_lot`
   * Concatenate the block and lot together
   * Do not separate the block and lot number with space or other characters
     * 0585012D instead of 0585/012D
