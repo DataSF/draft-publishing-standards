@@ -6,7 +6,6 @@
 
 ### Authority
 
-* 
 ## Use
 
 ### Accepted values
