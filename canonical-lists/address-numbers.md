@@ -23,8 +23,8 @@
   * The start and end point of address assignment
   * How many addresses are allocated between intersections and where that differs
   * Where even and odd numbers are assigned
-* Any values in the Enterprise Addressing System have been entered by staff according to these rules
-* If you believe there's been an error or a missing address, please ????
+* Authorized City staff enter address numbers in the Enterprise Addressing System according to these rules
+  * If you believe there's been an error or a missing address, please ????
 
 ## Reference
 
