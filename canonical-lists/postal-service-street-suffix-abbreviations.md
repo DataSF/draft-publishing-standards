@@ -1,8 +1,8 @@
 # Street Suffix Abbreviations
 
 ## Definition
-* A street suffix follows the name of the street and describes the type of street (e.g. Street, Avenue, Road)
-* Suffix abbreviations are standardized by the United States Postal Service, these are the ones the City uses as well
+* A street suffix is a word that follows the name of the street describing its type (e.g. Street, Avenue, Road)
+* Suffix abbreviations are shortened forms standardized by the United States Postal Service, these are the ones the City uses as well
 
 ### Authority
 
