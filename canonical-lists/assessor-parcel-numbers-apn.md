@@ -1,8 +1,8 @@
-# Assessor Parcel Numbers \(APN\)
+# Assessor Parcel Numbers
 
 ## Definition
 
-* The assessor parcel number is the unique identifier for a contiguous piece of owned land \(real property\)
+* The assessor parcel number (APN) is the unique identifier for a contiguous piece of owned land \(real property\)
 * It is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded by streets or other features on all sides
     * Blocks can be split in the middle by other streets
