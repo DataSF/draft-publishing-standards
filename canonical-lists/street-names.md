@@ -23,7 +23,7 @@
 
 * For official base maps to label the streets properly
 * As a component part of a full address ([see address formatting guidance](/addresses.md))
-* To validate against user submitted address data
+* To validate against user submitted address data (e.g. in a form online)
 
 ### Accepted values
 
