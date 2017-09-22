@@ -20,7 +20,7 @@
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
   * [Building Identifiers](canonical-lists/building-identifiers.md)
   * [Street Centerline and Intersection Identifiers](canonical-lists/street-centerline-and-intersection-identifiers.md)
-  * [Zoning](canonical-lists/zoning.md)
+  * [Zoning Codes](canonical-lists/zoning.md)
   * [Land Use](canonical-lists/land-use.md)
   * [Race and Ethnicity](canonical-lists/race-and-ethnicity.md)
 * [Canonical Reference Boundaries](boundaries/intro.md)
