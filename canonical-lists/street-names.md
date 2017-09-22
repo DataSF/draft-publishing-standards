@@ -16,7 +16,7 @@
 ## Use
 
 * For official base maps to label the streets properly
-* As a component of a full address when appropriate
+* As a component part of a full address ([see address formatting guidance](/addresses.md))
 
 ### Accepted values
 
