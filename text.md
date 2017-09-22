@@ -28,7 +28,7 @@ Text should be presented in the easiest to interpret/read format where appropria
 **Lower case**
 
 * Categories when the source system presents them in caps and there's no way to interpret them to camel case
-* Research suggests lower case as opposed to all caps is easier to read for humans and just as useful to machines
+* Research suggests lower case as opposed to uppercase is easier to read for humans and just as useful to machines, note exceptions above
 
 
 
