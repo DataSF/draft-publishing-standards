@@ -9,9 +9,14 @@
 ### Illustration![](http://sfpublicworks.org/sites/default/files/dscn1226.jpg)
 
 ### Authority
-* New street names are assigned during the development / subdivision of land
+* New street names assigned during the development / subdivision of land
   * Recordation of final parcel maps including new streets happens with the Office of the Assessor-Recorder 
   * Before recordation, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
+* Renaming of streets
+  * The resolution referred to the Clerk of the Board of Supervisors 
+  * A Public Hearing at the Land Use and Economic Development Committee
+  * Board of Supervisors approval
+  * Mayor's signature                                                                                                                          
 
 ## Use
 
