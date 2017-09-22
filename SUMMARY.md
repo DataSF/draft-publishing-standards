@@ -21,7 +21,6 @@
   * [Building Identifiers](canonical-lists/building-identifiers.md)
   * [Street Centerline and Intersection Identifiers](canonical-lists/street-centerline-and-intersection-identifiers.md)
   * [Zoning Codes](canonical-lists/zoning.md)
-  * [Land Use](canonical-lists/land-use.md)
   * [Race and Ethnicity](canonical-lists/race-and-ethnicity.md)
 * [Canonical Reference Boundaries](boundaries/intro.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
