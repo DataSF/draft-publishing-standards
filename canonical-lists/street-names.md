@@ -13,8 +13,6 @@
   * Recordation of final parcel maps, including any new streets happens with the Office of the Assessor-Recorder 
   * Before recordation, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
 
-
-
 ## Use
 
 * For official base maps to label the streets properly
@@ -23,7 +21,7 @@
 ### Accepted values
 
 * Official street names are maintained in the City's Official Basemap updated by Public Works staff
-* The full list of valid City street names is available in the street names dataset
+* The full list of valid City street names is [available in the street names dataset](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v)
 
 ### Reference
 
