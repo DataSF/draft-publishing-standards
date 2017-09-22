@@ -12,7 +12,8 @@
 * New street names assigned during the development / subdivision of land
   * Recordation of final parcel maps including new streets happens with the Office of the Assessor-Recorder 
   * Before recordation, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
-* Renaming of streets
+* [Renaming of streets requires](http://sfpublicworks.org/services/establishing-street-names):
+  * Petition with signatures submitted to Public Works for review with a submittal fee
   * The resolution referred to the Clerk of the Board of Supervisors 
   * A Public Hearing at the Land Use and Economic Development Committee
   * Board of Supervisors approval
@@ -22,6 +23,7 @@
 
 * For official base maps to label the streets properly
 * As a component part of a full address ([see address formatting guidance](/addresses.md))
+* To validate against user submitted address data
 
 ### Accepted values
 
