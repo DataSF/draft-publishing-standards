@@ -15,19 +15,20 @@
 
 Text should be presented in the easiest to interpret/read format where appropriate.
 
-Title case
+**Title case**
 
 * Address String
 * Categories when either the source system presents them this way or it is easy to interpret from the source
 
-Upper case
+**Upper case**
 
 * Acronyms - e.g - PSA \(Park Service Area\)
 * States - e.g. CA
 
-Lower case
+**Lower case**
 
 * Categories when the source system presents them in caps and there's no way to interpret them to camel case
+* Research suggests lower case as opposed to all caps is easier to read for humans and just as useful to machines
 
 
 
