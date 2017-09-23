@@ -12,7 +12,7 @@
   * [Location \(addresses\)](addresses.md)
   * [Null/Negligible/Intentionally Blank Values](nullnegligible-values.md)
   * [Reserved Column Names](reserved-column-names.md)
-* [Canonical Reference Lists](canonical-lists.md)
+* [Canonical References](canonical-lists.md)
   * [Department Names and Codes](canonical-lists/department-names-and-codes.md)
   * [Street Numbers \(Addresses\)](canonical-lists/address-numbers.md)
   * [Street Names](canonical-lists/street-names.md)

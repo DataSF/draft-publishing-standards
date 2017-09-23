@@ -11,12 +11,12 @@
 
 ### Illustration
 
-* Block 117 below is bounded 
+* Block 117 below is bounded:
   * On the North and South by Union and Green Streets
   * On the East and West by Stockton and Powell Streets
-  * Columbus Avenue bisects it, but both sides are still part of the same block 117
+* Columbus Avenue bisects it, but both sides are still part of the same block
 * The block is subdivided into lots numbered from 1 through 21 below
-* A full Assessor Parcel Number would be the concatenation of the block and lot with zero padding
+* A full Assessor Parcel Number would be the concatenation of the block and lot padded with zeroes as necessary
   * Blocks are 4 digits with an optional suffix - 117 becomes 0117
   * Lots are 3 digits with an optional suffix - 4 becomes 004
   * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
