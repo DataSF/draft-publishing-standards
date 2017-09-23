@@ -17,7 +17,7 @@
   * [Street Numbers \(Addresses\)](canonical-lists/address-numbers.md)
   * [Street Names](canonical-lists/street-names.md)
   * [Street Suffix Abbreviations](canonical-lists/postal-service-street-suffix-abbreviations.md)
-  * [Street Centerline and Intersection Identifiers](canonical-lists/street-centerline-and-intersection-identifiers.md)
+  * [Street Centerlines and Nodes](canonical-lists/street-centerline-and-intersection-identifiers.md)
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
   * [Buildings \(Structures\)](canonical-lists/building-identifiers.md)
   * [Zoning Codes](canonical-lists/zoning.md)
