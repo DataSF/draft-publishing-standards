@@ -25,6 +25,7 @@
   * `cnntext` as a text string
 * CNN IDs may be used in secondary columns to indicate the nodes that fall at the endpoints of a centerline
   * For example `f_node_cnn` and `t_node_cnn`
+  * When referencing a CNN, include clear definition in the data dictionary
   
 
 
