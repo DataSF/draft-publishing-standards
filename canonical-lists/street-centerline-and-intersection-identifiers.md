@@ -2,8 +2,8 @@
 
 ## Definition
 * Street centerlines are lines that represent street segments
-  * They are aligned generally to the center of a street segment
-  * They have no width and are meant to model the street network, not the extent of the street surface
+  * They are aligned generally to the center of a street
+  * They have no width and are meant to model the street network, not the extent of the surface
 * Street nodes are the endpoints of a street centerline
   * Intersecting streets will share nodes at the point of intersection
   
@@ -26,10 +26,6 @@
 * CNN IDs may be used in secondary columns to indicate the nodes that fall at the endpoints of a centerline
   * For example `f_node_cnn` and `t_node_cnn`
   * When referencing a CNN, include clear definition in the data dictionary
-  
-
-
-
 
 ### Reference
 
