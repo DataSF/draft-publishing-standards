@@ -12,5 +12,15 @@
 * CNN IDs may be used in secondary columns to indicate from and to
   * `f_node_cnn` and `t_node_cnn`
   
+### Illustration
+
+
+### Authority
+
+* The management of streets falls to different jurisdictions within the City
+  * Public Works manages the majority of street miles within the City 
+  * The remaining are managed by other entities like Caltrans, Presidio National Park and Parks & Recreation, a summary of miles of streets by jurisdiction is available online
+* Basemap data including streets from the various jurisdictions is maintained by Public Works
+
 
 

@@ -16,7 +16,7 @@
 
 ### Accepted values
 
-* Standard street suffix abbreviations available online on under [Publication 28, Appendx C1](https://pe.usps.com/text/pub28/28apc_002.htm)
+* Standard street suffix abbreviations available online under [Publication 28, Appendx C1](https://pe.usps.com/text/pub28/28apc_002.htm)
 * Best not to encode with a period at the end
   * e.g. **ST** or **St** not St.
 
