@@ -24,6 +24,6 @@
 
 * Footprints are not currently updated as new buildings are constructed
 * For those buildings constructed before X, you can use the unique identifier `sf16_bldgid`
-* For buildings that don't exist, please ????
+* For buildings that don't exist but should, please ????
 
 ### Reference
