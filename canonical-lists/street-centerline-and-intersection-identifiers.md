@@ -20,7 +20,7 @@
 ## Use
 
 * Centerline Node Network IDs as a reference in other geographic data like addresses or parcels
-* To model transportation network connectivity
+* To model the transportation network
 
 ### Accepted Values
 * Every centerline and node will have an identifier Centerline Node Network (CNN) ID 
