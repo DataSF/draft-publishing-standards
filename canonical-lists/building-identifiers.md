@@ -17,13 +17,13 @@
 ## Use
 
 * To relate other administrative records to a structure
-* To clarify among administrative datasets what actual structure is being referenced
-* To improve the addressing model so that addresses reference a building, not just a parcel
+* To clarify among administrative datasets what specific structure is being referenced
+* To improve the addressing model so that address numbers reference a building, not just a parcel
 
 ### Accepted values
 
 * Footprints are not currently updated as new buildings are constructed
-* For those buildings constructed before X, you can use the unique identifier bldg
+* For those buildings constructed before X, you can use the unique identifier `sf16_bldgid`
 * For buildings that don't exist, please ????
 
 ### Reference
