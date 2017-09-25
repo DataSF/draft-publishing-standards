@@ -19,7 +19,7 @@
   * [Street Suffix Abbreviations](canonical-lists/postal-service-street-suffix-abbreviations.md)
   * [Street Centerlines and Nodes](canonical-lists/street-centerline-and-intersection-identifiers.md)
   * [Assessor Parcel Numbers \(APN\)](canonical-lists/assessor-parcel-numbers-apn.md)
-  * [Buildings \(Structures\)](canonical-lists/building-identifiers.md)
+  * [Building Footprints](canonical-lists/building-identifiers.md)
   * [Zoning Codes](canonical-lists/zoning.md)
   * [Race and Ethnicity](canonical-lists/race-and-ethnicity.md)
 * [Canonical Reference Boundaries](boundaries/intro.md)
