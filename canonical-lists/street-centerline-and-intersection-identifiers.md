@@ -31,5 +31,10 @@
   * When referencing a CNN, include clear definition in the data dictionary
 
 ### Reference
+| Dataset | Description and Constraints | Reference Columns |
+| :--- | :--- | :--- |
+|  | Contains a list of officially valid street names contained in the City's Basemap | `fullstreetname` composed of `streetname` & `streettype` |
+| [San Francisco Basemap Street Centerlines](hhttps://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | A geographic reference of the all basemap streets including centerline node network identifiers | `cnn` as number; `cnntext` as text; `f_node_cnn` as the starting (from) node ID; `t_node_cnn` as the ending (to) node ID |
+
 
 
