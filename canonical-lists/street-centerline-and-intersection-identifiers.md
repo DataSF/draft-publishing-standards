@@ -15,9 +15,12 @@
 * The management of streets falls to different jurisdictions within the City
   * Public Works manages the majority of street miles within the City 
   * The remaining are managed by other entities like Caltrans, Presidio National Park and Parks & Recreation, a summary of miles of streets by jurisdiction is available online
-* Basemap data including streets from the various jurisdictions is maintained by Public Works
+* Basemap data including streets from various jurisdictions is maintained by Public Works
 
 ## Use
+
+* Centerline Node Network IDs as a reference in other geographic data like addresses or parcels
+* To model transportation network connectivity
 
 ### Accepted Values
 * Every centerline and node will have an identifier Centerline Node Network (CNN) ID 
