@@ -37,5 +37,9 @@
 | [San Francisco Basemap Street Centerlines](hhttps://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | A geographic reference of the all basemap streets including centerline node network identifiers and jurisdictions | `cnn` as number <br> `cnntext` as text <br>`f_node_cnn` as the starting (from) node ID <br> `t_node_cnn` as the ending (to) node ID |
 | [Street Segment and Intersection (CNN) Change Log](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Segment-and-Intersection-CNN-Change-Log/amiw-iisi) | A list of Street Segment and Intersection (CNN) changes including new, dropped, realigned, divided and split records. | `oldcnn` as number <br> `newcnn` as number|
 
+### Is anything wrong, unclear, missing?
+
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Centerlines-and-Nodes&body=Comment:Street-Centerlines-and-Nodes)
+
 
 
