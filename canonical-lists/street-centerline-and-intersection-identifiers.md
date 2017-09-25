@@ -33,7 +33,7 @@
 ### Reference
 | Dataset | Description and Constraints | Reference Columns |
 | :--- | :--- | :--- |
-|  | Contains a list of officially valid street names contained in the City's Basemap | `fullstreetname` composed of `streetname` & `streettype` |
+| [List of Streets and Intersections](https://data.sfgov.org/Geographic-Locations-and-Boundaries/List-of-Streets-and-Intersections/pu5n-qu5c) | A list of street segments and intersections sorted by street name and ascending address number. This data set is based on the City's GIS basemap and contains CNN id numbers for each record. | `cnn` as number <br> For segments: `from_cnn` and `to_cnn` define the node IDs at each end |
 | [San Francisco Basemap Street Centerlines](hhttps://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | A geographic reference of the all basemap streets including centerline node network identifiers and jurisdictions | `cnn` as number <br> `cnntext` as text <br>`f_node_cnn` as the starting (from) node ID <br> `t_node_cnn` as the ending (to) node ID |
 
 
