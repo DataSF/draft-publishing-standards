@@ -6,11 +6,6 @@
   * They have no width and are meant to model the street network, not the extent of the street surface
 * Street nodes are the endpoints of a street centerline
   * Intersecting streets will share nodes at the point of intersection
-* Every centerline and node will have an identifier Centerline Node Network (CNN) ID 
-  * `cnn` as a number
-  * `cnntext` as a text string
-* CNN IDs may be used in secondary columns to indicate from and to
-  * `f_node_cnn` and `t_node_cnn`
   
 ### Illustration
 
@@ -22,5 +17,19 @@
   * The remaining are managed by other entities like Caltrans, Presidio National Park and Parks & Recreation, a summary of miles of streets by jurisdiction is available online
 * Basemap data including streets from the various jurisdictions is maintained by Public Works
 
+## Use
+
+### Accepted Values
+* Every centerline and node will have an identifier Centerline Node Network (CNN) ID 
+  * `cnn` as a number
+  * `cnntext` as a text string
+* CNN IDs may be used in secondary columns to indicate the nodes that fall at the endpoints of a centerline
+  * For example `f_node_cnn` and `t_node_cnn`
+  
+
+
+
+
+### Reference
 
 
