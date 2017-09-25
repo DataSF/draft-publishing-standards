@@ -22,5 +22,5 @@
 
 ### Is anything wrong, unclear, missing?
 
-[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Names&body=Comment:Street-Names)
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Street-Suffix-Abbr&body=Comment:Street-Suffix-Abbr)
 
