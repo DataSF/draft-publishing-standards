@@ -41,5 +41,6 @@
 | Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm+hh:mm | 2015-01-01T12:00+00:00 |
 |  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
 
+### Is anything wrong, unclear, missing?
 
-
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Date-and-Time&body=Comment:Date-and-Time)

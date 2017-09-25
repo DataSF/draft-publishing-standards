@@ -30,5 +30,7 @@ Text should be presented in the easiest to interpret/read format where appropria
 * Categories when the source system presents them in caps and there's no way to interpret them to camel case
 * Research suggests lower case as opposed to uppercase is easier to read for humans and just as useful to machines, note exceptions above
 
+### Is anything wrong, unclear, missing?
 
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Text&body=Comment:Text)
 
