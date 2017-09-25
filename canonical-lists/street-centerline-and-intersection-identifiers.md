@@ -14,7 +14,7 @@
 
 * The management of streets falls to different jurisdictions within the City
   * Public Works manages the majority of street miles within the City 
-  * The remaining are managed by other entities like Caltrans, Presidio National Park and Parks & Recreation, a summary of miles of streets by jurisdiction is available online
+  * The remaining are managed by other entities like Caltrans, Presidio National Park and Parks & Recreation,[ a summary of miles of streets by jurisdiction is available on the open data portal](https://data.sfgov.org/City-Infrastructure/Miles-Of-Streets/5s76-j52p)
 * Basemap data including streets from various jurisdictions is maintained by Public Works
 
 ## Use
