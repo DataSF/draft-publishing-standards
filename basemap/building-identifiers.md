@@ -9,16 +9,17 @@
 
 ![Building footprints are the extent or envelope of a building structure. Here they are pictured in 3D and 2D for the same block on Green Street. ](/assets/footprints.png)
 
-* On left: 3D facade of the block Green St facing north between Columbus and Powell ( Imagery: &copy; 2017 Google; Left Panel Map Data: &copy; 2017 Google)
+* On left: Oblique view of Green St facing north between Columbus and Powell ( Imagery: &copy; 2017 Google; Left Panel Map Data: &copy; 2017 Google)
 * On right: building footprints for the same block in 2D
 
 ### Authority
 
 * SFGIS in the [Department of Technology](https://tech.sfgov.org/) manages data collection and processing from LIDAR
   * LIDAR data is provided by a third-party and is updated every ???
-  * From this data, SFGIS derives the footprints and assigns unique identifiers as well as additional data derived from LIDAR
+  * From this data, SFGIS derives the footprints and assigns unique identifiers as well as additional statistics about the building derived from LIDAR data
 * Information about buildings is captured by other departments including Building Inspection, SF Environment, SF Planning and the City's Real Estate Division among others.
-  * Building footprints do not include administrative data about a building, but can be related to those data spatially and via unique identifiers
+  * Building footprints do not include administrative data about a building
+  * They can be related to administrative data spatially and via unique identifiers
 
 ## Use
 
