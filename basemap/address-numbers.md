@@ -15,7 +15,7 @@
   * Even adddresses on right, odds on left
 * Each address corresponds to an entrance from the street
   * Note buildings at the rear of the building facing the street have entryways from the street (e.g. 656A, 658A, 664A, and 666A)
-  * Addresses can be assigned where there is no building
+  * Numbers can be assigned where there is no building, but they must be associated [with a parcel](/basemap/assessor-parcel-numbers-apn.md)
     * e.g. the parking lot at 626 Green St
 
 
