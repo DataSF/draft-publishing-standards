@@ -6,6 +6,7 @@
   * They have no width and are meant to model the street network, not the extent of the surface
 * Street nodes are the endpoints of a street centerline
   * Intersecting streets will share nodes at the point of intersection
+* Each node and centerline segment will have a Centerline Node Network (CNN) identifier
   
 ### Illustration
 
