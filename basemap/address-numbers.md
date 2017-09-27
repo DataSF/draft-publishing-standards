@@ -8,6 +8,17 @@
 
 ### Illustration
 
+![](/assets/address_numbers.png)
+
+* Illustration of right side of Green Street between Columbus Ave and Powell St
+* 100 valid address numbers on this segment from 600 to 699
+  * Even adddresses on right, odds on left
+* Each address corresponds to an entrance from the street
+  * Note buildings at the rear of the building facing the street have entryways from the street (e.g. 656A, 658A, 664A, and 666A)
+  * Addresses can be assigned where there is no building
+    * e.g. the parking lot at 626 Green St
+
+
 ### Authority
 
 * The official street numbers are assigned by the [Department of Building Inspection](http://sfdbi.org/) Building Official prior to permits for new structures according to the procedure in [AB-035](http://library.amlegal.com/nxt/gateway.dll/California/sfbuilding/buildingcode2016edition/administrativebulletins?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_AB-035)
@@ -24,7 +35,8 @@
   * How many addresses are allocated between intersections and where that differs
   * Where even and odd numbers are assigned
 * Authorized City staff enter address numbers in the Enterprise Addressing System according to these rules
-  * If you believe there's been an error or a missing address, please ????
+
+> **Note:** If you believe there's been an error or a missing address, please @TODO: what feedback loop is there?
 
 ## Reference
 

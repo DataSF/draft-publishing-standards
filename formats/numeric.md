@@ -14,3 +14,7 @@
     - e.g.  20% can be expressed as 20 or 0.2
     - The representation of percentages must be consistent throughout your dataset (e.g. among different percentage fields)
     - Agencies must indicate how percentages are expressed in the data dictioanry
+
+### Is anything wrong, unclear, missing?
+
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Numeric&body=Comment:Numeric)

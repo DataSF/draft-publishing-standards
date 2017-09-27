@@ -11,30 +11,30 @@
   * [Text](formats/text.md)
   * [Numeric](formats/numeric.md)
   * [Location \(coordinates\)](formats/location-coordinates.md)
-  * [Location \(addresses\)](formats/addresses.md)
+  * [Location \(addresses\)](formats/location-addresses.md)
   * [Null/Negligible/Intentionally Blank Values](formats/nullnegligible-values.md)
   * [Reserved Column Names](formats/reserved-column-names.md)
 
-### General Admin References
+### Standard Reference Data
 
-* [General Admin References](adminref/README.md)
-  * [Department Names and Codes](adminref/department-names-and-codes.md)
-  * [Zoning Codes](adminref/zoning.md)
-  * [Race & Ethnicity](adminref/race-and-ethnicity.md)
-
-### Basemap References
-
-* [Basemap References](basemap/README.md)
+* [Reference: General Admin](generalreference/README.md)
+  * [Department Names and Codes](generalreference/department-names-and-codes.md)
+  * [Zoning Codes](generalreference/zoning.md)
+  * [Race & Ethnicity](generalreference/race-and-ethnicity.md)
+* [Reference: Basemap](basemap/README.md)
   * [Street Numbers \(Addresses\)](basemap/address-numbers.md)
   * [Street Names](basemap/street-names.md)
   * [Street Suffix Abbreviations](basemap/postal-service-street-suffix-abbreviations.md)
   * [Street Centerlines and Nodes](basemap/street-centerline-and-intersection-identifiers.md)
   * [Assessor Parcel Numbers \(APN\)](basemap/assessor-parcel-numbers-apn.md)
   * [Building Footprints](basemap/building-identifiers.md)
-
-### Boundary References
-
-* [Boundary References](boundaries/README.md)
+* [Reference: Boundaries](boundaries/README.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
   * [Census](boundaries/census.md)
+
+### Appendix
+
+* [Reference Data Index](reference-index.md)
+* [Contributing](CONTRIBUTING.md)
+* [License](LICENSE.md)

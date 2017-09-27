@@ -19,3 +19,7 @@ The following column names should be used only if they adhere to the definitions
 - supervisor_district
 - unit
 - unit_suffix
+
+### Is anything wrong, unclear, missing?
+
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Reserved-Column-Names&body=Comment:Reserved-Column-Names)

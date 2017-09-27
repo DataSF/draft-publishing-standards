@@ -1,8 +1,8 @@
 # Location \(addresses\)
 
 * Where appropriate, use the Enterprise Address System addresses
-* We'll accept a handful of formats for addresses. What is most important is that the component parts of an address that are relevant to the data are standard and well-formed.
-* You may output these as individual fields or as full address strings. When formatting as one field, it is still important to make sure the component pieces are well formed within the string.
+* You may output these as individual fields or as full address strings
+  * When formatting as one field, it is still important to make sure the component pieces are well formed within the string.
 
 ## Address components
 
@@ -35,5 +35,7 @@ Below are components of an address.
 * When providing multiple addresses within a dataset, be internally consistent with naming structure; prepend your column names with the type of address
   * e.g. business\_address vs. mailing\_address vs. physical\_address
 
+### Is anything wrong, unclear, missing?
 
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Location-Addresses&body=Comment:Location-Addresses)
 

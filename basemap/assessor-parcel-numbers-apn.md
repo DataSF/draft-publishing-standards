@@ -7,11 +7,14 @@
   * Blocks are contiguous groups of lots bounded by streets or other features on all sides
     * Blocks can be split in the middle by other streets
   * Lots are sub-divided within the blocks
+  * Lots also referred to as parcels
   * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
 ### Illustration
 
-* Block 117 below is bounded:
+![](/assets/block_lots.png)
+
+* Block 117 above is bounded:
   * On the North and South by Union and Green Streets
   * On the East and West by Stockton and Powell Streets
 * Columbus Avenue bisects it, but both sides are still part of the same block
@@ -22,8 +25,6 @@
   * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
 * These are [recorded in paper maps](http://sfplanninggis.org/BlockBooks/AssessorBlock0117.pdf) in the Office of the Assessor Recorder and digitized
   * Digital versions below under reference
-
-![](/assets/block_lots.png)
 
 ### Authority
 
@@ -49,6 +50,8 @@
     * 0585012D instead of 0585/012D
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
   * Also provide the block and lot as separate fields
+* Current parcels and corresponding identifiers in the current subdivision parcels
+* Historic parcels and corresponding identifiers in the recorded parcel geography below (note limitations)
 
 ### Reference
 

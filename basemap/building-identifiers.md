@@ -2,15 +2,21 @@
 
 ## Definition
 
-* The envelope of a building in 2 dimensional space
+* The extent of a building in 2 dimensional space
+* Includes a unique identifier and other information derived from LIDAR (e.g. max height)
 
 ### Illustration
 
+![Building footprints are the extent or envelope of a building structure. Here they are pictured in 3D and 2D for the same block on Green Street. ](/assets/footprints.png)
+
+* On left: 3D facade of the block Green St facing north between Columbus and Powell ( Imagery: &copy; 2017 Google; Left Panel Map Data: &copy; 2017 Google)
+* On right: building footprints for the same block in 2D
+
 ### Authority
 
-* SFGIS in the Department of Technology manages data collection and processing from LIDAR
+* SFGIS in the [Department of Technology](https://tech.sfgov.org/) manages data collection and processing from LIDAR
   * LIDAR data is provided by a third-party and is updated every ???
-  * From this data, SFGIS derives the footprints and assigns unique identifiers
+  * From this data, SFGIS derives the footprints and assigns unique identifiers as well as additional data derived from LIDAR
 * Information about buildings is captured by other departments including Building Inspection, SF Environment, SF Planning and the City's Real Estate Division among others.
   * Building footprints do not include administrative data about a building, but can be related to those data spatially and via unique identifiers
 
@@ -24,14 +30,14 @@
 
 * Footprints are not currently updated as new buildings are constructed
 * For those buildings constructed before X, you can use the unique identifier `sf16_bldgid`
-* For buildings that don't exist but should, please ????
+* For buildings that don't exist but should, please @TODO: what action can people take?
 
 ### Reference
 
-| Dataset | Description and Constraints | Block Column | Lot Column | APN Column |
+| Dataset | Description and Constraints | Reference Columns |
 | :--- | :--- | :--- | :--- | :--- |
-| [Current Subdivision Parcels](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Subdivision-Parcels-aka-City-Lots-/45et-ht7c) | These are the current active recorded parcels. The geography can be used as reference but should not be used for anything requiring precision. | `block_num` | `lot_num` | `blklot` |
-| [Recorded Parcel Geography with Transaction Date History](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Recorded-Parcel-Geography-with-Transaction-Date-Hi/3iun-6we5) | These are the current and historic parcels with recorded dates. Historic parcels only go back to about 1995 with some exceptions. Useful for tying historic administrative records to a location. The geography can be used as reference but should not be used for anything requiring precision. | `block_num` | `lot_num` | `blklot` |
-| [San Francisco Assessor Blocks](https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Assessor-Blocks/ndp2-nsue) | Just the blocks without lots | `block_num` | N/A | N/A |
+| [Building Footprints](https://data.sfgov.org/Housing-and-Buildings/Building-Footprints/72ai-zege) | The footprint extents are collapsed from an earlier 3D building model provided by Pictometry of 2010, and have been refined from a version of building masses publicly available on the open data portal for over two years. The building masses were manually split with reference to parcel lines, but using vertices from the building mass wherever possible. These split footprints correspond closely to individual structures even where there are common walls; the goal of the splitting process was to divide the building mass wherever there was likely to be a firewall. An arbitrary identifier was assigned based on a descending sort of building area for 177,023 footprints. The centroid of each footprint was used to join a property identifier from a draft of the San Francisco Enterprise GIS Program's cartographic base, which provides continuous coverage with distinct right-of-way areas as well as selected nearby parcels from adjacent counties. | `sf16_bldgid` unique identifier for footprint <br> `mblr` for reference to property identifiers including parcels and right of way  |
 
+### Is anything wrong, unclear, missing?
 
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Building-Footprints&body=Comment:Building-Footprints)

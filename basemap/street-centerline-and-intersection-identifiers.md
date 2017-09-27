@@ -9,6 +9,15 @@
   
 ### Illustration
 
+![](/assets/centerlines.png)
+
+* Shows [3 streets (Stockton, Green and Columbus) at a point of intersection](https://www.google.com/maps/place/Columbus+Ave,+San+Francisco,+CA/@37.7994684,-122.4110987,17z/data=!3m1!4b1!4m5!3m4!1s0x808580f1647b2e89:0x86c455ca839e70f5!8m2!3d37.7994642!4d-122.40891)
+* Each segment sits between two nodes
+  * A segment ends where it intersects with another segment OR at the physical end of a street (a dead end)
+* Each segment and node has an identifier pictured above
+* Segments share the same node where they intersect
+  * Node ID 25352000 in the middle is shared by 6 segments
+
 
 ### Authority
 
@@ -26,9 +35,12 @@
 * Every centerline and node will have an identifier Centerline Node Network (CNN) ID 
   * `cnn` as a number
   * `cnntext` as a text string
-* CNN IDs may be used in secondary columns to indicate the nodes that fall at the endpoints of a centerline
-  * For example `f_node_cnn` and `t_node_cnn`
-  * When referencing a CNN, include clear definition in the data dictionary
+* CNN IDs may be used in secondary columns as reference
+  * For example:
+    * `f_node_cnn` and `t_node_cnn` to indicate from and to nodes
+    * `cnn_seg` to reference the closest segment to a feature
+  * When referencing a CNN, include clear definition in the data dictionary, and include `cnn` in the column name
+* Valid IDs are in the reference datasets below
 
 ### Reference
 | Dataset | Description and Constraints | Reference Columns |

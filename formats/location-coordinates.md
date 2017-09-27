@@ -9,3 +9,7 @@
 - In positive/negative floating point
     - e.g. `latitude`: 37.761146; `longitude`: -122.436235
 - EPSG should be indicated in metadata
+
+### Is anything wrong, unclear, missing?
+
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Location-Coordinates&body=Comment:Location-Coordinates)
