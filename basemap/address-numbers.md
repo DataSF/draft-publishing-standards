@@ -1,4 +1,4 @@
-# Street Numbers \(Addresses\)
+# Address Numbers
 
 ## Definition
 

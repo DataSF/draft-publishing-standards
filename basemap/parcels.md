@@ -1,13 +1,13 @@
-# Assessor Parcel Numbers
+# Parcels
 
 ## Definition
 
-* The assessor parcel number (APN) is the unique identifier for a contiguous piece of owned land \(real property\)
-* It is comprised of a **block number** and a **lot number**
+* A parcel is a contiguous piece of owned land \(real property\) identified by a unique Assessor Parcel Number (APN)
+* The APN is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded by streets or other features on all sides
     * Blocks can be split in the middle by other streets
   * Lots are sub-divided within the blocks
-  * Lots also referred to as parcels
+    * Lots also referred to as parcels
   * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
 ### Illustration
@@ -63,5 +63,5 @@
 
 ### Is anything wrong, unclear, missing?
 
-[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Assessor-Parcel-Numbers-APN&body=Comment:Assessor-Parcel-Numbers-APN)
+[Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Parcels&body=Comment:Parcels)
 

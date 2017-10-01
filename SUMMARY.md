@@ -19,19 +19,20 @@
 
 * [Reference: General Admin](generalreference/README.md)
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
-  * [Zoning Codes](generalreference/zoning.md)
   * [Race & Ethnicity](generalreference/race-and-ethnicity.md)
+  * [Sexual Orientation & Gender Identity](generalreference/sexual-orientation-and-gender-identity.md)
 * [Reference: Basemap](basemap/README.md)
-  * [Street Numbers \(Addresses\)](basemap/address-numbers.md)
+  * [Address Numbers](basemap/address-numbers.md)
   * [Street Names](basemap/street-names.md)
   * [Street Suffix Abbreviations](basemap/postal-service-street-suffix-abbreviations.md)
   * [Street Centerlines and Nodes](basemap/street-centerline-and-intersection-identifiers.md)
-  * [Assessor Parcel Numbers \(APN\)](basemap/assessor-parcel-numbers-apn.md)
-  * [Building Footprints](basemap/building-identifiers.md)
+  * [Parcels](basemap/parcels.md)
+  * [Building Footprints](basemap/building-footprints.md)
 * [Reference: Boundaries](boundaries/README.md)
+  * [Census](boundaries/census.md)
   * [Neighborhoods](boundaries/neighborhoods.md)
   * [Supervisor Districts](boundaries/supervisor_districts.md)
-  * [Census](boundaries/census.md)
+  * [Zoning Use Districts](boundaries/zoning.md)
 
 ### Appendix
 

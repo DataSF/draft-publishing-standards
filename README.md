@@ -9,12 +9,10 @@ This document serves several purposes:
 3. Provide a reference for data publishers and users
 4. Clarify departmental stewardship of certain reference data
 
-This document focus on the global perspective across datasets. For example, it may be hard for a data user to trace which neighborhood boundary a field references. The standards contained in this document attempt to address that issue among others.
-
 We lean heavily on existing precedent where available. The scope includes:
 
 1. Formats and data structure
-2. Common reference standards (lists) that are useful across datasets and departments and 
+2. Common reference standards (lists) that are useful across datasets and departments
 
-We are not including domain-specific standards here like Open311 or LIVES which have their own documentation and communities. We are also not using this document to propose new domain specific standards.
+We are not including domain-specific standards here like Open311 or LIVES which have their own documentation and communities. We are also not using this to propose new domain specific standards.
 

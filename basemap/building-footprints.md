@@ -16,7 +16,7 @@
 
 * SFGIS in the [Department of Technology](https://tech.sfgov.org/) manages data collection and processing from LIDAR
   * LIDAR data is provided by a third-party and is updated every ???
-  * From this data, SFGIS derives the footprints and assigns unique identifiers as well as additional statistics about the building derived from LIDAR data
+  * From this data, SFGIS derives the footprints and assigns unique identifiers as well as additional derived statistics about the building (e.g. min, max and median height)
 * Information about buildings is captured by other departments including Building Inspection, SF Environment, SF Planning and the City's Real Estate Division among others.
   * Building footprints do not include administrative data about a building
   * They can be related to administrative data spatially and via unique identifiers
