@@ -1,5 +1,7 @@
 # Reference: Basemap
 
+@SFGIS: Please look at this carefully, I'm basing some of the assumptions on a variety of conversations. For example, I've heard an address number can fall outside a parcel, but I'm not certain this is actually the case or should be the case for DBI numbers?
+
 A basemap is most often associated with a visual representation of base geography (streets, buildings, parks, etc.) upon which other elements may be mapped. The base layers on that map help the user orient themselves within space.
 
 In this section, we lay out some component basemap pieces that form core reference data. The underlying data can be used in more than just developing a visual reference map.
@@ -34,11 +36,11 @@ The diagram and table below explain the relationship among the 3 core components
 | Building | Address Number | A building has 1 or many address numbers | Per Building Code, once a building is approved, it will have at least 1 entrance address if not more* |
 | Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway (e.g. a public works toolshed) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
 
-> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System (EAS) within the parcel but not in reference to the building. In cases where there is one building on one parcel, you can generally assume that the address point falls within the building, but there's not an explicitly modelled relationship across all buildings.
+> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System (EAS) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modelled relationship across all buildings.
 
 ### Illustration
 
-The following illustrations show different permutations of the relationships above.
+The following illustrates the relationships above.
 
 ![](/assets/address_components_illustration.png)
 
