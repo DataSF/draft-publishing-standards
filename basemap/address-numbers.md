@@ -36,13 +36,16 @@
   * Where even and odd numbers are assigned
 * Authorized City staff enter address numbers in the Enterprise Addressing System according to these rules
 
-> **Note:** If you believe there's been an error or a missing address, please @TODO: what feedback loop is there?
+> **Note on Units:** The City records unit numbers for condos to support tying property records for deeds, property taxes and other business processes. There is no formal requirement to record the units in rental buildings.
+
+> **Missing Data?:** If you believe there's been an error or a missing address, please @TODO: what feedback loop is there?
 
 ## Reference
 
 | Dataset | Description and Constraints | Street Number Column |
 | :--- | :--- | :--- |
 | [Addresses - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | The EAS is the system of record for DBI when assigning official addresses. Associated coordinates are most often associated with the center of a parcel or close to it, rather than at the door or entry. This still allows associations, but it means that in certain cases a building footprint cannot be spatially matched via intersection or "point in polygon" with it's address\(es\). | `address_number` |
+| [Addresses with Units - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | Same general limitations as the Addresses dataset above, but also includes sub-addresses like units. Unit numbers are formally referenced for condos because the City records these for the purposes of properly tying deeds and other property records to a specific unit and owner. Rental units are not formally recorded by the City. | `address_number` |
 
 ### Is anything wrong, unclear, missing?
 

@@ -20,8 +20,8 @@
   * The resolution referred to the Clerk of the Board of Supervisors 
   * A Public Hearing at the Land Use and Economic Development Committee
   * Board of Supervisors approval
-  * Mayor's signature                                                                                                                      
-
+  * Mayor's signature                             
+   
 ## Use
 
 * For official base maps to label the streets properly

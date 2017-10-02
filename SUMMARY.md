@@ -25,7 +25,7 @@
   * [Address Numbers](basemap/address-numbers.md)
   * [Street Names](basemap/street-names.md)
   * [Street Suffix Abbreviations](basemap/postal-service-street-suffix-abbreviations.md)
-  * [Street Centerlines and Nodes](basemap/street-centerline-and-intersection-identifiers.md)
+  * [Street Centerlines and Nodes](basemap/street-centerlines-nodes.md)
   * [Parcels](basemap/parcels.md)
   * [Building Footprints](basemap/building-footprints.md)
 * [Reference: Boundaries](boundaries/README.md)
