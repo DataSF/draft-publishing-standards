@@ -1,8 +1,10 @@
 # Parcels
 
+@TODO: note on condos (mapblocklot)
+
 ## Definition
 
-* A parcel is a contiguous piece of owned land \(real property\) identified by a unique Assessor Parcel Number (APN)
+* A parcel is a contiguous piece of land \(real property\) identified by a unique Assessor Parcel Number (APN)
 * The APN is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded by streets or other features on all sides
     * Blocks can be split in the middle by other streets

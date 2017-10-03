@@ -45,7 +45,7 @@
 | Dataset | Description and Constraints | Street Number Column |
 | :--- | :--- | :--- |
 | [Addresses - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | The EAS is the system of record for DBI when assigning official addresses. Associated coordinates are most often associated with the center of a parcel or close to it, rather than at the door or entry. This still allows associations, but it means that in certain cases a building footprint cannot be spatially matched via intersection or "point in polygon" with it's address\(es\). | `address_number` |
-| [Addresses with Units - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-Enterprise-Addressing-System/sr5d-tnui) | Same general limitations as the Addresses dataset above, but also includes sub-addresses like units. Unit numbers are formally referenced for condos because the City records these for the purposes of properly tying deeds and other property records to a specific unit and owner. Rental units are not formally recorded by the City. | `address_number` |
+| [Addresses with Units - Enterprise Addressing System](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy) | Same general limitations as the Addresses dataset above, but also includes sub-addresses like units. Unit numbers are formally referenced for condos because the City records these for the purposes of tying deeds and other property records to a specific unit and owner. Rental units are not formally recorded by the City. | `address_number` |
 
 ### Is anything wrong, unclear, missing?
 

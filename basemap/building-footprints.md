@@ -10,7 +10,7 @@
 ![Building footprints are the extent or envelope of a building structure. Here they are pictured in 3D and 2D for the same block on Green Street. ](/assets/footprints.png)
 
 * On left: Oblique view of Green St facing north between Columbus and Powell ( Imagery: &copy; 2017 Google; Left Panel Map Data: &copy; 2017 Google)
-* On right: building footprints for the same block in 2D
+* On right: building footprints for the same block
 
 ### Authority
 
