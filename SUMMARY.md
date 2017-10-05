@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 
-### Data Structure and Formats
+## Data Structure and Formats
 
 * [Data Structure and Formats](formats/README.md)
-  * [Column Headers](formats/column-headers.md)
+  * [Column Headers & Order](formats/column-headers.md)
   * [Column Order](formats/column-order.md)
   * [Date and Time](formats/date-and-time.md)
   * [Text](formats/text.md)
@@ -15,7 +15,7 @@
   * [Null/Negligible/Intentionally Blank Values](formats/nullnegligible-values.md)
   * [Reserved Column Names](formats/reserved-column-names.md)
 
-### Standard Reference Data
+## Standard Reference Data
 
 * [Reference: General Admin](generalreference/README.md)
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
@@ -34,8 +34,9 @@
   * [Supervisor Districts](boundaries/supervisor_districts.md)
   * [Zoning Use Districts](boundaries/zoning.md)
 
-### Appendix
+## Appendix
 
 * [Reference Data Index](reference-index.md)
 * [Contributing](CONTRIBUTING.md)
 * [License](LICENSE.md)
+
