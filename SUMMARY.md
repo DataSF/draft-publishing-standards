@@ -6,7 +6,6 @@
 
 * [Data Structure and Formats](formats/README.md)
   * [Column Headers & Order](formats/column-headers.md)
-  * [Column Order](formats/column-order.md)
   * [Date and Time](formats/date-and-time.md)
   * [Text](formats/text.md)
   * [Numeric](formats/numeric.md)
