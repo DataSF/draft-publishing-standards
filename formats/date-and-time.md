@@ -15,7 +15,7 @@
 | Quarterly | `quarter` | YYYY-\[Q\]Q | \[Q\]Q: Q1 to Q4 | 2015-Q1 |
 | Half-yearly | `half_year` | YYYY-\[H\]H | \[H\]H: H1 or H2 | 2015-H1 |
 
-**For fiscal periods, prefix “fiscal\_” to column name**
+**For fiscal periods, prefix "fiscal_" to column name**
 
 | Interval | Column name | Format | Example |
 | --- | --- | --- | --- |
