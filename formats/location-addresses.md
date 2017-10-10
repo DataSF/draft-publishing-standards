@@ -1,6 +1,7 @@
 # Location \(addresses\)
 
 * Where appropriate, use the Enterprise Address System addresses
+  * @@SFGIS: where should we send people to learn about EAS?
 * You may output these as individual fields or as full address strings
   * When formatting as one field, it is still important to make sure the component pieces are well formed within the string.
 
@@ -25,7 +26,7 @@ Below are components of an address.
 | Unit Suffix | Text | The non-numeric component of a unit, if there is one: 315A Main Street, Apt 2**A**, San Francisco, CA 94102; if no numeric portion of unit present: 315 Main Street, Apt **B**, San Francisco, CA 94102 \(Unit would be empty\) | There is no complete reference of units at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
 | City | Text | The city the address sits within: 315A Main Street, **San Francisco**, CA 94102 | You can leave this out if all addresses are consistently within the same City, but indicate this in your metadata |
 | State | Text | The state the address sits within: 315A Main Street, San Francisco, **CA** 94102 | Recommend using standard state abbreviations. Spell out if you can do so without introducing misspellings. |
-| Zipcode | Numeric | The address zipcode as defined by the USPS: 315A Main Street, San Francisco, CA **94102** | Note, zip codes are not actually boundaries, but are defined by routes. A [list of valid San Francisco zipcodes can be downloaded here](https://data.sfgov.org/resource/srq6-hmpi.csv?$select=zip_code). |
+| ZIP code | Numeric | The address zipcode as defined by the USPS: 315A Main Street, San Francisco, CA **94102** | Note, zip codes are not actually boundaries, but are defined by routes. A [list of valid San Francisco zipcodes can be downloaded here](https://data.sfgov.org/resource/srq6-hmpi.csv?$select=zip_code). |
 
 ## Address formats
 
