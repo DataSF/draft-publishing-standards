@@ -32,5 +32,9 @@ Text should be presented in the easiest to interpret/read format where appropria
 
 ### Is anything wrong, unclear, missing?
 
+-Do we want to link to resources about things like line breaks.  Will everyone know how to detect/remove/what they are?
+
+* hyperlinkto canonical and standard reference section in 'considerations for cat variables section
+
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Text&body=Comment:Text)
 

@@ -43,4 +43,7 @@
 
 ### Is anything wrong, unclear, missing?
 
+* should we specify column names for other common date table fields.  Like month alone '1' equals '2017-01.  Whats the standard naming convention for those? I want to update my  powerBI template's date table to match this standard
+
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Date-and-Time&body=Comment:Date-and-Time)
+
