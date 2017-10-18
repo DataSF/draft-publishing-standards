@@ -26,7 +26,25 @@
 
 * Fiscal year start-date must be indicated in the metadata
 
-## Date
+## Date extracts
+
+In certain cases you may want to provide a single variable representing the number or name of an individual date component, a day, a month, etc. These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
+* date_extract_d() - extracts the day from a date as an integer
+* date_extract_dow() - extracts the day of week as an integer between 0 and 6 (inclusive)
+* date_extract_hh() - extracts the hour of the day as an integer between 0 and 23 (inclusive)
+* date_extract_mm() - extracts the minute from the time as an integer between 0 and 23 (inclusive)
+* date_extract_ss() - extracts the second from the time as an integer
+* date_extract_woy() - extracts the week of the year as an integer between 0 and 51 (inclusive)
+* date_extract_y() - extracts the year as an integer
+
+> **Note:** the functions above start counting at 0, but we ask you to provide a 1 based index if you 
+
+| Extract | Column name | Type | Range of values |
+| --- | --- | --- | --- | --- |
+| Day | day_num | integer | 1 to 31 (varies by month) |
+| Day of Week | dow_num | integer | 1 to 7 |
+| Hour | hour_num | integer | 0 to 23 |
+| Minute | minute_num | integer | 0 to 
 
 ## Date-time variables
 * ISO 8601 uses 24 hour clock system in hh:mm:ss format (do not use AM or PM)
