@@ -61,8 +61,6 @@ In certain cases you may want to provide a single variable representing the numb
 | Minute | minute_num | integer | 1 to 60 |
 | Second | second_num | integer | 1 to 60 |
 
-
-
 These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
 * date_extract_d() - extracts the day from a date as an integer
 * date_extract_dow() - extracts the day of week as an integer between 0 and 6 (inclusive)
