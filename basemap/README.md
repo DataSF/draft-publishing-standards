@@ -53,8 +53,6 @@ The diagram and table below explain the relationship among the 3 core components
 
 ![](/assets/address_components.png)
 
-
-
 ### Relationship to streets
 
 Each of these components relates to one or more streets. A street centerline has a unique identifier called a Centerline Node Network ID.
