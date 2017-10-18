@@ -50,6 +50,9 @@ In certain cases you may want to provide a single variable representing the numb
 
 | Extract | Column name | Type | Range of values |
 | --- | --- | --- | --- | --- |
+| Year | year_num | integer | any valid year |
+| Month | month_num | integer | 1 to 12 |
+| Month Name | month_name | string | January, February, March, April, May, June, July, August, September, October, November, December |
 | Day | day_num | integer | 1 to 31 (varies by month) |
 | Day of Week | dow_num | integer | 1 to 7 |
 | Day of Week Name | dow_name | string | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
@@ -57,12 +60,13 @@ In certain cases you may want to provide a single variable representing the numb
 | Minute | minute_num | integer | 1 to 60 |
 | Second | second_num | integer | 1 to 60 |
 | Week of Year | woy_num | integer | 1 to 52 |
-| Year | year_num | integer | any valid year |
+
 
 These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
 * date_extract_d() - extracts the day from a date as an integer
 * date_extract_dow() - extracts the day of week as an integer between 0 and 6 (inclusive)
 * date_extract_hh() - extracts the hour of the day as an integer between 0 and 23 (inclusive)
+* date_extract_m() - extracts the month as an integer
 * date_extract_mm() - extracts the minute from the time as an integer 
 * date_extract_ss() - extracts the second from the time as an integer
 * date_extract_woy() - extracts the week of the year as an integer between 0 and 51 (inclusive)
