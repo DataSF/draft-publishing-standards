@@ -16,17 +16,16 @@
 * _Fixed or classified variables_ should be ordered with the highest-level variable on the left and most granular variable on the right, for example
   * [311 cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6/data): service_name, service_subtype, service_details
   * [Police incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry/data): category, descript
-* _Observed variables_ should always be on the rightmost columns
+* _Observed variables_ should always be on the rightmost columns, these are measured variables often numeric, for example:
+  * Duration
+  * Number of Units
+  * Number of Stories
+  * Year Built
+  * People Served
 
 
 
 ### Is anything wrong, unclear, missing?
-
--Some explanation/example of what fixed and observed variables are
-
-* for non timeseries data I would put unique identifier on the far left.
-
-
 
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Column-Headers-Order&body=Comment:Column-Headers-Order)
 
