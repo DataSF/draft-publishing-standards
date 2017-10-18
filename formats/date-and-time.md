@@ -61,7 +61,7 @@ In certain cases you may want to provide a single variable representing the numb
 | Minute | minute_num | integer | 1 to 60 |
 | Second | second_num | integer | 1 to 60 |
 
-These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
+These can often be automatically extracted from a date variable, for example the open data portal enables querying a dataset with these date extract functions:
 * [date_extract_d()](https://dev.socrata.com/docs/functions/date_extract_d.html) - extracts the day from a date as an integer
 * [date_extract_dow()](https://dev.socrata.com/docs/functions/date_extract_dow.html) - extracts the day of week as an integer between 0 and 6 (inclusive)
 * [date_extract_hh()](https://dev.socrata.com/docs/functions/date_extract_hh.html) - extracts the hour of the day as an integer between 0 and 23 (inclusive)
