@@ -37,5 +37,6 @@
 * [Reserved Column Names](formats/reserved-column-names.md)
 * [Reference Data Index](reference-index.md)
 * [Contributing](CONTRIBUTING.md)
+* [Acknowledgements](formats/acknowledgements.md)
 * [License](LICENSE.md)
 
