@@ -66,4 +66,4 @@ Each of these components relates to one or more streets. A street centerline has
   * When the City assigns an address number they do so [along a street segment within an allowed range](/basemap/address-numbers.md)
 
 ### A note on historical data
-Streets, parcels, buildings, addresses all change over time. Historical City data could reference things that don't currently exist. In each of the next pages, references include both current and historical where available. You can also browse the reference index.
+Streets, parcels, buildings, addresses all change over time. Historical City data could reference things that don't currently exist. In each of the next pages, references include both current and historical where available. You can also [browse the reference index](/reference-index.md).
