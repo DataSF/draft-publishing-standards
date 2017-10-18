@@ -53,13 +53,14 @@ In certain cases you may want to provide a single variable representing the numb
 | Year | year_num | integer | any valid year |
 | Month | month_num | integer | 1 to 12 |
 | Month Name | month_name | string | January, February, March, April, May, June, July, August, September, October, November, December |
+| Week of Year | woy_num | integer | 1 to 52 |
 | Day | day_num | integer | 1 to 31 (varies by month) |
 | Day of Week | dow_num | integer | 1 to 7 |
 | Day of Week Name | dow_name | string | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
 | Hour | hour_num | integer | 1 to 24 |
 | Minute | minute_num | integer | 1 to 60 |
 | Second | second_num | integer | 1 to 60 |
-| Week of Year | woy_num | integer | 1 to 52 |
+
 
 
 These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
