@@ -20,7 +20,7 @@
 | Interval | Column name | Format | Example |
 | --- | --- | --- | --- |
 | Fiscal, annual | `fiscal_year` | YYYY | 2015 |
-| Fiscal, monthly | `fiscal_month` |
+| Fiscal, monthly | `fiscal_month` | YYYY-MM | 2015-01 |
 | Fiscal, quarterly | `fiscal_quarter` | YYYY-\[Q\]Q | 2015-Q1 |
 | Fiscal, half-yearly | `fiscal_half_year` | YYYY-\[H\]H | 2015-H1 |
 
