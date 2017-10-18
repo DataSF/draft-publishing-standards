@@ -2,27 +2,27 @@ The following column names should be used only if they adhere to the definitions
 
 @@TODO: finish this section and link to the relevant guidance
 
-
+* date
+* datetime
+* fiscal_half_year
+* fiscal_month
+* fiscal_quarter
+* fiscal_year
 * half\_year
 * month
+* time
 * week
 * quarter
 
-
-* date
-* datetime
-* time
-* fiscal_year
-* fiscal_half_year
 * fiscal_quarter
 * latitude
 * longitude
-* x\_coord
-* y\_coord
-* zip\_code
-* supervisor\_district
+* x_coord
+* y_coord
+* zip_code
+* supervisor_district
 * unit
-* unit\_suffix
+* unit_suffix
 * year
 
 
