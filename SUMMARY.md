@@ -15,6 +15,7 @@
 
 ## Standard Reference Data
 
+* [Reference Data Introduction](generalreference/reference-data.md)
 * [Reference: General Admin](generalreference/README.md)
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
   * [Race & Ethnicity](generalreference/race-and-ethnicity.md)
