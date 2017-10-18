@@ -73,14 +73,18 @@ These can often be automatically extracted from a date variable, for example the
 
 > **Note:** the functions above start counting at 0; when providing these fields in a dataset, start from 1 per the table above.
 
-
-
 ## Durations
-Durations not required if you have a start and end date or datetime, however, if you produce a duration, follow the guidance below
+Durations can be automatically calculated if you provide a separate start and end period in your dataset. If you also want to provide a duration, please:
+* Provide the milliseconds between the start and end period
+  * Milliseconds can be rolled up to any other time interval and is the most flexible duration representation
+  * Use duration in your column name but prepend with a useful descriptor
+    * flight_duration
+    * response_duration
+    * dwell_time_duration
+    * travel_duration
+  * Do not duplicate any of the duration column names per the [guidance on columns](/formats/column-headers.md)
 
 ### Is anything wrong, unclear, missing?
-
-* should we specify column names for other common date table fields.  Like month alone '1' equals '2017-01.  Whats the standard naming convention for those? I want to update my  powerBI template's date table to match this standard
 
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Date-and-Time&body=Comment:Date-and-Time)
 
