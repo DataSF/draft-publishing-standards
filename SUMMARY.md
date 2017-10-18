@@ -12,7 +12,6 @@
   * [Location \(coordinates\)](formats/location-coordinates.md)
   * [Location \(addresses\)](formats/location-addresses.md)
   * [Null/Negligible/Intentionally Blank Values](formats/nullnegligible-values.md)
-  * [Reserved Column Names](formats/reserved-column-names.md)
 
 ## Standard Reference Data
 
@@ -35,6 +34,7 @@
 
 ## Appendix
 
+* [Reserved Column Names](formats/reserved-column-names.md)
 * [Reference Data Index](reference-index.md)
 * [Contributing](CONTRIBUTING.md)
 * [License](LICENSE.md)

@@ -26,7 +26,5 @@ The following column names should be used only if they adhere to the definitions
 
 ### Is anything wrong, unclear, missing?
 
-* you mention SD here but dont talk about it until later.  Also why not add analysis\_Neighborhood
-
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Reserved-Column-Names&body=Comment:Reserved-Column-Names)
 
