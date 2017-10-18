@@ -26,6 +26,7 @@
 * Fiscal year start-date must be indicated in the metadata
 
 ## Date-time variables
+* ISO 8601 uses 24 hour clock system in hh:mm:ss format
 
 | Type | Column name | Format | Example |
 | --- | --- | --- | --- |
@@ -40,6 +41,9 @@
 | --- | --- | --- | --- |
 | Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm+hh:mm | 2015-01-01T12:00+00:00 |
 |  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
+
+## Durations
+Durations not required if you have a start and end date or datetime, however, if you produce a duration, follow the guidance below
 
 ### Is anything wrong, unclear, missing?
 
