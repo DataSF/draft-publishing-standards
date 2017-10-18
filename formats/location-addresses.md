@@ -1,6 +1,7 @@
 # Location \(addresses\)
 
 * Where appropriate, use the Enterprise Address System addresses
+  * @@SFGIS: where should we send people to learn about EAS?
 * You may output these as individual fields or as full address strings
   * When formatting as one field, it is still important to make sure the component pieces are well formed within the string.
 
