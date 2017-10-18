@@ -10,7 +10,7 @@
 
 * Please maintain consistency with canonical and standard reference lists
   * This helps with analysis across departments and data systems
-* Common ones are provided as reference within this document, including the departmental steward of the list where applicable and links to the reference data
+* [Common reference lists are provided within this document](/reference-data.md), including the departmental steward of the list where applicable and links to the data
 
 ## Character case
 
