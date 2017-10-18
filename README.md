@@ -1,6 +1,6 @@
 # Draft Standards Reference for City and County of San Francisco Data
 
-[DataSF](https://datasf.org) operates the City and County of San Francisco's [official open data portal](https://data.sfgov.org). We are documenting standards to make data more useful and consistent across the City and at scale. 
+[DataSF](https://datasf.org) operates the City and County of San Francisco's [official open data portal](https://data.sfgov.org). We are documenting standards to make data more useful and consistent across the City at scale. 
 
 This document serves several purposes:
 
