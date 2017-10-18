@@ -77,12 +77,12 @@ These can often be automatically extracted from a date variable, for example the
 Durations can be automatically calculated if you provide a separate start and end period in your dataset. If you also want to provide a duration, please:
 * Provide the milliseconds between the start and end period
   * Milliseconds can be rolled up to any other time interval and is the most precise and flexible representation
-  * Use duration in your column name but prepend with a useful descriptor, e.g:
-    * flight_duration
-    * response_duration
-    * dwell_time_duration
-    * travel_duration
-  * Do not duplicate any of the duration column names per the [guidance on columns](/formats/column-headers.md)
+* Use duration in your column name but prepend with a useful descriptor, e.g:
+  * flight_duration
+  * response_duration
+  * dwell_time_duration
+  * travel_duration
+* Do not duplicate any of the duration column names per the [guidance on columns](/formats/column-headers.md)
   
 >**Note:** ISO 8601 does have separate guidance on duration formatting, but we find this more cumbersome than just calculating milliseconds between a period for which there are many standard programming libraries.
 
