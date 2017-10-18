@@ -62,14 +62,14 @@ In certain cases you may want to provide a single variable representing the numb
 | Second | second_num | integer | 1 to 60 |
 
 These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
-* date_extract_d() - extracts the day from a date as an integer
-* date_extract_dow() - extracts the day of week as an integer between 0 and 6 (inclusive)
-* date_extract_hh() - extracts the hour of the day as an integer between 0 and 23 (inclusive)
-* date_extract_m() - extracts the month as an integer
-* date_extract_mm() - extracts the minute from the time as an integer 
-* date_extract_ss() - extracts the second from the time as an integer
-* date_extract_woy() - extracts the week of the year as an integer between 0 and 51 (inclusive)
-* date_extract_y() - extracts the year as an integer
+* [date_extract_d()](https://dev.socrata.com/docs/functions/date_extract_d.html) - extracts the day from a date as an integer
+* [date_extract_dow()](https://dev.socrata.com/docs/functions/date_extract_dow.html) - extracts the day of week as an integer between 0 and 6 (inclusive)
+* [date_extract_hh()](https://dev.socrata.com/docs/functions/date_extract_hh.html) - extracts the hour of the day as an integer between 0 and 23 (inclusive)
+* [date_extract_m()](https://dev.socrata.com/docs/functions/date_extract_m.html) - extracts the month as an integer
+* [date_extract_mm()](https://dev.socrata.com/docs/functions/date_extract_mm.html) - extracts the minute from the time as an integer 
+* [date_extract_ss()](https://dev.socrata.com/docs/functions/date_extract_ss.html) - extracts the second from the time as an integer
+* [date_extract_woy()](https://dev.socrata.com/docs/functions/date_extract_woy.html) - extracts the week of the year as an integer between 0 and 51 (inclusive)
+* [date_extract_y()](https://dev.socrata.com/docs/functions/date_extract_y.html) - extracts the year as an integer
 
 > **Note:** the functions above start counting at 0; when providing these fields in a dataset, start from 1 per the table above.
 
