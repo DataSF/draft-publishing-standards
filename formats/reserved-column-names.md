@@ -4,7 +4,7 @@ The following column names should be used only if they adhere to the definitions
 
 * analysis_neighorhood @Joy, let's chat about neighborhoods, we made choices earlier that I'm reconsidering in terms of naming conventions
 * date
-* datetime
+* date_time
 * fiscal_half_year
 * fiscal_month
 * fiscal_quarter
