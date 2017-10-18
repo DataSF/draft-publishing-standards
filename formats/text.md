@@ -33,7 +33,5 @@ Text should be presented in the easiest to interpret/read format where appropria
 
 ### Is anything wrong, unclear, missing?
 
-* hyperlinkto canonical and standard reference section in 'considerations for cat variables section
-
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Text&body=Comment:Text)
 
