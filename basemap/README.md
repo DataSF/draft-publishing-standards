@@ -20,24 +20,6 @@ Let's start with three core components:
 
 > **Note:** at the time, because buildings are not updated as development occurs, there will be missing data.
 
-
-### Conceptual relationship diagram and table
-
-The diagram and table below explain the relationship among the 3 core components above.
-
-![](/assets/address_components.png)
-
-| From | To | Relationship | Notes |
-| :--- | :--- | :--- | :--- |
-| Address Number | Parcel | An address number is related to 0 or 1 parcel | An address number may only occasionally fall in the right of way where there is no parcel @SFGIS? is this true, I vaguely remember this being mentioned in the AWG, but I could be confusing this with virtual addresses |
-| Address Number | Building | An address number is related to 0 or 1 building | In some cases an address will be assigned to a lot with no physical structure |
-| Parcel | Address Number | A parcel has 0 or many address numbers | When a parcel is first created through subdivision, it may have no addresses associated with it yet |
-| Parcel | Building | A parcel has 0 or many buildings | A parcel doesn't have to have a building on it |
-| Building | Address Number | A building has 1 or many address numbers | Per Building Code, once a building is approved, it will have at least 1 entrance address if not more* |
-| Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway (e.g. a public works toolshed) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
-
-> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System (EAS) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modelled relationship across all buildings.
-
 ### Illustration
 
 The following illustrates the relationships above.
@@ -51,6 +33,27 @@ The following illustrates the relationships above.
 5. **No parcels, 1 Building.** Buildings can be built in the right of way (e.g. on a median) where parcels don't exist. This happens rarely.
 
 In all cases, a single address can never be associated with multiple buildings or multiple parcels.
+
+### Relationship table and conceptual diagram
+
+| From | To | Relationship | Notes |
+| :--- | :--- | :--- | :--- |
+| Address Number | Parcel | An address number is related to 0 or 1 parcel | An address number may only occasionally fall in the right of way where there is no parcel @SFGIS? is this true, I vaguely remember this being mentioned in the AWG, but I could be confusing this with virtual addresses |
+| Address Number | Building | An address number is related to 0 or 1 building | In some cases an address will be assigned to a lot with no physical structure |
+| Parcel | Address Number | A parcel has 0 or many address numbers | When a parcel is first created through subdivision, it may have no addresses associated with it yet |
+| Parcel | Building | A parcel has 0 or many buildings | A parcel doesn't have to have a building on it |
+| Building | Address Number | A building has 1 or many address numbers | Per Building Code, once a building is approved, it will have at least 1 entrance address if not more* |
+| Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway (e.g. a public works toolshed) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
+
+> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System (EAS) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modeled relationship across all buildings.
+
+The diagram and table below explain the relationship among the 3 core components above.
+
+@@TODO: per Kim's feedback, add legend for UML diagram
+
+![](/assets/address_components.png)
+
+
 
 ### Relationship to streets
 
