@@ -9,14 +9,12 @@ The following column names should be used only if they adhere to the definitions
 * fiscal_quarter
 * fiscal_year
 * half\_year
-* month
-* time
-* week
-* quarter
-
-* fiscal_quarter
 * latitude
 * longitude
+* month
+* quarter
+* time
+* week
 * x_coord
 * y_coord
 * zip_code
