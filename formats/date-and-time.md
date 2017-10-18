@@ -76,7 +76,7 @@ These can often be automatically extracted from a date variable, for example the
 ## Durations
 Durations can be automatically calculated if you provide a separate start and end period in your dataset. If you also want to provide a duration, please:
 * Provide the milliseconds between the start and end period
-  * Milliseconds can be rolled up to any other time interval and is the most flexible duration representation
+  * Milliseconds can be rolled up to any other time interval and is the most flexible representation
   * Use duration in your column name but prepend with a useful descriptor
     * flight_duration
     * response_duration
