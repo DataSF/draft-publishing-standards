@@ -84,7 +84,7 @@ Durations can be automatically calculated if you provide a separate start and en
     * travel_duration
   * Do not duplicate any of the duration column names per the [guidance on columns](/formats/column-headers.md)
   
->**Note:** ISO 8601 does have separate guidance on duration formatting, but we find this more cumbersome than just calculating milliseconds between a period which many programming libraries can do
+>**Note:** ISO 8601 does have separate guidance on duration formatting, but we find this more cumbersome than just calculating milliseconds between a period for which there are many standard programming libraries.
 
 ### Is anything wrong, unclear, missing?
 
