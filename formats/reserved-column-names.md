@@ -1,5 +1,7 @@
 The following column names should be used only if they adhere to the definitions in this guide:
 
+@@TODO: finish this section and link to the relevant guidance
+
 * year
 * half\_year
 * quarter
