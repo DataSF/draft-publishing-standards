@@ -37,7 +37,7 @@ In certain cases you may want to provide a single variable representing the numb
 * date_extract_woy() - extracts the week of the year as an integer between 0 and 51 (inclusive)
 * date_extract_y() - extracts the year as an integer
 
-> **Note:** the functions above start counting at 0, but we ask you to provide a 1 based index if you 
+> **Note:** the functions above start counting at 0, but we ask you to provide a 1 based index below if you provide these columns
 
 | Extract | Column name | Type | Range of values |
 | --- | --- | --- | --- | --- |
