@@ -26,6 +26,24 @@
 
 * Fiscal year start-date must be indicated in the metadata
 
+## Date-time variables
+* ISO 8601 uses 24 hour clock system in hh:mm:ss format (do not use AM or PM)
+* e.g. 13:00 is equivalent to 1:00 PM
+
+| Type | Column name | Format | Example |
+| --- | --- | --- | --- |
+| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm | 2015-01-01T13:00 |
+| | | _or_ YYYY-MM-DD\[T\]hh:mm:ss | 2015-01-01T13:00:00 |
+| Time only | `time` | hh:mm | 13:00 |
+| | | _or_ hh:mm:ss | 13:00:00 |
+
+**Specify the timezone if it is not local time (UTC -7hrs Standard Time UTC -8hrs Daylight Savings Time):**
+
+| Type | Column name | Format | Example |
+| --- | --- | --- | --- |
+| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm+hh:mm | 2015-01-01T12:00+00:00 |
+| | | _or_ YYYY-MM-DD\[T\]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
+
 ## Date extracts
 
 In certain cases you may want to provide a single variable representing the number or name of an individual date component, a day, a month, etc. There's no requirement to provide these, but follow this guidance:
@@ -34,10 +52,13 @@ In certain cases you may want to provide a single variable representing the numb
 | --- | --- | --- | --- | --- |
 | Day | day_num | integer | 1 to 31 (varies by month) |
 | Day of Week | dow_num | integer | 1 to 7 |
+| Day of Week Name | dow_name | string | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
 | Hour | hour_num | integer | 1 to 24 |
 | Minute | minute_num | integer | 1 to 60 |
-| Second | seconds_num | integer | 1 to 60 |
-| 
+| Second | second_num | integer | 1 to 60 |
+| Week of Year | woy_num | integer | 1 to 52 |
+| Year | year_num | integer | any valid year |
+
 These can often be automatically extracted from a date variable, for example the open data portal enables these queries:
 * date_extract_d() - extracts the day from a date as an integer
 * date_extract_dow() - extracts the day of week as an integer between 0 and 6 (inclusive)
@@ -50,25 +71,6 @@ These can often be automatically extracted from a date variable, for example the
 > **Note:** the functions above start counting at 0; when providing these fields in a dataset, start from 1 per the table above.
 
 
-
-
-## Date-time variables
-* ISO 8601 uses 24 hour clock system in hh:mm:ss format (do not use AM or PM)
-  * e.g. 13:00 is equivalent to 1:00 PM
-
-| Type | Column name | Format | Example |
-| --- | --- | --- | --- |
-| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm | 2015-01-01T13:00 |
-|  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss | 2015-01-01T13:00:00 |
-| Time only | `time` | hh:mm | 13:00 |
-|  |  | _or_ hh:mm:ss | 13:00:00 |
-
-**Specify the timezone if it is not local time (UTC -7hrs Standard Time UTC -8hrs Daylight Savings Time):**
-
-| Type | Column name | Format | Example |
-| --- | --- | --- | --- |
-| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm+hh:mm | 2015-01-01T12:00+00:00 |
-|  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss+hh:mm:ss | 2015-01-01T12:00:00+00:00:00 |
 
 ## Durations
 Durations not required if you have a start and end date or datetime, however, if you produce a duration, follow the guidance below
