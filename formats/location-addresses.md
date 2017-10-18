@@ -37,5 +37,7 @@ Below are components of an address.
 
 ### Is anything wrong, unclear, missing?
 
+* link to EAS or info about how to use EAS
+
 [Leave a comment.](https://github.com/DataSF/draft-publishing-standards/issues/new?title=Comment:Location-Addresses&body=Comment:Location-Addresses)
 
