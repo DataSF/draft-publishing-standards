@@ -29,7 +29,7 @@
 ## Date
 
 ## Date-time variables
-* ISO 8601 uses 24 hour clock system in hh:mm:ss format
+* ISO 8601 uses 24 hour clock system in hh:mm:ss format (do not use AM or PM)
 
 | Type | Column name | Format | Example |
 | --- | --- | --- | --- |
