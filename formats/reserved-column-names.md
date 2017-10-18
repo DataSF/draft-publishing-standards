@@ -2,17 +2,19 @@ The following column names should be used only if they adhere to the definitions
 
 @@TODO: finish this section and link to the relevant guidance
 
-* year
+
 * half\_year
-* quarter
 * month
 * week
+* quarter
+
+
 * date
 * datetime
 * time
-* fiscal\_year
-* fiscal\_half\_year
-* fiscal\_quarter
+* fiscal_year
+* fiscal_half_year
+* fiscal_quarter
 * latitude
 * longitude
 * x\_coord
@@ -21,6 +23,8 @@ The following column names should be used only if they adhere to the definitions
 * supervisor\_district
 * unit
 * unit\_suffix
+* year
+
 
 ### Is anything wrong, unclear, missing?
 
