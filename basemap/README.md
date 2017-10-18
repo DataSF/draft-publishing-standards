@@ -63,7 +63,7 @@ Each of these components relates to one or more streets. A street centerline has
   * Depending on the size and shape of the parcel or building, they could be fronted on several or all sides by street segments
   * Most parcels or buildings on the interior of a block will relate to a single street segment
 * An address number can only be associated with a single street segment
-  * When the City assigns an address number they do so along a street segment within an allowed range
+  * When the City assigns an address number they do so [along a street segment within an allowed range](/basemap/address-numbers.md)
 
 ### A note on historical data
 
