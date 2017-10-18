@@ -33,10 +33,10 @@
 
 | Type | Column name | Format | Example |
 | --- | --- | --- | --- |
-| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm | 2015-01-01T12:00 |
-|  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss | 2015-01-01T12:00:00 |
-| Time only | `time` | hh:mm | 12:00 |
-|  |  | _or_ hh:mm:ss | 12:00:00 |
+| Date + time | `date_time` | YYYY-MM-DD\[T\]hh:mm | 2015-01-01T13:00 |
+|  |  | _or_ YYYY-MM-DD\[T\]hh:mm:ss | 2015-01-01T13:00:00 |
+| Time only | `time` | hh:mm | 13:00 |
+|  |  | _or_ hh:mm:ss | 13:00:00 |
 
 **Specify the timezone if it is not UTC -7hrs:**
 
