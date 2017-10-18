@@ -2,6 +2,7 @@ The following column names should be used only if they adhere to the definitions
 
 @@TODO: finish this section and link to the relevant guidance
 
+* analysis_neighorhood @Joy, let's chat about neighborhoods, we made choices earlier that I'm reconsidering in terms of naming conventions
 * date
 * datetime
 * fiscal_half_year
@@ -13,16 +14,15 @@ The following column names should be used only if they adhere to the definitions
 * longitude
 * month
 * quarter
+* supervisor_district
 * time
+* unit
+* unit_suffix
 * week
 * x_coord
 * y_coord
-* zip_code
-* supervisor_district
-* unit
-* unit_suffix
 * year
-
+* zip_code
 
 ### Is anything wrong, unclear, missing?
 
