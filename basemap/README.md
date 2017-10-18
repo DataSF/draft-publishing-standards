@@ -55,12 +55,12 @@ The diagram and table below explain the relationship among the 3 core components
 
 ### Relationship to streets
 
-Each of these components relates to one or more streets. A street centerline has a unique identifier called a Centerline Node Network ID.
+Each of these components relates to one or more streets. A street centerline has a unique identifier called a [Centerline Node Network ID](/basemap/street-centerlines-nodes.md).
 
 * A building or parcel will relate to at least one street segment
   * Parcels or buildings with streets on either side will have 2 related segments
   * Corner buildings and parcels will also relate to two segments
-  * Depending on the size and shape of the parcel or building, they could be fronted on several or all sides by street segrments
+  * Depending on the size and shape of the parcel or building, they could be fronted on several or all sides by street segments
   * Most parcels or buildings on the interior of a block will relate to a single street segment
 * An address number can only be associated with a single street segment
   * When the City assigns an address number they do so along a street segment within an allowed range
