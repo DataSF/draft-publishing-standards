@@ -30,6 +30,7 @@
 
 ## Date-time variables
 * ISO 8601 uses 24 hour clock system in hh:mm:ss format (do not use AM or PM)
+  * e.g. 13:00 is equivalent to 1:00 PM
 
 | Type | Column name | Format | Example |
 | --- | --- | --- | --- |
