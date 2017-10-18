@@ -22,7 +22,7 @@ Let's start with three core components:
 
 ### Illustration
 
-The following illustrates the relationships above.
+The following illustrates the relationship among the components.
 
 ![](/assets/address_components_illustration.png)
 
