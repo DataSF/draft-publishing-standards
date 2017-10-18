@@ -11,8 +11,11 @@
 
 # Column Order
 
+* _Unique identifiers_ should be in the left-most column if applicable
 * _Date and time variables_ should be in the first column for time series data
-* _Fixed variables_ should be ordered with the highest-level variable on the left and most granular variable on the right
+* _Fixed or classified variables_ should be ordered with the highest-level variable on the left and most granular variable on the right, for example
+  * [311 cases](https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6/data): service_name, service_subtype, service_details
+  * [Police incidents](https://data.sfgov.org/Public-Safety/Police-Department-Incidents/tmnf-yvry/data): category, descript
 * _Observed variables_ should always be on the rightmost columns
 
 
