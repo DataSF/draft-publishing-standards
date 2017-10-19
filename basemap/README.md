@@ -27,9 +27,9 @@ The following illustrates the relationship among the components.
 ![](/assets/address_components_illustration.png)
 
 1. **1 Parcel, 1 Building.** This is often the case in areas like the Financial District or other densely populated office districts.
-2. **1 Parcel, Many Buildings.** This occurs particularly in neighborhoods with accessory dwelling units or detached buildings.
-3. **Many Parcels, 1 Building.** This occurs particularly when a building is subdivided into different ownership.
-4. **1 Parcel, No Buildings.** It's rare in San Francisco to have a parcel with no buildings, but this does happen in the case of parking lots, vacant lots and some parks.
+2. **1 Parcel, Many Buildings.** This occurs in neighborhoods with accessory dwelling units or detached buildings.
+3. **Many Parcels, 1 Building.** This occurs when a building is subdivided into different ownership.
+4. **1 Parcel, No Buildings.** While rare, this does happen in the case of parking lots, vacant lots and some parks.
 5. **No parcels, 1 Building.** Buildings can be built in the right of way (e.g. on a median) where parcels don't exist. This happens rarely.
 
 In all cases, a single address can never be associated with multiple buildings or multiple parcels.
