@@ -1,8 +1,10 @@
 # Supervisor Districts
 
-There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each representing a geographic district. [Those supervisor districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/gq7k-pfb2) are a common boundary of interest to those doing citywide analysis. Historically, there have been many ways of representing these districts in datasets. We are standardizing these fields so that the name will always be `Supervisor District` \(or `supervisor_district`\). The record will indicate the number of the district without any leading text.
+## Definition
 
-**For Example:**
+* There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each representing a geographic district. 
+
+### Illustration
 
 | Other Fields | Supervisor District |
 | --- | --- |
@@ -18,14 +20,23 @@ There are 11 members of the [Board of Supervisors](http://www.sfbos.org/), each 
 | ... | 10 |
 | ... | 11 |
 
-## Acceptable values for no district
+## Use
 
-Sometimes a dataset doesn't have accurate geographic information or there just isn't a relevant location for the record. For example, [not all 311 cases](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6) have a location.
+@TODO
 
+## Accepted values
+
+* Column name should be `Supervisor District` or `supervisor_district`
+* Values between 1 and 11 (integer)
 * Acceptable ways to indicate no district include:
   * `null` meaning the field has no value
   * `-1` or `0` 
   * Indicate how no district is represented in your data dictionary
+  * For example, [not all 311 cases](https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6) have a location and won't have an associated district
 
+## Reference
+@TODO: put in table format
+
+* [Those supervisor districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/qr9q-k4m2) are a common boundary of interest to those doing citywide analysis.
 
 
