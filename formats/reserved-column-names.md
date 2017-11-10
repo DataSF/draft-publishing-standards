@@ -1,28 +1,30 @@
+# Appendix: Reserved Column Names
+
 The following column names should be used only if they adhere to the definitions in this guide:
 
 @@TODO: finish this section and link to the relevant guidance
 
-* analysis_neighorhood @Joy, let's chat about neighborhoods, we made choices earlier that I'm reconsidering in terms of naming conventions
+* analysis\_neighorhood @Joy, let's chat about neighborhoods, we made choices earlier that I'm reconsidering in terms of naming conventions
 * date
-* date_time
-* fiscal_half_year
-* fiscal_month
-* fiscal_quarter
-* fiscal_year
+* date\_time
+* fiscal\_half\_year
+* fiscal\_month
+* fiscal\_quarter
+* fiscal\_year
 * half\_year
 * latitude
 * longitude
 * month
 * quarter
-* supervisor_district
+* supervisor\_district
 * time
 * unit
-* unit_suffix
+* unit\_suffix
 * week
-* x_coord
-* y_coord
+* x\_coord
+* y\_coord
 * year
-* zip_code
+* zip\_code
 
 ### Is anything wrong, unclear, missing?
 

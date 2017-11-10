@@ -1,6 +1,6 @@
-# Reference Data Index
+# Appendix: Reference Data Index
 
-Below is a table the reference datasets mentioned in this document. [View all the reference data below in the open data portal](https://data.sfgov.org/browse?tags=city%20reference%20data&sortBy=alpha).
+Below is a table of the reference datasets mentioned in this document. [View all the reference data below in the open data portal](https://data.sfgov.org/browse?tags=city%20reference%20data&sortBy=alpha).
 
 | Dataset | Description and Constraints | Reference Columns | Page(s) |
 | :--- | :--- | :--- | :--- |
