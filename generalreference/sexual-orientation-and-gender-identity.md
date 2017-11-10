@@ -20,11 +20,11 @@ Select departments are required to solicit SOGI data consistent with Department 
 
 "Gender Identity" means a person's gender as designated by that person. A person's gender identity shall be determined based on the individual's stated gender identity, without regard to whether the self-identified gender accords with the individual's physical appearance, surgical history, genitalia, legal sex, sex assigned at birth, or name and sex as it appears in medical records, and without regard to any contrary statement by any other person, including a family member, conservator, or legal representative. An individual who lacks the present ability to communicate his or her gender identity shall retain the gender identity used by that individual prior to losing his or her expressive capacity.
 
-> From Section \[3304.1\]\([http://library.amlegal.com/nxt/gateway.dll?f=jumplink$jumplink\_x=Advanced$jumplink\_vpc=first$jumplink\_xsl=querylink.xsl$jumplink\_sel=title;path;content-type;home-title;item-bookmark$jumplink\_d=california\(Police\)$vid=amlegal:sanfrancisco\_ca$jumplink\_q=\[field](http://library.amlegal.com/nxt/gateway.dll?f=jumplink$jumplink_x=Advanced$jumplink_vpc=first$jumplink_xsl=querylink.xsl$jumplink_sel=title;path;content-type;home-title;item-bookmark$jumplink_d=california%28Police%29$vid=amlegal:sanfrancisco_ca$jumplink_q=[field) folio-destination-name:'3304.1'\]$jumplink\_md=target-id=JD\_3304.1\) \(c\) of the Police Code
+> From Section \[3304.1\] \(c\) of the Police Code
 
 "Sexual orientation" shall mean the status of being lesbian, gay, bisexual or heterosexual.
 
-> From Section \[12B.1\]\([http://library.amlegal.com/nxt/gateway.dll?f=jumplink$jumplink\_x=Advanced$jumplink\_vpc=first$jumplink\_xsl=querylink.xsl$jumplink\_sel=title;path;content-type;home-title;item-bookmark$jumplink\_d=california\(administrative\)$jumplink\_q=\[field](http://library.amlegal.com/nxt/gateway.dll?f=jumplink$jumplink_x=Advanced$jumplink_vpc=first$jumplink_xsl=querylink.xsl$jumplink_sel=title;path;content-type;home-title;item-bookmark$jumplink_d=california%28administrative%29$jumplink_q=[field) folio-destination-name:'12B.1'\]$jumplink\_md=target-id=JD\_12B.1\) \(c\) of the Administrative Code.
+> From Section \[12B.1\] \(c\) of the Administrative Code.
 
 #### Who must Comply
 
