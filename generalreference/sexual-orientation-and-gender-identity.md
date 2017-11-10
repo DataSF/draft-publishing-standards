@@ -1,4 +1,6 @@
-# Sexual Orientation and Gender Identity
+```
+Sexual Orientation and Gender Identity
+```
 
 Below are standards on how to collect sexual orientation and gender identity \(SOGI\) If your department does not have a standard, you are encouraged to use one of the standards below.
 
@@ -20,15 +22,13 @@ Select departments are required to solicit SOGI data consistent with Department 
 
 Below is a brief and incomplete excerpt - please review the full set of guidelines before using this standard.
 
-
-
 ##### Sex and Gender Guidelines
 
 Below is a brief and incomplete excerpt - please review the full set of guidelines before using this standard.
 
 Two questions should be used together to identify sex and gender. You should ask these two questions, together as follows and in this order, to acquire sex and gender demographics about both the person’s present gender identity and his or her history.
 
-1. What is your gender2? \(Check one that best describes your current gender identity.\)
+1. What is your gender? \(Check one that best describes your current gender identity.\)
    1. \(1\) Male
    2. \(2\) Female
    3. \(3\) Trans Male
@@ -38,14 +38,14 @@ Two questions should be used together to identify sex and gender. You should ask
    7. Survey forms would include options 1-6. Coding should also allow for options 7 and 8
       1. \(7\) Declined / Not stated
       2. \(8\) Question Not Asked
-2. What was your sex at birth? \(Check one\)
-   1. \(1\) Male
-   2. \(2\) Female
+2. What was your sex at birth? \(Check one\)  
+   1. \(1\) Male  
+   2. \(2\) Female  
    3. Survey forms would include options 1-2. Coding should also allow options 3 and 4
 
-      1. \(3\) Declined / Not stated
+   1. \(3\) Declined / Not stated
 
-      2. \(4\) Question Not Asked
+   2. \(4\) Question Not Asked
 
 #### Definitions
 
