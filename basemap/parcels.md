@@ -1,10 +1,10 @@
 # Parcels
 
-@TODO: note on condos (mapblocklot)
+@TODO: note on condos \(mapblocklot\)
 
 ## Definition
 
-* A parcel is a contiguous piece of land \(real property\) identified by a unique Assessor Parcel Number (APN)
+* A parcel is a contiguous piece of land \(real property\) identified by a unique Assessor Parcel Number \(APN\)
 * The APN is comprised of a **block number** and a **lot number**
   * Blocks are contiguous groups of lots bounded by streets or other features on all sides
     * Blocks can be split in the middle by other streets
@@ -51,11 +51,11 @@
   * Do not separate the block and lot number with space or other characters
     * 0585012D instead of 0585/012D
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
-  * Also provide the block and lot as separate fields
-* Current parcels and corresponding identifiers in the current subdivision parcels
-* Historic parcels and corresponding identifiers in the recorded parcel geography below (note limitations)
+  * Also provide the block and lot as separate fields @@Jason and as 4 digits??
+* Current parcels and corresponding identifiers in the current subdivision parcels below
+* Historic parcels and corresponding identifiers in the recorded parcel geography below \(note limitations\)
 
-### Reference
+### Reference Datasets
 
 | Dataset | Description and Constraints | Block Column | Lot Column | APN Column |
 | :--- | :--- | :--- | :--- | :--- |
