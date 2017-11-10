@@ -7,10 +7,13 @@
   * Renaming streets can be initiated by members of the public or the Board of Supervisors [according to the process documented by Public Works](http://sfpublicworks.org/services/establishing-street-names)
 
 ### Illustration
-![The street sign for Jack Kerouac Alley (formerly Adler Alley). On the street sign, both names are present for five years following a name change.](/assets/street_sign.jpg)
-* Above is the street sign for Jack Kerouac Alley (formerly Adler Alley). On the street sign, both names are present for five years following a name change.
+
+![The street sign for Jack Kerouac Alley \(formerly Adler Alley\). On the street sign, both names are present for five years following a name change.](/assets/street_sign.jpg)
+
+* Above is the street sign for Jack Kerouac Alley \(formerly Adler Alley\). On the street sign, both names are present for five years following a name change.
 
 ### Authority
+
 * New street names assigned during the development / subdivision of land
   * Recordation of final parcel maps including new streets happens with the Office of the Assessor-Recorder 
   * Before recordation, subdivision maps are approved by the County Surveyor, the Public Works Director and the Board of Supervisors
@@ -21,19 +24,19 @@
   * A Public Hearing at the Land Use and Economic Development Committee
   * Board of Supervisors approval
   * Mayor's signature                             
-   
+
 ## Use
 
 * For official base maps to label the streets properly
-* As a component part of a full address ([see address formatting guidance](/addresses.md))
-* To validate against user submitted address data (e.g. in a form online)
+* As a component part of a full address \([see address formatting guidance](/addresses.md)\)
+* To validate against user submitted address data \(e.g. in a form online\)
 
 ### Accepted values
 
 * Official street names are maintained in the City's Official Basemap updated by Public Works staff
 * The full list of valid City street names is [available in the street names dataset](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v)
 
-### Reference
+### Reference Datasets
 
 | Dataset | Description and Constraints | Reference Columns |
 | :--- | :--- | :--- |
