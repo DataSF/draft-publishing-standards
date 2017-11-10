@@ -4,11 +4,11 @@
 
 * Zoning regulations govern how land can be used in various geographic areas called "zoning use districts" (also known as "zoning," "zones" or "use districts").
 * Zoning regulations may:
-  * govern sizes and shapes of buildings.
-  * limit the number of units or apartments that can exists on a property.
+  * govern sizes and shapes of buildings
+  * limit the number of units or apartments that can exists on a property
   * require the accommodation of car parking off of the street
-  * set controls on planting street trees under certain circumstances.
-  * specify how late a business can remain open at night.
+  * set controls on planting street trees under certain circumstances
+  * specify how late a business can remain open at night
 
 ### Illustration
 
