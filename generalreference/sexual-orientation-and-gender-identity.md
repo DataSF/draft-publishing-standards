@@ -12,9 +12,40 @@ Chapter 104 of the San Francisco code requires the collection of SOGI data by se
 
 Select departments are required to solicit SOGI data consistent with Department of Public Health's Policies and Procedures:
 
-* "Sexual Orientation Guidelines: Principles for Collecting, Coding, and Reporting Identity Data," reissued on September 2, 2014
-* "Sex and Gender Guidelines: Principles for Collecting, Coding, and Reporting Identity Data," reissued on September 2, 2014
+* "[Sexual Orientation Guidelines: Principles for Collecting, Coding, and Reporting Identity Data](https://www.sfdph.org/dph/files/PoliciesProcedures/COM9_SexualOrientationGuidelines.pdf)," reissued on September 2, 2014
+* "[Sex and Gender Guidelines: Principles for Collecting, Coding, and Reporting Identity Data](https://www.sfdph.org/dph/files/PoliciesProcedures/COM5_SexGenderGuidelines.pdf)," reissued on September 2, 2014
 * or any successor Policies and Procedures
+
+##### Sexual Orientation Guidelines
+
+Below is a brief and incomplete excerpt - please review the full set of guidelines before using this standard.
+
+
+
+##### Sex and Gender Guidelines
+
+Below is a brief and incomplete excerpt - please review the full set of guidelines before using this standard.
+
+Two questions should be used together to identify sex and gender. You should ask these two questions, together as follows and in this order, to acquire sex and gender demographics about both the person’s present gender identity and his or her history.
+
+1. What is your gender2? \(Check one that best describes your current gender identity.\)
+   1. \(1\) Male
+   2. \(2\) Female
+   3. \(3\) Trans Male
+   4. \(4\) Trans Female
+   5. \(5\) Genderqueer / Gender Non-binary
+   6. \(6\) Not listed, please specify\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ 
+   7. Survey forms would include options 1-6. Coding should also allow for options 7 and 8
+      1. \(7\) Declined / Not stated
+      2. \(8\) Question Not Asked
+2. What was your sex at birth? \(Check one\)
+   1. \(1\) Male
+   2. \(2\) Female
+   3. Survey forms would include options 1-2. Coding should also allow options 3 and 4
+
+      1. \(3\) Declined / Not stated
+
+      2. \(4\) Question Not Asked
 
 #### Definitions
 
