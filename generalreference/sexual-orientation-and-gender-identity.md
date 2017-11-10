@@ -1,6 +1,4 @@
-```
-Sexual Orientation and Gender Identity
-```
+# Sexual Orientation and Gender Identity
 
 Below are standards on how to collect sexual orientation and gender identity \(SOGI\) If your department does not have a standard, you are encouraged to use one of the standards below.
 
