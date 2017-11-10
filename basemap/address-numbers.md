@@ -14,10 +14,9 @@
 * 100 valid address numbers on this segment from 600 to 699
   * Even adddresses on right, odds on left
 * Each address corresponds to an entrance from the street
-  * Note buildings at the rear of the building facing the street have entryways from the street (e.g. 656A, 658A, 664A, and 666A)
+  * Note buildings at the rear of the building facing the street have entryways from the street \(e.g. 656A, 658A, 664A, and 666A\)
   * Numbers can be assigned where there is no building, but they must be associated [with a parcel](/basemap/assessor-parcel-numbers-apn.md)
     * e.g. the parking lot at 626 Green St
-
 
 ### Authority
 
@@ -37,10 +36,10 @@
 * Authorized City staff enter address numbers in the Enterprise Addressing System according to these rules
 
 > **Note on Units:** The City records unit numbers for condos to support tying property records for deeds, property taxes and other business processes. There is no formal requirement to record the units in rental buildings.
+>
+> **Missing Data?:** If you believe there's been an error or a missing address, please @TODO: what feedback loop is there?  Here's an example from DC for what they call their Master Address Repository: [http://opendata.dc.gov/pages/connect-web-services](http://opendata.dc.gov/pages/connect-web-services)
 
-> **Missing Data?:** If you believe there's been an error or a missing address, please @TODO: what feedback loop is there?  Here's an example from DC for what they call their Master Address Repository: http://opendata.dc.gov/pages/connect-web-services
-
-## Reference
+## Reference Datasets
 
 | Dataset | Description and Constraints | Street Number Column |
 | :--- | :--- | :--- |
