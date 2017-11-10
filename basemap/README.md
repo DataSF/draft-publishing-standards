@@ -2,13 +2,20 @@
 
 @SFGIS: Please look at this carefully, I'm basing some of the assumptions on a variety of conversations. For example, I've heard an address number can fall outside a parcel, but I'm not certain this is actually the case or should be the case for DBI numbers?
 
-A basemap is most often associated with a visual representation of base geography (streets, buildings, parks, etc.) upon which other elements may be mapped. The base layers on that map help the user orient themselves within space.
+A basemap is most often associated with a visual representation of base geography \(streets, buildings, parks, etc.\) upon which other elements may be mapped. The base layers on that map help the user orient themselves within space.
 
 In this section, we lay out some component basemap pieces that form core reference data. The underlying data can be used in more than just developing a visual reference map.
 
-Following is an overview of the how pieces fit together. Understanding this can help you when linking and referencing data across multiple department datasets.
+* We start with an overview of how the pieces fit together. Understanding this can help you when linking and referencing data across multiple department datasets.
+* Then for each basemap component we provide:
+  * A definition
+  * Visual illustration of the concept
+  * Authority under which it is collected
+  * Primary or authoritative uses
+  * Accepted values
+  * And summary of supporting reference data
 
-## A location reference (addressing) data model
+## A location reference \(addressing\) data model
 
 Each component is described in this section individually, but there are important relationships among them.
 
@@ -30,7 +37,7 @@ The following illustrates the relationship among the components.
 2. **1 Parcel, Many Buildings.** This occurs in neighborhoods with accessory dwelling units or detached buildings.
 3. **Many Parcels, 1 Building.** This occurs when a building is subdivided into different ownership.
 4. **1 Parcel, No Buildings.** While rare, this does happen in the case of parking lots, vacant lots and some parks.
-5. **No parcels, 1 Building.** Buildings can be built in the right of way (e.g. on a median) where parcels don't exist. This happens rarely.
+5. **No parcels, 1 Building.** Buildings can be built in the right of way \(e.g. on a median\) where parcels don't exist. This happens rarely.
 
 In all cases, a single address can never be associated with multiple buildings or multiple parcels.
 
@@ -42,10 +49,10 @@ In all cases, a single address can never be associated with multiple buildings o
 | Address Number | Building | An address number is related to 0 or 1 building | In some cases an address will be assigned to a lot with no physical structure |
 | Parcel | Address Number | A parcel has 0 or many address numbers | When a parcel is first created through subdivision, it may have no addresses associated with it yet |
 | Parcel | Building | A parcel has 0 or many buildings | A parcel doesn't have to have a building on it |
-| Building | Address Number | A building has 1 or many address numbers | Per Building Code, once a building is approved, it will have at least 1 entrance address if not more* |
-| Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway (e.g. a public works toolshed) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
+| Building | Address Number | A building has 1 or many address numbers | Per Building Code, once a building is approved, it will have at least 1 entrance address if not more\* |
+| Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway \(e.g. a public works toolshed\) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
 
-> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System (EAS) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modeled relationship across all buildings.
+> **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System \(EAS\) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modeled relationship across all buildings.
 
 The diagram and table below explain the relationship among the 3 core components above.
 
@@ -66,4 +73,6 @@ Each of these components relates to one or more streets. A street centerline has
   * When the City assigns an address number they do so [along a street segment within an allowed range](/basemap/address-numbers.md)
 
 ### A note on historical data
+
 Streets, parcels, buildings, addresses all change over time. Historical City data could reference things that don't currently exist. In each of the next pages, references include both current and historical where available. You can also [browse the reference index](/reference-index.md).
+
