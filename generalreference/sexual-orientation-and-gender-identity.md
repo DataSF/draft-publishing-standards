@@ -86,3 +86,15 @@ These departments are also required to flow down the standard to their contracto
 
 San Francisco Administrative Code Chapter 104: Collection of Sexual Orientation and Gender Identity Data.
 
+## California Standards
+
+At this time we do now know of any California standards. However, CA Government code 8310.8 \(cited as the Lesbian, Gay, Bisexual, and Transgender Disparities Reduction Act\) requires certain state departments \(listed below\) to collect SOGI data. It does not however specify how they should collect that data or even that they should do it consistently. These state agencies may flow down SOGI data collection requirements to your department for purposes of state data collection.
+
+> * \(a\) \(1\) This section shall only apply to the following state departments:
+>   * \(A\) The State Department of Health Care Services.
+>   * \(B\) The State Department of Public Health.
+>   * \(C\) The State Department of Social Services.
+>   * \(D\) The California Department of Aging.
+
+
+
