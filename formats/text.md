@@ -3,8 +3,9 @@
 * UTF-8 encoding should be used
   * This ensures that special characters can be decoded by users
 * No line breaks within cells
-  * There are many ways to remove and detect line breaks, but this can vary based on how you're extracting data, 
   * This can break parsing in software like Excel, introducing data integrity issues
+  * There are many ways to remove and detect line breaks, but this can vary based on how you're extracting data
+  
 
 ## Considerations for categorical variables
 
