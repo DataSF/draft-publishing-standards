@@ -16,4 +16,4 @@ _book
 *.pdf
 
 # Local files
-*.DS_Store
+.DS_Store
