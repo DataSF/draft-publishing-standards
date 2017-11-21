@@ -24,7 +24,7 @@
 | Fiscal, quarterly | `fiscal_quarter` | YYYY-\[Q\]Q | 2015-Q1 |
 | Fiscal, half-yearly | `fiscal_half_year` | YYYY-\[H\]H | 2015-H1 |
 
-* Fiscal year start-date must be indicated in the data dictionary
+* Fiscal year start date must be indicated in the data dictionary
   * e.g. The fiscal year starts on July 1 and ends on June 30 for the City and County of San Francisco
 
 ## Date-time and time variables
