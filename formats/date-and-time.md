@@ -55,15 +55,15 @@ In certain cases you may want to provide a single variable representing the numb
 | Year | year\_num | integer | any valid year |
 | Month | month\_num | integer | 1 to 12 |
 | Month Name | month\_name | string | January, February, March, April, May, June, July, August, September, October, November, December |
-| Week of Year | woy\_num | integer | 1 to 52 |
+| Week of Year | woy\_num | integer | 0 to 51 |
 | Day | day\_num | integer | 1 to 31 \(varies by month\) |
-| Day of Week | dow\_num | integer | 1 to 7 |
+| Day of Week | dow\_num | integer | 0 to 6 |
 | Day of Week Name | dow\_name | string | Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday |
-| Hour | hour\_num | integer | 1 to 24 |
-| Minute | minute\_num | integer | 1 to 60 |
-| Second | second\_num | integer | 1 to 60 |
+| Hour | hour\_num | integer | 0 to 23 |
+| Minute | minute\_num | integer | 0 to 59 |
+| Second | second\_num | integer | 0 to 59 |
 
-These can often be automatically extracted from a date variable, for example the open data portal enables querying a dataset with these date extract functions:
+These can often be automatically extracted from a valid ISO-8601 date, for example the open data portal enables querying a dataset with these date extract functions:
 
 * [date\_extract\_d\(\)](https://dev.socrata.com/docs/functions/date_extract_d.html) - extracts the day from a date as an integer
 * [date\_extract\_dow\(\)](https://dev.socrata.com/docs/functions/date_extract_dow.html) - extracts the day of week as an integer between 0 and 6 \(inclusive\)
@@ -74,14 +74,12 @@ These can often be automatically extracted from a date variable, for example the
 * [date\_extract\_woy\(\)](https://dev.socrata.com/docs/functions/date_extract_woy.html) - extracts the week of the year as an integer between 0 and 51 \(inclusive\)
 * [date\_extract\_y\(\)](https://dev.socrata.com/docs/functions/date_extract_y.html) - extracts the year as an integer
 
-> **Note:** the functions above start counting at 0; when providing these fields in a dataset, start from 1 per the table above. @@Jason - why are these different?
-
 ## Durations
 
 Durations can be automatically calculated if you provide a separate start and end period in your dataset. If you also want to provide a duration, please:
 
-* Provide the milliseconds between the start and end period
-  * Milliseconds can be rolled up to any other time interval and is the most precise and flexible representation
+* Provide the milliseconds between the start and end period (include the duration unit in the data dictionary)
+  * Milliseconds can be rolled up to other time intervals
 * Use duration in your column name but prepend with a useful descriptor, e.g:
   * flight\_duration
   * response\_duration
