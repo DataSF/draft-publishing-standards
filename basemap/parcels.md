@@ -1,7 +1,5 @@
 # Parcels
 
-@TODO: note on condos \(mapblocklot\)
-
 ## Definition
 
 * A parcel is a contiguous piece of land \(real property\) identified by a unique Assessor Parcel Number \(APN\)
@@ -12,9 +10,13 @@
     * Lots also referred to as parcels
   * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
+> **Note:** You will see reference to `mapblklot` in some City data. This is to reference a 1:M relationship of condo parcels to a base parcel. 
+
+> The practice of representing a condo digitally is to duplicate and "stack" the base parcel for each condo unit in the building, assigning them each a unique lot number. The `mapblklot` is the reference to the base APN. So `blklot` will be unique, while `mapblklot` will duplicate across condo parcels.
+
 ### Illustration
 
-![](/assets/block_lots.png)
+![Image illustrating the relationship of lots to blocks](/assets/block_lots.png)
 
 * Block 117 above is bounded:
   * On the North and South by Union and Green Streets
@@ -51,7 +53,9 @@
   * Do not separate the block and lot number with space or other characters
     * 0585012D instead of 0585/012D
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
-  * Also provide the block and lot as separate fields @@Jason and as 4 digits??
+  * Also provide the block and lot as separate fields
+    * Blocks will have 4 numeric digits and an optional character suffix (pad lower numbers with 0; block 117 becomes 0117)
+    * Lots will have 3 numeric digits and an optional character suffix (pad lower numbers with 0; lot 4 becomes 004)
 * Current parcels and corresponding identifiers in the current subdivision parcels below
 * Historic parcels and corresponding identifiers in the recorded parcel geography below \(note limitations\)
 
