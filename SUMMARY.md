@@ -18,6 +18,7 @@
 * [Reference Data Overview](reference-data.md)
 * [Reference: General Admin](generalreference/README.md)
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
+* [Reference: Demographics](demographics/README.md)
   * [Race & Ethnicity](generalreference/race-and-ethnicity.md)
   * [Sexual Orientation & Gender Identity](generalreference/sexual-orientation-and-gender-identity.md)
 * [Reference: Basemap](basemap/README.md)
