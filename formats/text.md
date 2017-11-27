@@ -5,7 +5,6 @@
 * No line breaks within cells
   * This can break parsing in software like Excel, introducing data integrity issues
   * There are many ways to remove and detect line breaks, but this can vary based on how you're extracting data
-  
 
 ## Considerations for categorical variables
 
@@ -29,7 +28,7 @@ Text should be presented in the easiest to interpret/read format where appropria
 
 **Lower case**
 
-* Categories when the source system presents them in caps and there's no way to interpret them to camel case
+* Categories when the source system presents them in caps and there's no way to interpret them to title case
 * [Research suggests lower case as opposed to uppercase is easier to read](https://www.microsoft.com/typography/ctfonts/wordrecognition.aspx) for humans and just as useful to machines, note exceptions above
 
 ### Is anything wrong, unclear, missing?
