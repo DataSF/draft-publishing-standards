@@ -1,13 +1,16 @@
 # Location \(addresses\)
 
-* Where appropriate, use a valid Enterprise Address System address
-  * EAS addresses capture addresses input by DBI staff, see the [section on address numbers for more detail](/basemap/address-numbers.md)
-* You may output these as individual fields or as full address strings
-  * When formatting as one field, it is still important to make sure the component pieces are well formed within the string.
+* Consistent formatting of addresses is important in the promotion of data use and reuse
+* There are a couple of ways to output a valid address:
+  * As individual fields
+  * As a single complete address string
+* The specific output may vary by the use case and underlying data
+* Please review the address elements below and when they apply to your data, use the individual element guidance for consistency and quality
+* Following are the address elements and some brief notes on formats
 
 ## Address elements
 
-Below are more common elements of an address.
+Below are some common elements of an address (but not all)
 
 * not all addresses will have all elements
 * address granularity will be driven by the business need, so not all systems will collect every element
@@ -47,6 +50,8 @@ Below are more common elements of an address.
   * 901 Bayshore Boulevard, Unit 209, San Francisco, CA 94124
 * When providing multiple addresses within a dataset, be internally consistent with naming structure; prepend your column names with the type of address
   * e.g. address vs. mailing\_address (see [Registered Businesses dataset](https://data.sfgov.org/Economy-and-Community/Registered-Business-Locations-San-Francisco/g8m3-pdis/data))
+* Where appropriate, use a valid Enterprise Address System address
+  * EAS addresses capture addresses input by DBI staff, see the [section on address numbers for more detail](/basemap/address-numbers.md)
 
 ### Is anything wrong, unclear, missing?
 
