@@ -12,7 +12,7 @@
 
 > **Note:** You will see reference to `mapblklot` in some City data. This is to reference a 1:M relationship of condo parcels to a base parcel. 
 
-> The practice of representing a condo digitally is to duplicate and "stack" the base parcel for each condo unit in the building, assigning them each a unique lot number. The `mapblklot` is the reference to the base APN. So `blklot` will be unique, while `mapblklot` will duplicate across condo parcels.
+> The practice of representing a condo parcel digitally is to duplicate and "stack" the base parcel for each condo unit in the building, assigning them each a unique lot number. The `mapblklot` is the reference to the base APN. So `blklot` will be unique, while `mapblklot` will duplicate across condo parcels.
 
 ### Illustration
 
