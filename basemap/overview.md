@@ -28,6 +28,8 @@ In all cases, a single address can never be associated with multiple buildings o
 
 ### Relationship table and conceptual diagram
 
+The table and diagram below explain the relationship among the 3 core components above.
+
 | From | To | Relationship | Notes |
 | :--- | :--- | :--- | :--- |
 | Address Number | Parcel | An address number is related to 0 or 1 parcel | An address number may only occasionally fall in the right of way where there is no parcel @SFGIS? is this true, I vaguely remember this being mentioned in the AWG, but I could be confusing this with virtual addresses |
@@ -38,10 +40,6 @@ In all cases, a single address can never be associated with multiple buildings o
 | Building | Parcel | A building is in 0 or many parcels | Buildings may actually exist in the roadway \(e.g. a public works toolshed\) and not sit on a parcel at all. Most buildings sit within 1 or many parcels. |
 
 > **\*Note:** The relationship between buildings and address numbers is conceptual at the time. Staff create address points in the Enterprise Addressing System \(EAS\) within the parcel but not in reference to the building. In cases where there is one building on one parcel, the address point may fall within the building footprint, but there's not an explicitly modeled relationship across all buildings.
-
-The diagram and table below explain the relationship among the 3 core components above.
-
-@@TODO: per Kim's feedback, add legend for UML diagram
 
 ![](/assets/address_components.png)
 

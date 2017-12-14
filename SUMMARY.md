@@ -11,7 +11,6 @@
   * [Numeric](formats/numeric.md)
   * [Location \(coordinates\)](formats/location-coordinates.md)
   * [Location \(addresses\)](formats/location-addresses.md)
-  * [Null/Negligible/Intentionally Blank Values](formats/nullnegligible-values.md)
 
 ## Standard Reference Data
 
@@ -19,7 +18,6 @@
 * [Reference: General Admin](generalreference/README.md)
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
 * [Reference: Demographics](demographics/README.md)
-  * [Race & Ethnicity](demographics/race-and-ethnicity.md)
   * [Sexual Orientation & Gender Identity](demographics/sexual-orientation-and-gender-identity.md)
 * [Reference: Basemap](basemap/README.md)
   * [Overview](basemap/overview.md)

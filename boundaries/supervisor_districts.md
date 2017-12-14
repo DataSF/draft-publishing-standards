@@ -36,9 +36,8 @@
 
 ## Reference Datasets
 
-@TODO: put in table format
-
-* [Those supervisor districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/qr9q-k4m2) are a common boundary of interest to those doing citywide analysis.
+| Dataset | Description and Constraints | Reference Columns |
+| Current Supervisor Districts | Supervisor Districts as of the 2012 redistricting | `supervisor` - number of district |
 
 
 
