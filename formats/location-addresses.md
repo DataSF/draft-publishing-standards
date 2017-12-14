@@ -8,6 +8,19 @@
 * Please review the address elements below and when they apply to your data, use the individual element guidance for consistency and quality
 * Following are the address elements and some brief notes on formats
 
+
+## Address formats
+
+Well formed addresses are actually arrangements of simpler address elements. In practice, addresses may show up in a tabular dataset as a single string, but they may also be split into sub-elements. What matters most is whether or not the address in its complete form is valid.
+
+As illustration we'll highlight some examples of "bad" and "good" addresses.
+
+### Bad addresses
+
+* 
+
+### Good addresses
+
 ## Address elements
 
 Below are some common elements of an address \(but not all\)
@@ -18,7 +31,7 @@ Below are some common elements of an address \(but not all\)
 * you can publish addresses as either single strings or break into separate fields
   * provide this information in your data dictionary and be consistent
 
-> **Note:** this guidance is provided to promote consistency across shared tabular datasets and not as a comprehensive guide to address standards. For a comprehensive standard on addressing, see the [Federal Geographic Data Committee \(FGDC\) United States Thoroughfare, Landmark, and Postal Address Data Standard](https://www.fgdc.gov/standards/projects/address-data)
+> **Note:** this guidance is provided to promote consistency across the bulk of shared tabular datasets and not as a comprehensive guide to address standards. For a comprehensive standard on addressing, see the [Federal Geographic Data Committee (FGDC) United States Thoroughfare, Landmark, and Postal Address Data Standard](https://www.fgdc.gov/standards/projects/address-data)
 
 | Element | Data Type | Definition | Valid Values |
 | :--- | :--- | :--- | :--- |
@@ -34,10 +47,17 @@ Below are some common elements of an address \(but not all\)
 | Street Name Posttype | Text | A word or phrase that follows the Street Name and identifies a type of thoroughfare in a Complete Street Name: 315A Main **Street**, San Francisco, CA 94102 | [Official list of street names maintained by Public Works](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) |
 | Street Name Postdirectional | Text | A word following the street name that indicates the directional taken by the thoroughfare from an arbitrary starting point, or the sector where it is located: 315A Main Street **East**, San Francisco, CA 94102 | [Official list of street names maintained by Public Works](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) |
 | Street Name Post Modifier | Text | A word or phrase in a Complete Street Name that follows and modifies the Street Name, but is separated from it by a Street Name Post Type or a Street Name Post Directional or both: 315A Main Street **Extended**, San Francisco, CA 94102 | [Official list of street names maintained by Public Works](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) |
+<<<<<<< Updated upstream
 | Subaddress Type | Text | The type of subaddress to which the associated Subaddress Identifier applies. \(Building, Wing, Floor, Apartment, etc. are types to which the Identifier refers.\): 315A Main Street, **Apt** 2, San Francisco, CA 94102 | There is no complete reference of subaddresses \(aka units\) at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
 | Subaddress Identifier | Text | The letters, numbers, words, or combination thereof used to distinguish different subaddresses of the same type when several occur within the same feature: 315A Main Street, Apt **2**, San Francisco, CA 94102 | There is no complete reference of subaddresses \(aka units\) at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
 | City | Text | The city the address sits within: 315A Main Street, **San Francisco**, CA 94102 |  |
 | State Name | Text | The names of the US states and state equivalents: the fifty US states, the District of Columbia, and all U.S. territories and outlying possessions. A state \(or equivalent\) is "a primary governmental division of the United States." The names may be spelled out in full or represented by their two-letter USPS or ANSI abbreviation: 315A Main Street, San Francisco, **CA** 94102 | Recommend using standard abbreviations. Spell out if you can do so without introducing misspellings \(e.g using validated entry\). |
+=======
+| Occupancy Type | Text | The type of occupancy to which the associated Occupancy Identifier applies. (Building, Wing, Floor, Apartment, etc. are types to which the Identifier refers.): 315A Main Street, **Apt** 2, San Francisco, CA 94102 | There is no complete reference of subaddresses (aka units) at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
+| Occupancy Identifier | Text | The letters, numbers, words, or combination thereof used to distinguish different subaddresses of the same type when several occur within the same feature: 315A Main Street, Apt **2**, San Francisco, CA 94102 | There is no complete reference of subaddresses (aka units) at the time. You can refer to [Enterprise Address System addresses with units for a partial list](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Addresses-with-Units-Enterprise-Addressing-System-/dxjs-vqsy). |
+| City | Text | The city the address sits within: 315A Main Street, **San Francisco**, CA 94102 | |
+| State Name | Text | The names of the US states and state equivalents: the fifty US states, the District of Columbia, and all U.S. territories and outlying possessions. A state (or equivalent) is "a primary governmental division of the United States." The names may be spelled out in full or represented by their two-letter USPS or ANSI abbreviation: 315A Main Street, San Francisco, **CA** 94102 | Recommend using standard abbreviations. Spell out if you can do so without introducing misspellings (e.g using validated entry). |
+>>>>>>> Stashed changes
 | ZIP code | Numeric | A system of 5-digit codes that identifies the individual Post Office or metropolitan area delivery station associated with an address: 315A Main Street, San Francisco, CA **94102** | Note, zip codes are not actually boundaries, but are defined by routes. A [list of valid San Francisco zipcodes can be downloaded here](https://data.sfgov.org/resource/srq6-hmpi.csv?$select=zip_code). |
 | ZIP+4 | Numeric | A 4-digit extension of the 5-digit Zip Code \(preceded by a hyphen\) that, in conjunction with the Zip Code, identifies a specific range of USPS delivery addresses: 315A Main Street, San Francisco, CA 94102-**1212** | Note, zip codes are not actually boundaries, but are defined by routes. A [list of valid San Francisco zipcodes can be downloaded here](https://data.sfgov.org/resource/srq6-hmpi.csv?$select=zip_code). |
 
