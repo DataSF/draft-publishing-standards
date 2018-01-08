@@ -1,6 +1,6 @@
-# Draft Standards Reference for City and County of San Francisco Data
+# Data Standards Reference Handbook \(Beta Release\)
 
-[DataSF](https://datasf.org) operates the City and County of San Francisco's [official open data portal](https://data.sfgov.org). We are documenting standards to make data more useful and consistent across the City at scale. 
+[DataSF](https://datasf.org) operates the City and County of San Francisco's [official open data portal](https://data.sfgov.org). We are documenting standards to make data more useful and consistent across the City at scale.
 
 This document serves several purposes:
 
@@ -12,7 +12,7 @@ This document serves several purposes:
 We lean heavily on existing precedent where available. The scope includes:
 
 1. Formats and data structure
-2. Common reference standards (lists) that are useful across datasets and departments
+2. Common reference standards \(lists\) that are useful across datasets and departments
 
 We are not including domain-specific standards here like Open311 or LIVES which have their own documentation and communities. We are also not using this to propose new domain specific standards.
 
