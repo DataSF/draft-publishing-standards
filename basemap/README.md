@@ -1,6 +1,6 @@
 # Reference: Basemap
 
-@SFGIS: Please look at this carefully, I'm basing some of the assumptions on a variety of conversations. For example, I've heard an address number can fall outside a parcel, but I'm not certain this is actually the case or should be the case for DBI numbers?
+@@SFGIS: Please look at this carefully, I'm basing some of the assumptions on a variety of conversations. For example, I've heard an address number can fall outside a parcel, but I'm not certain this is actually the case or should be the case for DBI numbers?
 
 A basemap is most often associated with a visual representation of base geography \(streets, buildings, parks, etc.\) upon which other elements may be mapped. The base layers on that map help the user orient themselves within space.
 

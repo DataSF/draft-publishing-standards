@@ -1,7 +1,5 @@
 # Neighborhoods
 
-@@Joy - let's chat about neighborhoods, I want to rewrite this to be a little more in line with other guidance, but I'm also considering changing some conventions based on feedback
-
 The City's Open Data Program provides the [Analysis Neighborhoods](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Analysis-Neighborhoods/p5b7-5n3h) as the primary neighborhood district boundary on automated datasets. We also provide other neighborhood boundaries when appropriate.
 
 The table below includes:
