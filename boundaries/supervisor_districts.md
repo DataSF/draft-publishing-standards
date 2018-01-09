@@ -37,7 +37,8 @@
 ## Reference Datasets
 
 | Dataset | Description and Constraints | Reference Columns |
-| Current Supervisor Districts | Supervisor Districts as of the 2012 redistricting | `supervisor` - number of district |
+| :--- | :--- | :--- |
+| [Current Supervisor Districts](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Current-Supervisor-Districts/8nkz-x4ny) | Supervisor Districts as of the 2012 redistricting | `supervisor` - number of district (integer 1 through 11) |
 
 
 
