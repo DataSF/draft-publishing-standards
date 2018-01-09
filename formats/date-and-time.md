@@ -2,7 +2,7 @@
 
 * [Based on ISO8601](https://en.wikipedia.org/wiki/ISO_8601), an international standard for representing date and time. We chose the "extended format" with the hyphens because it is more human readable.
   * Compare 2016-01-01 to 20160101
-* All date and time variables must be local time \(UTC -7hrs Standard Time UTC -8hrs Daylight Savings Time\) unless specified.
+* All date and time variables must be local time \(UTC -8hrs Pacific Standard Time UTC -7hrs Pacific Daylight Savings Time\) unless specified.
 
 ## Date variables
 
@@ -39,7 +39,7 @@
 | Time only | `time` | hh:mm | 13:00 |
 |  |  | _or_ hh:mm:ss | 13:00:00 |
 
-**Specify the timezone if it is not local time \(UTC -7hrs Standard Time UTC -8hrs Daylight Savings Time\):**
+**Specify the timezone if it is not local time \(UTC -8hrs Pacific Standard Time UTC -7hrs Pacific Daylight Savings Time\):**
 
 | Type | Column name | Format | Example |
 | --- | --- | --- | --- |
