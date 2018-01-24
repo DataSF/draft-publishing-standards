@@ -2,9 +2,11 @@
 
 ## Definition
 
-* The official street name assigned to a length of street through either the subdivision process or renaming
-  * Street names are generally established during the development / subdivision of land [codified in the City's subdivision codes](http://library.amlegal.com/nxt/gateway.dll/California/subdivision/subdivisioncode?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_Subdivision)
+* The official name assigned to a segment of street or right-of-way that is legislated through the subdivision process and/or Board of Supervisors
+  * Street names are generally established when streets are created as a result of the development / subdivision of land [codified in the City's subdivision codes](http://library.amlegal.com/nxt/gateway.dll/California/subdivision/subdivisioncode?f=templates$fn=default.htm$3.0$vid=amlegal:sanfrancisco_ca$anc=JD_Subdivision)
   * Renaming streets can be initiated by members of the public or the Board of Supervisors [according to the process documented by Public Works](http://sfpublicworks.org/services/establishing-street-names)
+
+> **Note:** The above only applies to city-owned public streets
 
 ### Illustration
 
@@ -40,8 +42,8 @@
 
 | Dataset | Description and Constraints | Reference Columns |
 | :--- | :--- | :--- |
-| [Street Names](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | Contains a list of officially valid street names contained in the City's Basemap | `fullstreetname` composed of `streetname` & `streettype` |
-| [San Francisco Basemap Street Centerlines](hhttps://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | A geographic reference of the all basemap streets including a number of street components like the valid name | `streetname` composed of `street` & `st_type` |
+| [Street Names](https://data.sfgov.org/Geographic-Locations-and-Boundaries/Street-Names/6d9h-4u5v) | Contains a list of officially valid street names contained in the City's Basemap | `fullstreetname` composed of `streetname` & `streettype` & `postdirection` |
+| [San Francisco Basemap Street Centerlines](https://data.sfgov.org/Geographic-Locations-and-Boundaries/San-Francisco-Basemap-Street-Centerlines/7hfy-8sz8) | A geographic reference of the all basemap streets including a number of street components like the valid name | `streetname` composed of `street` & `st_type`  |
 
 ### Is anything wrong, unclear, missing?
 
