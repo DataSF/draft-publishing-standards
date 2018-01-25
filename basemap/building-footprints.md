@@ -30,8 +30,7 @@
 ### Accepted values
 
 * Footprints are not currently updated as new buildings are constructed
-* For those buildings constructed before X, you can use the unique identifier `sf16_bldgid`
-* For buildings that don't exist but should, please @@SFGIS: what action can people take?
+* For those buildings constructed before 2010, you can use the unique identifier `sf16_bldgid`
 
 ### Reference Datasets
 

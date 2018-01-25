@@ -2,8 +2,6 @@
 
 The following column names should be used only if they adhere to the definitions in this guide:
 
-@@TODO: finish this section and link to the relevant guidance when sections mostly settled down
-
 * [analysis\_neighborhood](/boundaries/neighborhoods.md)
 * [date](/formats/date-and-time.md)
 * [date\_time](/formats/date-and-time.md)

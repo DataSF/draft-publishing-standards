@@ -1,7 +1,5 @@
 # Location \(coordinates\)
 
-@@SFGIS: is EPSG 2227 the right one for CA State Plane 3, is there a different one we should be standardizing around?
-
 - Coordinates in [EPSG 4326](https://epsg.io/4326) or [EPSG 2227](https://epsg.io/2227)
 - Only EPSG 4326 coordinates can be mapped within the open data portal
 - Should be represented in two columns
