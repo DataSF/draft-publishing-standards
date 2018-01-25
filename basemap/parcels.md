@@ -2,33 +2,32 @@
 
 ## Definition
 
-* A parcel is a contiguous piece of land \(real property\) identified by a unique Assessor Parcel Number \(APN\)
+* A parcel is a piece of land or a lot \(real property\) identified by a unique Assessor Parcel Number \(APN\)
 * The APN is comprised of a **block number** and a **lot number**
-  * Blocks are contiguous groups of lots bounded by streets or other features on all sides
-    * Blocks can be split in the middle by other streets
-  * Lots are sub-divided within the blocks
-    * Lots also referred to as parcels
+  * Block number format: 4 numerical digits + 1 optional letter character (0012A)
+  * Lot number format: 3 numerical digits + 1 optional letter character (037B)
+  * Blocks are groupings of lots which are usually contiguous and usually bounded by streets or other features on all sides
+    * Blocks can be discontiguous and split by other blocks or streets
   * The City is broken up into over 6,000 blocks and over 200,000 individual lots
 
-> **Note:** You will see reference to `mapblklot` in some City data. This is to reference a 1:M relationship of condo parcels to a base parcel. 
+> **Note:** You will see reference to `mapblklot` in some City data. This is to reference a 1:M relationship of vertical parcels to a base parcel; e.g. condo or timeshare lots. 
 
-> The practice of representing a condo parcel digitally is to duplicate and "stack" the base parcel for each condo unit in the building, assigning them each a unique lot number. The `mapblklot` is the reference to the base APN. So `blklot` will be unique, while `mapblklot` will duplicate across condo parcels.
+> The practice of representing a vertical lot digitally is to duplicate and "stack" the base parcel for each vertical lot in the building, assigning each a unique `blklot` number. The `mapblklot` is the reference to the base APN. So `blklot` will be unique, while `mapblklot` will duplicate across vertical lots.
 
 ### Illustration
 
 ![Image illustrating the relationship of lots to blocks](/assets/block_lots.png)
 
-* Block 117 above is bounded:
+* Block 0117 above is bounded:
   * On the North and South by Union and Green Streets
   * On the East and West by Stockton and Powell Streets
 * Columbus Avenue bisects it, but both sides are still part of the same block
-* The block is subdivided into lots numbered from 1 through 21 below
-* A full Assessor Parcel Number would be the concatenation of the block and lot padded with zeroes as necessary
-  * Blocks are 4 digits with an optional suffix - 117 becomes 0117
-  * Lots are 3 digits with an optional suffix - 4 becomes 004
+* The block is subdivided into lots numbered from 001 through 021
+* A full Assessor Parcel Number would be the concatenation of the block and lot
+  * Blocks are 4 digits with an optional letter suffix - 117 becomes 0117
+  * Lots are 3 digits with an optional letter suffix - 4 becomes 004
   * The full APN for lot 4 in block 117 is [0117004](http://propertymap.sfplanning.org?search=0117004)
 * These are [recorded in paper maps](http://sfplanninggis.org/BlockBooks/AssessorBlock0117.pdf) in the Office of the Assessor Recorder and digitized
-  * Digital versions below under reference
 
 ### Authority
 
@@ -38,24 +37,21 @@
 
 ## Use
 
-* To tie deeds and legal records to a property mapped [through an official land subdivision process](http://sfpublicworks.org/services/subdivisions-and-mapping)
-* To assess and collect taxes on land and improvements 
+* Assessor Parcel Numbers are used to tie deeds and legal records to property
+* Assessor Parcel Numbers used to assess and collect taxes on land and improvements 
 * As a common administrative identifier for a number of processes like permitting
 
 ### Accepted values
 
-* Should be provided in a dataset as at least 2 separate fields:
-  * Block as `blk` or `block` or `block_num`
-  * Lot as `lot` or `lot_num`
+* Must be provided in a dataset as 2 separate fields: 
+  * Block as `blk` or `block` or `block_num` - must have 4 numeric digits and an optional letter suffix
+  * Lot as `lot` or `lot_num` - must have 3 numeric digits and an optional letter suffix
 * When representing the fully qualified APN as a single field:
   * Name the column either `apn` or `assessor_parcel_number` or `blklot` or `block_and_lot`
-  * Concatenate the block and lot together
+  * Concatenate the block and lot values together
   * Do not separate the block and lot number with space or other characters
     * 0585012D instead of 0585/012D
   * Do not prepend with additional text like `APN` or `Block and Lot Number`
-  * Also provide the block and lot as separate fields
-    * Blocks will have 4 numeric digits and an optional character suffix (pad lower numbers with 0; block 117 becomes 0117)
-    * Lots will have 3 numeric digits and an optional character suffix (pad lower numbers with 0; lot 4 becomes 004)
 * Current parcels and corresponding identifiers in the current subdivision parcels below
 * Historic parcels and corresponding identifiers in the recorded parcel geography below \(note limitations\)
 
