@@ -32,7 +32,7 @@ The table and diagram below explain the relationship among the 3 core components
 
 | From | To | Relationship | Notes |
 | :--- | :--- | :--- | :--- |
-| Address Number | Parcel | An address number is related to 0 or 1 parcel | An address number may only occasionally fall in the right of way where there is no parcel @SFGIS? is this true, I vaguely remember this being mentioned in the AWG, but I could be confusing this with virtual addresses |
+| Address Number | Parcel | An address number is related to 0 or 1 parcel | An address number may only occasionally fall in the right of way where there is no parcel |
 | Address Number | Building | An address number is related to 0 or 1 building | In some cases an address will be assigned to a lot with no physical structure |
 | Parcel | Address Number | A parcel has 0 or many address numbers | When a parcel is first created through subdivision, it may have no addresses associated with it yet |
 | Parcel | Building | A parcel has 0 or many buildings | A parcel doesn't have to have a building on it |
