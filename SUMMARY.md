@@ -19,6 +19,8 @@
   * [Department Names and Codes](generalreference/department-names-and-codes.md)
 * [Reference: Demographics](demographics/README.md)
   * [Sexual Orientation & Gender Identity](demographics/sexual-orientation-and-gender-identity.md)
+  * [Race and Ethnicity](demographics/race-and-ethnicity.md)
+    * [City and County of San Francisco](demographics/race-and-ethnicity/city-and-county-of-san-francisco.md)
 * [Reference: Basemap](basemap/README.md)
   * [Overview](basemap/overview.md)
   * [Parcels](basemap/parcels.md)
