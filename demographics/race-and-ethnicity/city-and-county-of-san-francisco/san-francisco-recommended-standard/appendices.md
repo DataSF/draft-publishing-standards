@@ -41,17 +41,17 @@ Despite the results of testing related to the topics above, the Census is not ma
 
 ### Multiple Selection must be allowed
 
-A study from the Census ranked California as 2nd highest state for those selecting two or more races in the 2010 census. The census has historically captured race/ethnicity information via options that allowed the respondent to select more than one. Likewise the 1997 OMB Race & Ethnicity standard calls for the use of multiple selection. 
+A study from the Census ranked California as 2nd highest state for those selecting two or more races in the 2010 census. The census has historically captured race/ethnicity information via options that allowed the respondent to select more than one. Likewise the 1997 OMB Race & Ethnicity standard calls for the use of multiple selection.
 
-Any modern data system is capable of capturing multiple selections. For older systems limited to single select, it is possible to capture the equivalent information via two or more instances of a single select question. 
+Any modern data system is capable of capturing multiple selections. For older systems limited to single select, it is possible to capture the equivalent information via two or more instances of a single select question.
 
 ### Detailed Race/Ethnicity subgroups left to discretion of departments
 
-This standard should not be interpreted as discouraging or limiting the collection of detailed race/ethnicity information. For certain purposes it is desirable to collect more detailed race/ethnicity sub-group information. Different departments and offices will have different sub-groups that are relevant to their work or may be needed for internal or external reporting \(ex. detailed asian ethnicities\). 
+This standard should not be interpreted as discouraging or limiting the collection of detailed race/ethnicity information. For certain purposes it is desirable to collect more detailed race/ethnicity sub-group information. Different departments and offices will have different sub-groups that are relevant to their work or may be needed for internal or external reporting \(ex. detailed asian ethnicities\).
 
 Similar to the Department of Public Health’s 2011 race and ethnicity guidelines, collection of detailed race/ethnicity information is permitted as long as the values can be rolled up into one the the 7 values in this standard.
 
-## Appendix B. Mapping and Transformations Rule Background
+## Appendix B. Background on Mapping and Transformation Rules
 
 The San Francisco Recommended Standard provides rules for mapping and transforming the standard to external or historical data collection methodologies. Below we provide background on the Largest Group other than White rule.
 
@@ -89,7 +89,17 @@ The table below provides examples to illustrate the methods using the makeup of 
 | Asian | Native Hawaiian or Other Pacific Islander | Native Hawaiian or Other Pacific Islander | Asian | Asian |
 | Asian | White | Asian | Asian | White |
 
+## Appendix C. Mapping Crosswalk
+
+## Appendix D. Example Question Formats
+
+## Appendix E. Detailed Categories
 
 
 
+## Appendix F. San Francisco MSA Race and Ethnicity Estimates
+
+The table below provides a weighted population estimate by race and ethnicity.
+
+![](https://lh3.googleusercontent.com/wF8-Uxty1vJS2ezppwOK9i4WyX-5IDMclwfsfn76iGUnfC0jR4_xeNuIO56of6IW7Jzm7Ycd90F-vJhw8qsgi_XT2BzhodiY7Da004cFeu50BXb6D89XOORPizdN_Nx6yBOgB0_cUHJ_UsTpYw)
 
