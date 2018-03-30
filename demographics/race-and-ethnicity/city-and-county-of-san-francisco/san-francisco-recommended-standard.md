@@ -94,9 +94,9 @@ The rules below break out by case depending on the destination system or standar
 
 In Case 1, the only issue that would come up would be different categories. The most common differences should be mapped as follows. If you come across additional ones, feel free to reach out to us for guidance.
 
-1. Middle Eastern or North African missing. Map to White as per Census designation.(1)
-2. Native Hawaiian or Other Pacific Islander missing. Map to Asian. (2)
-3. Any other missing categories missing. Use ‘Other’ or ‘Some Other Race’ or ‘Unknown’ when available.
+1. **Middle Eastern or North African missing.** Map to White as per Census designation.(1)
+2. **Native Hawaiian or Other Pacific Islander missing.** Map to Asian. (2)
+3. **Any other missing categories missing.** Use ‘Other’ or ‘Some Other Race’ or ‘Unknown’ when available.
 
 > (1) 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et al. Pages 200-282.
 
@@ -106,10 +106,10 @@ In Case 1, the only issue that would come up would be different categories. The 
 
 Our standard allows for multi-selection. If you have to report to an external system that only allows one value, use the following rules for records with multiple selections. Appendix C provides details on how to do this mapping:
 
-1. Missing categories. Refer to Case 1 rules if your categories do not match.
-2. More than 1 selected, “Hispanic, Latino, or Spanish” selected. If one of the values is Hispanic, report the respondent as Hispanic regardless of what other selections are made. For example, if someone selects Hispanic and Asian, you would map them to Hispanic.
+1. **Missing categories.** Refer to Case 1 rules if your categories do not match.
+2. **More than 1 selected, “Hispanic, Latino, or Spanish” selected.** If one of the values is Hispanic, report the respondent as Hispanic regardless of what other selections are made. For example, if someone selects Hispanic and Asian, you would map them to Hispanic.
  1. If the destination standard does not have Hispanic, Latino, or Spanish as an option use the other response to report it.
-3. More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected. Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for race and ethnic groups (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+3. **More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for race and ethnic groups (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
  1. White
  2. Asian
  3. Hispanic, Latino, or Spanish
@@ -117,27 +117,27 @@ Our standard allows for multi-selection. If you have to report to an external sy
  5. Middle Eastern or North African
  6. Native Hawaiian or Other Pacific Islander
  7. American Indian or Alaska Native
-4. Exceptions to 2 and 3. If an option for multi-race exists, map multi-selections to that option.
+4. **Exceptions to 2 and 3.** If an option for multi-race exists, map multi-selections to that option.
 
 #### Case 3. Mapping to a separate question format with multi-select option
 
 Some external standards will separate race and ethnicity into two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish, and still allow for multiple selections under the race field. Use the following rules in this case.
 
-1. Missing categories. Refer to Case 1 rules if your categories do not match.
-2. “Hispanic, Latino, or Spanish” selected. Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
+1. **Missing categories.** Refer to Case 1 rules if your categories do not match.
+2. **“Hispanic, Latino, or Spanish” selected.** Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
  1. If other race/ethnicities selected, record under race
  2. If no other selected, record as Unknown or Other
-3. More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected. Record each selection in the destination standard using the Case 1 rules as needed.
+3. **More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected.** Record each selection in the destination standard using the Case 1 rules as needed.
 
 #### Case 4. Mapping to a separate question format with single-select option
 
 Like Case 3, race and ethnicity are two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish. However, you may only select one option under the race field. Use the following rules in this case. Appendix C provides details on how to do this mapping.
 
-1. Missing categories. Refer to Case 1 rules if your categories do not match.
-2. “Hispanic, Latino, or Spanish” selected. Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
+1. **Missing categories.** Refer to Case 1 rules if your categories do not match.
+2. **“Hispanic, Latino, or Spanish” selected.** Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
  1. If another race/ethnicity selected, record that under race. If more than 1 additional race/ethnicity selected, use rule 3 below.
  2. If no other selected, record as Unknown or Other
-3. More than 1 selected, Hispanic, Latino, or Spanish NOT selected. Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+3. **More than 1 selected, Hispanic, Latino, or Spanish NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
  1. White
  2. Asian
  3. Hispanic, Latino, or Spanish
