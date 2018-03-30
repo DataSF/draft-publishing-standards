@@ -41,7 +41,8 @@ Below are formats you should use when collecting race and ethnicity data. The fo
 | **Format** | Multi-select checkbox. See Appendix D for examples. |
 
 > \(1-2\) This terminology was tested in the Census 2015 National Content Test.
-\(3\) Order based on population of San Francisco MSA.
+
+> \(3\) Order based on population of San Francisco MSA.
 
 #### Format B: Single Select
 If you cannot use a multi-select option, this format consists of the same field collected at least twice as follows.
@@ -61,28 +62,97 @@ If you cannot use a multi-select option, this format consists of the same field 
 ### Reporting
 At a minimum, you should calculate the following estimates when reporting on race and ethnicity data.
 
-* Each race and ethnicity alone. This table will provide a Census compatible table that sums to 100%. To create this table, report the following groups:
-White alone
-Asian alone
-Hispanic, Latino, or Spanish alone
-Black or African American alone
-American Indian or Alaska Native alone
-Middle Eastern or Northern African alone
-Native Hawaiian or Other Pacific Islander alone
-Two or more races
-Each race and ethnicity plus some other race. This table will sum to more than 100%. To create this table, report the following groups:
-White plus any other race and ethnicity
-Asian plus any other race and ethnicity
-Hispanic, Latino, or Spanish plus any other race and ethnicity
-Black or African American plus any other race and ethnicity
-American Indian or Alaska Native plus any other race and ethnicity
-Middle Eastern or Northern African plus any other race and ethnicity
-Native Hawaiian or Other Pacific Islander plus any other race and ethnicity
-
+* **Each race and ethnicity alone.** This table will provide a Census compatible table that sums to 100%. To create this table, report the following groups:
+ * White alone
+ * Asian alone
+ * Hispanic, Latino, or Spanish alone
+ * Black or African American alone
+ * American Indian or Alaska Native alone
+ * Middle Eastern or Northern African alone
+ * Native Hawaiian or Other Pacific Islander alone
+ * Two or more races
+* **Each race and ethnicity plus some other race.** This table will sum to more than 100%. To create this table, report the following groups:
+ * White plus any other race and ethnicity
+ * Asian plus any other race and ethnicity
+ * Hispanic, Latino, or Spanish plus any other race and ethnicity
+ * Black or African American plus any other race and ethnicity
+ * American Indian or Alaska Native plus any other race and ethnicity
+ * Middle Eastern or Northern African plus any other race and ethnicity
+ * Native Hawaiian or Other Pacific Islander plus any other race and ethnicity
 
 ### Mapping and Transformations
 
+You may need to map your race and ethnicity data for the purposes of matching how this data is reported by other jurisdictions, surveys or even historical data your department may have collected. When doing mapping and transformations, you will have to address three core issues:
+
+1. Mapping to a standard that does not allow for multi-select
+2. Mapping to a standard that used two separate questions for race and ethnicity
+3. Mapping to a standard that uses different groups or categories
+
+The rules below break out by case depending on the destination system or standard. The mapping tables provide detailed specifications on how to meet these. Appendix x provides more background on these rules. Appendix XX provides details on how to do this mapping.
+
+#### Case 1. Mapping to a combined question format with multi-select options
+
+In Case 1, the only issue that would come up would be different categories. The most common differences should be mapped as follows. If you come across additional ones, feel free to reach out to us for guidance.
+
+1. Middle Eastern or North African missing. Map to White as per Census designation.(1)
+2. Native Hawaiian or Other Pacific Islander missing. Map to Asian. (2)
+3. Any other missing categories missing. Use ‘Other’ or ‘Some Other Race’ or ‘Unknown’ when available.
+
+> (1) 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et al. Pages 200-282.
+
+> (2) Tabulation Working Group. December 15, 2000. Provisional Guidance on the Implementation of the 1997 Standards for Federal Data on Race and Ethnicity Ch. 5 Section B.1 p 88.
+
+#### Case 2. Mapping to a combined question format with single-select option
+
+Our standard allows for multi-selection. If you have to report to an external system that only allows one value, use the following rules for records with multiple selections. Appendix C provides details on how to do this mapping:
+
+1. Missing categories. Refer to Case 1 rules if your categories do not match.
+2. More than 1 selected, “Hispanic, Latino, or Spanish” selected. If one of the values is Hispanic, report the respondent as Hispanic regardless of what other selections are made. For example, if someone selects Hispanic and Asian, you would map them to Hispanic.
+ 1. If the destination standard does not have Hispanic, Latino, or Spanish as an option use the other response to report it.
+3. More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected. Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for race and ethnic groups (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+ 1. White
+ 2. Asian
+ 3. Hispanic, Latino, or Spanish
+ 4. Black or African American
+ 5. Middle Eastern or North African
+ 6. Native Hawaiian or Other Pacific Islander
+ 7. American Indian or Alaska Native
+4. Exceptions to 2 and 3. If an option for multi-race exists, map multi-selections to that option.
+
+#### Case 3. Mapping to a separate question format with multi-select option
+
+Some external standards will separate race and ethnicity into two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish, and still allow for multiple selections under the race field. Use the following rules in this case.
+
+1. Missing categories. Refer to Case 1 rules if your categories do not match.
+2. “Hispanic, Latino, or Spanish” selected. Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
+ 1. If other race/ethnicities selected, record under race
+ 2. If no other selected, record as Unknown or Other
+3. More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected. Record each selection in the destination standard using the Case 1 rules as needed.
+
+#### Case 4. Mapping to a separate question format with single-select option
+
+Like Case 3, race and ethnicity are two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish. However, you may only select one option under the race field. Use the following rules in this case. Appendix C provides details on how to do this mapping.
+
+1. Missing categories. Refer to Case 1 rules if your categories do not match.
+2. “Hispanic, Latino, or Spanish” selected. Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
+ 1. If another race/ethnicity selected, record that under race. If more than 1 additional race/ethnicity selected, use rule 3 below.
+ 2. If no other selected, record as Unknown or Other
+3. More than 1 selected, Hispanic, Latino, or Spanish NOT selected. Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+1. White
+2. Asian
+3. Hispanic, Latino, or Spanish
+4. Black or African American
+5. Middle Eastern or North African
+6. Native Hawaiian or Other Pacific Islander
+7. American Indian or Alaska Native
+
 ## Definitions
+
+Race and ethnicity data collections should include the following minimum categories and definitions.(1)
+
+> (1) Definitions from Census 2015 National Content Test.
+
+
 
 ## Who must comply
 
