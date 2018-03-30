@@ -2,9 +2,43 @@
 
 ## Appendix A. Mapping Crosswalk
 
+The mapping to other data standards crosswalk provides crosswalks from the San Francisco Recommended Standard to 4 different reporting options that do not allow the preservation of a respondents multiple race/ethnicity designations:
+
+* Mapping to a combined question format with single-select option \(Case 2\) 
+  * Variation A: Without option of ‘Two or More Races’
+  * Variation B: With option of ‘Two or More Races’
+* Mapping to a separate question format with single-select option \(Case 4\)
+  * Variation A: Without option of ‘Two or More Races’
+  * Variation B: With option of ‘Two or More Races’
+
 ## Appendix B. Example Question Formats
 
+Please view this [google form](https://goo.gl/forms/bjCPQMZxeD9IldsB2) for example question formats for implementing Format's A and B.
+
 ## Appendix C. Detailed Categories
+
+Under this standard, departments have the discretion to collect additional detail on subgroups within each category as long as the values roll up into one of the seven values in this standard.
+
+Below we provide the main categories with detailed subgroup options from two sources:
+
+* The Census 2015 National Content Test
+* An analysis of San Francisco MSA race and ethnicity estimates
+
+Departments should only collect detailed subgroup data to the degree it is useful for delivering, providing or evaluating programs and services. For example, a department may want additional subgroup detail for one category but not for others. Many departments may find that the seven main categories are sufficient. Appendix B includes example question formats when collecting detailed data.
+
+For additional roll up guidance: Refer to 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et all. Pages 200-282.
+
+| Main Category | Census 2020 Categories Based on US Population | Detailed Categories Based on SF MSA distribution \(1\) |
+| :--- | :--- | :--- |
+| White | GermanIrishEnglishItalianPolishFrenchWrite in | IrishGermanEnglishItalianRussianFrenchScottishPortuguesePolishSwedishNorwegianWrite in |
+| Hispanic, Latino, or Spanish  | Mexican or Mexican AmericanPuerto RicanCubanSalvadoranDominicanColumbianWrite in | Mexican or Mexican AmericanSalvadoranGuatemalanNicaraguanPuerto RicanSpaniardPeruvianHonduranCubanColumbianWrite in |
+| Black or African American  | African AmericanJamaicanHaitianNigerianEthiopianSomaliWrite in | African AmericanNigerianEthiopianJamaicanEritreanHaitianSomaliWrite in  |
+| Asian | ChineseFilipinoAsian IndianVietnameseKoreanJapaneseWrite in | ChineseFilipinoAsian IndianVietnameseKoreanJapaneseTaiwaneseThaiLaotianCambodianWrite In  |
+| American Indian or Alaska Native | American IndianAlaska NativeCentral or South American IndianWrite in | American IndianAlaska NativeCentral or South American IndianWrite in |
+| Middle Eastern or North African  | LebaneseIranianEgyptianSyrianMoroccanAlgerianWrite in | IranianArmenianArabLebanesePalestinianTurkishEgyptianIsraeliYemeniAlgerianWrite in |
+| Native Hawaiian or Other Pacific Islander | Native HawaiianSamoanChamorroTonganFijianMarshalleseWrite in | Native HawaiianSamoanChamorroTonganFijianMarshalleseWrite in |
+
+> \(1\) Determined by analyzing weighted population counts for either ancestry, tribe \(American Indian or Alaska Native\), detailed hispanic information \(Hispanic\) or detailed race information \(Asian\) information for respondents in SF Metropolitan Statistical Area. Each main race/ethnicity category was analyzed in isolation for all respondents who identified as that category \(either alone or in combination with another main race/ethnicity category\) using IPUMS provided flags, except for MENA which currently has no flag. MENA was determined by finding the weighted population rank of MENA valid ancestry values. Detailed Categories assigned to Main Categories based Census 2020 proposed mapping \(see page 200-282 at 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et al\).
 
 ## Appendix D. San Francisco MSA Race and Ethnicity Estimates
 
