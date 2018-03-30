@@ -145,6 +145,7 @@ Like Case 3, race and ethnicity are two separate fields, with ethnicity designat
  5. Middle Eastern or North African
  6. Native Hawaiian or Other Pacific Islander
  7. American Indian or Alaska Native
+4. **Exception to 3.** If an option for multi-race exists, map multi-selections to that option.
 
 ## Definitions
 
