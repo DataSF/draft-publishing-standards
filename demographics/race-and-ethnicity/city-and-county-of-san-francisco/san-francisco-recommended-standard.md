@@ -88,7 +88,7 @@ You may need to map your race and ethnicity data for the purposes of matching ho
 2. Mapping to a standard that used two separate questions for race and ethnicity
 3. Mapping to a standard that uses different groups or categories
 
-The rules below break out by case depending on the destination system or standard. The mapping tables provide detailed specifications on how to meet these. Appendix x provides more background on these rules. Appendix XX provides details on how to do this mapping.
+The rules below break out by case depending on the destination system or standard. The mapping tables provide detailed specifications on how to meet these. Appendix B provides more background on these rules. Appendix C provides details on how to do this mapping.
 
 #### Case 1. Mapping to a combined question format with multi-select options
 
