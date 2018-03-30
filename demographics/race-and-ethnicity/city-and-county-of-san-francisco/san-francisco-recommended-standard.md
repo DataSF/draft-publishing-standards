@@ -138,13 +138,13 @@ Like Case 3, race and ethnicity are two separate fields, with ethnicity designat
  1. If another race/ethnicity selected, record that under race. If more than 1 additional race/ethnicity selected, use rule 3 below.
  2. If no other selected, record as Unknown or Other
 3. More than 1 selected, Hispanic, Latino, or Spanish NOT selected. Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
-1. White
-2. Asian
-3. Hispanic, Latino, or Spanish
-4. Black or African American
-5. Middle Eastern or North African
-6. Native Hawaiian or Other Pacific Islander
-7. American Indian or Alaska Native
+ 1. White
+ 2. Asian
+ 3. Hispanic, Latino, or Spanish
+ 4. Black or African American
+ 5. Middle Eastern or North African
+ 6. Native Hawaiian or Other Pacific Islander
+ 7. American Indian or Alaska Native
 
 ## Definitions
 
