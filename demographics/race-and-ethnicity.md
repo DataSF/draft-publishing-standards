@@ -19,7 +19,7 @@ The purpose of this section is to provide guidance as follows:
 
 ### **Overview of Standards**
 
-Below is an overview of the race and ethnicity data standards covered in this document.
+Below is an overview of the race and ethnicity data standards covered in this section.
 
 | **Jurisdiction** | Title | Who should use |
 | :--- | :--- | :--- |
