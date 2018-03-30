@@ -28,7 +28,7 @@ Below are formats you should use when collecting race and ethnicity data. The fo
 * **Ability to collect multiple values. **Not all systems are able to collect multiple selections for a single field value. Use the formats as follows:
   * Format A. Use this format if your system allows for the selection of multiple values. Most modern systems should be able to accommodate this.
   * Format B. Use this format if your system is unable to select multiple values.
-* **Option to collect detailed data. **Under each format option or via subsequent questions, you can collect additional details on subgroups. Each detailed option must roll up into a one of the 7 standard groups \(1\). See Appendix E for suggested options.
+* **Option to collect detailed data. **Under each format option or via subsequent questions, you can collect additional details on subgroups. Each detailed option must roll up into a one of the 7 standard groups \(1\). See Appendix C for suggested options.
 
 > \(1\) Refer to 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et all. Pages 200-282 for roll up guidance
 
@@ -38,7 +38,7 @@ Below are formats you should use when collecting race and ethnicity data. The fo
 | :--- | :--- |
 | **Question prompt \(2\)** | <ul><li>Paper data collection: Mark all that apply</li><li>Electronic data collection: Select all that apply</li><ul>|
 | **Options and order \(3\)** | <ul><li>White</li><li>Asian</li><li>Hispanic, Latino, or Spanish</li><li>Black or African American</li><li>Middle Eastern or Northern African</li><li>Native Hawaiian or Other Pacific Islander</li><li>American Indian or Alaska Native</li><ul> |
-| **Format** | Multi-select checkbox. See Appendix D for examples. |
+| **Format** | Multi-select checkbox. See Appendix B for examples. |
 
 > \(1-2\) This terminology was tested in the Census 2015 National Content Test.
 
@@ -51,13 +51,13 @@ If you cannot use a multi-select option, this format consists of the same field 
 | :--- | :--- |
 | **Question prompt** | <ul><li>Paper data collection: Mark which one that applies</li><li>Electronic data collection: Select which one that applies</li><ul>|
 | **Options and order** | <ul><li>White</li><li>Asian</li><li>Hispanic, Latino, or Spanish</li><li>Black or African American</li><li>Middle Eastern or Northern African</li><li>Native Hawaiian or Other Pacific Islander</li><li>American Indian or Alaska Native</li><ul>|
-| **Format** | Radio button. See Appendix D for examples. |
+| **Format** | Radio button. See Appendix B for examples. |
 
 | **Field name** | Race and ethnicity 2|
 | :--- | :--- |
 | **Question prompt** | If applicable, mark an additional race/ethnicity<ul><li>Paper data collection: Mark which one that applies</li><li>Electronic data collection: Select which one that applies</li><ul>|
 | **Options and order** | <ul><li>White</li><li>Asian</li><li>Hispanic, Latino, or Spanish</li><li>Black or African American</li><li>Middle Eastern or Northern African</li><li>Native Hawaiian or Other Pacific Islander</li><li>American Indian or Alaska Native</li><ul>|
-| **Format** | Radio button. See Appendix D for examples. |
+| **Format** | Radio button. See Appendix B for examples. |
 
 ### Reporting
 At a minimum, you should calculate the following estimates when reporting on race and ethnicity data.
@@ -88,7 +88,7 @@ You may need to map your race and ethnicity data for the purposes of matching ho
 2. Mapping to a standard that used two separate questions for race and ethnicity
 3. Mapping to a standard that uses different groups or categories
 
-The rules below break out by case depending on the destination system or standard. The mapping tables provide detailed specifications on how to meet these. Appendix B provides more background on these rules. Appendix C provides details on how to do this mapping.
+The rules below break out by case depending on the destination system or standard. The mapping tables provide detailed specifications on how to meet these. Appendix F provides more background on these rules. Appendix A provides details on how to do this mapping.
 
 #### Case 1. Mapping to a combined question format with multi-select options
 
@@ -104,12 +104,12 @@ In Case 1, the only issue that would come up would be different categories. The 
 
 #### Case 2. Mapping to a combined question format with single-select option
 
-Our standard allows for multi-selection. If you have to report to an external system that only allows one value, use the following rules for records with multiple selections. Appendix C provides details on how to do this mapping:
+Our standard allows for multi-selection. If you have to report to an external system that only allows one value, use the following rules for records with multiple selections. Appendix A provides details on how to do this mapping:
 
 1. **Missing categories.** Refer to Case 1 rules if your categories do not match.
 2. **More than 1 selected, “Hispanic, Latino, or Spanish” selected.** If one of the values is Hispanic, report the respondent as Hispanic regardless of what other selections are made. For example, if someone selects Hispanic and Asian, you would map them to Hispanic.
  1. If the destination standard does not have Hispanic, Latino, or Spanish as an option use the other response to report it.
-3. **More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for race and ethnic groups (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+3. **More than 1 selected, “Hispanic, Latino, or Spanish” NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for race and ethnic groups (when available) for the San Francisco Metropolitan Statistical Area (see Appendix D):
  1. White
  2. Asian
  3. Hispanic, Latino, or Spanish
@@ -131,13 +131,13 @@ Some external standards will separate race and ethnicity into two separate field
 
 #### Case 4. Mapping to a separate question format with single-select option
 
-Like Case 3, race and ethnicity are two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish. However, you may only select one option under the race field. Use the following rules in this case. Appendix C provides details on how to do this mapping.
+Like Case 3, race and ethnicity are two separate fields, with ethnicity designated for Hispanic, Latino, or Spanish. However, you may only select one option under the race field. Use the following rules in this case. Appendix A provides details on how to do this mapping.
 
 1. **Missing categories.** Refer to Case 1 rules if your categories do not match.
 2. **“Hispanic, Latino, or Spanish” selected.** Record ethnicity as Hispanic, Latino, or Spanish or equivalent and:
  1. If another race/ethnicity selected, record that under race. If more than 1 additional race/ethnicity selected, use rule 3 below.
  2. If no other selected, record as Unknown or Other
-3. **More than 1 selected, Hispanic, Latino, or Spanish NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix F):
+3. **More than 1 selected, Hispanic, Latino, or Spanish NOT selected.** Apply “Largest Group other than White” rule. Map the respondent to the largest of the group as represented in the San Francisco Bay Area general population unless that race is White. For example, if someone selects White and Asian, report them as Asian.The order from largest to smallest is determined using population estimates for the race alone values (when available) for the San Francisco Metropolitan Statistical Area (see Appendix D):
  1. White
  2. Asian
  3. Hispanic, Latino, or Spanish
