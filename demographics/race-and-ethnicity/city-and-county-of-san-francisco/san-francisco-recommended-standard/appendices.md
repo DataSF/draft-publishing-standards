@@ -1,6 +1,18 @@
 # Appendices
 
-## Appendix A. Rationale for Recommended Standard
+## Appendix A. Mapping Crosswalk
+
+## Appendix B. Example Question Formats
+
+## Appendix C. Detailed Categories
+
+## Appendix D. San Francisco MSA Race and Ethnicity Estimates
+
+The table below provides a weighted population estimate by race and ethnicity.
+
+![](https://lh3.googleusercontent.com/wF8-Uxty1vJS2ezppwOK9i4WyX-5IDMclwfsfn76iGUnfC0jR4_xeNuIO56of6IW7Jzm7Ycd90F-vJhw8qsgi_XT2BzhodiY7Da004cFeu50BXb6D89XOORPizdN_Nx6yBOgB0_cUHJ_UsTpYw)
+
+## Appendix E. Rationale for Recommended Standard
 
 In the absence of a citywide standard, we relied on the following to inform a citywide recommended standard:
 
@@ -51,7 +63,7 @@ This standard should not be interpreted as discouraging or limiting the collecti
 
 Similar to the Department of Public Health’s 2011 race and ethnicity guidelines, collection of detailed race/ethnicity information is permitted as long as the values can be rolled up into one the the 7 values in this standard.
 
-## Appendix B. Background on Mapping and Transformation Rules
+## Appendix F. Background on Mapping and Transformation Rules
 
 The San Francisco Recommended Standard provides rules for mapping and transforming the standard to external or historical data collection methodologies. Below we provide background on the Largest Group other than White rule.
 
@@ -89,17 +101,5 @@ The table below provides examples to illustrate the methods using the makeup of 
 | Asian | Native Hawaiian or Other Pacific Islander | Native Hawaiian or Other Pacific Islander | Asian | Asian |
 | Asian | White | Asian | Asian | White |
 
-## Appendix C. Mapping Crosswalk
 
-## Appendix D. Example Question Formats
-
-## Appendix E. Detailed Categories
-
-
-
-## Appendix F. San Francisco MSA Race and Ethnicity Estimates
-
-The table below provides a weighted population estimate by race and ethnicity.
-
-![](https://lh3.googleusercontent.com/wF8-Uxty1vJS2ezppwOK9i4WyX-5IDMclwfsfn76iGUnfC0jR4_xeNuIO56of6IW7Jzm7Ycd90F-vJhw8qsgi_XT2BzhodiY7Da004cFeu50BXb6D89XOORPizdN_Nx6yBOgB0_cUHJ_UsTpYw)
 
