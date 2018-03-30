@@ -22,7 +22,7 @@
   * [Race and Ethnicity](demographics/race-and-ethnicity.md)
     * [City and County of San Francisco](demographics/race-and-ethnicity/city-and-county-of-san-francisco.md)
       * [San Francisco Recommended Standard](demographics/race-and-ethnicity/city-and-county-of-san-francisco/san-francisco-recommended-standard.md)
-        * Appendices
+        * [Appendices](demographics/race-and-ethnicity/city-and-county-of-san-francisco/san-francisco-recommended-standard/appendices.md)
       * [Department of Public Health’s Ethnicity Guidelines](demographics/race-and-ethnicity/city-and-county-of-san-francisco/department-of-public-healths-ethnicity-guidelines.md)
     * [State of California](demographics/race-and-ethnicity/state-of-california.md)
     * [Federal Government](demographics/race-and-ethnicity/federal-government.md)
