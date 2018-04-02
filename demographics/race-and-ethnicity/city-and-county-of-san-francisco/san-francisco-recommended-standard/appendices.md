@@ -2,7 +2,7 @@
 
 ## Appendix A. Mapping Crosswalk
 
-The mapping to other data standards crosswalk provides crosswalks from the San Francisco Recommended Standard to 4 different reporting options that do not allow the preservation of a respondents multiple race/ethnicity designations:
+The [mapping to other data standards crosswalk](https://docs.google.com/spreadsheets/d/1DUiMnylKzhk2UEXcbV9qFFbyvlb49inzQU-IQKqmhGI/edit?usp=sharing) provides crosswalks from the San Francisco Recommended Standard to 4 different reporting options that do not allow the preservation of a respondents multiple race/ethnicity designations:
 
 * Mapping to a combined question format with single-select option \(Case 2\) 
   * Variation A: Without option of ‘Two or More Races’
@@ -30,13 +30,13 @@ For additional roll up guidance: Refer to 2015 National Content Test Race and Et
 
 | Main Category | Census 2020 Categories Based on US Population | Detailed Categories Based on SF MSA distribution \(1\) |
 | :--- | :--- | :--- |
-| White | GermanIrishEnglishItalianPolishFrenchWrite in | IrishGermanEnglishItalianRussianFrenchScottishPortuguesePolishSwedishNorwegianWrite in |
-| Hispanic, Latino, or Spanish  | Mexican or Mexican AmericanPuerto RicanCubanSalvadoranDominicanColumbianWrite in | Mexican or Mexican AmericanSalvadoranGuatemalanNicaraguanPuerto RicanSpaniardPeruvianHonduranCubanColumbianWrite in |
-| Black or African American  | African AmericanJamaicanHaitianNigerianEthiopianSomaliWrite in | African AmericanNigerianEthiopianJamaicanEritreanHaitianSomaliWrite in  |
-| Asian | ChineseFilipinoAsian IndianVietnameseKoreanJapaneseWrite in | ChineseFilipinoAsian IndianVietnameseKoreanJapaneseTaiwaneseThaiLaotianCambodianWrite In  |
-| American Indian or Alaska Native | American IndianAlaska NativeCentral or South American IndianWrite in | American IndianAlaska NativeCentral or South American IndianWrite in |
-| Middle Eastern or North African  | LebaneseIranianEgyptianSyrianMoroccanAlgerianWrite in | IranianArmenianArabLebanesePalestinianTurkishEgyptianIsraeliYemeniAlgerianWrite in |
-| Native Hawaiian or Other Pacific Islander | Native HawaiianSamoanChamorroTonganFijianMarshalleseWrite in | Native HawaiianSamoanChamorroTonganFijianMarshalleseWrite in |
+| White | <ul><li>German</li><li>Irish</li><li>English</li><li>Italian</li><li>Polish</li><li>French</li><li>Write in</li></ul> | <ul><li>Irish</li><li>German</li><li>English</li><li>Italian</li><li>Russian</li><li>French</li><li>Scottish</li><li>Portuguese</li><li>Polish</li><li>Swedish</li><li>Norwegian</li><li>Write in</li></ul> |
+| Hispanic, Latino, or Spanish  | <ul><li>Mexican or Mexican American</li><li>Puerto Rican</li><li>Cuban</li><li>Salvadoran</li><li>Dominican</li><li>Columbian</li><li>Write in</li></ul> | <ul><li>Mexican or Mexican American</li><li>Salvadoran</li><li>Guatemalan</li><li>Nicaraguan</li><li>Puerto Rican</li><li>Spaniard</li><li>Peruvian</li><li>Honduran</li><li>Cuban</li><li>Columbian</li><li>Write in</li></ul> |
+| Black or African American  | <ul><li>African American</li><li>Jamaican</li><li>Haitian</li><li>Nigerian</li><li>Ethiopian</li><li>Somali</li><li>Write in</li></ul> | <ul><li>African American</li><li>Nigerian</li><li>Ethiopian</li><li>Jamaican</li><li>Eritrean</li><li>Haitian</li><li>Somali</li><li>Write in</li></ul>  |
+| Asian | <ul><li>Chinese</li><li>Filipino</li><li>Asian Indian</li><li>Vietnamese</li><li>Korean</li><li>Japanese</li><li>Write in</li></ul> | <ul><li>Chinese</li><li>Filipino</li><li>Asian Indian</li><li>Vietnamese</li><li>Korean</li><li>Japanese</li><li>Taiwanese</li><li>Thai</li><li>Laotian</li><li>Cambodian</li><li>Write In</li></ul>  |
+| American Indian or Alaska Native | <ul><li>American Indian</li><li>Alaska Native</li><li>Central or South American Indian</li><li>Write in</li></ul> | <ul><li>American Indian</li><li>Alaska Native</li><li>Central or South American Indian</li><li>Write in</li></ul> |
+| Middle Eastern or North African  | <ul><li>Lebanese</li><li>Iranian</li><li>Egyptian</li><li>Syrian</li><li>Moroccan</li><li>Algerian</li><li>Write in</li></ul> | <ul><li>Iranian</li><li>Armenian</li><li>Arab</li><li>Lebanese</li><li>Palestinian</li><li>Turkish</li><li>Egyptian</li><li>Israeli</li><li>Yemeni</li><li>Algerian</li><li>Write in</li></ul> |
+| Native Hawaiian or Other Pacific Islander | <ul><li>Native Hawaiian</li><li>Samoan</li><li>Chamorro</li><li>Tongan</li><li>Fijian</li><li>Marshallese</li><li>Write in</li></ul> | <ul><li>Native Hawaiian</li><li>Samoan</li><li>Chamorro</li><li>Tongan</li><li>Fijian</li><li>Marshallese</li><li>Write in</li></ul> |
 
 > \(1\) Determined by analyzing weighted population counts for either ancestry, tribe \(American Indian or Alaska Native\), detailed hispanic information \(Hispanic\) or detailed race information \(Asian\) information for respondents in SF Metropolitan Statistical Area. Each main race/ethnicity category was analyzed in isolation for all respondents who identified as that category \(either alone or in combination with another main race/ethnicity category\) using IPUMS provided flags, except for MENA which currently has no flag. MENA was determined by finding the weighted population rank of MENA valid ancestry values. Detailed Categories assigned to Main Categories based Census 2020 proposed mapping \(see page 200-282 at 2015 National Content Test Race and Ethnicity Analysis Report. February 28, 2017. Matthews, Kelly et al\).
 
