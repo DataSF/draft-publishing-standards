@@ -23,7 +23,7 @@ Below is an overview of the race and ethnicity data standards covered in this se
 
 | **Jurisdiction** | Title | Who should use |
 | :--- | :--- | :--- |
-| City and County of San Francisco | San Francisco Recommended Standard | Departments should comply with this standard unless they face conflicting requirements. Note that external reporting fields are not requirements. Appendix x provides a rationale for these recommendations. |
+| City and County of San Francisco | San Francisco Recommended Standard | Departments should comply with this standard unless they face conflicting requirements. Note that external reporting fields are not requirements. Appendix E provides a rationale for these recommendations. |
 | City and County of San Francisco | Department of Public Health’s Ethnicity Guidelines | All new data collection systems purchased or designed for or by the Department of Public Health. |
 | State of California | Racial and Identity Profiling Act of 2015 Regulations | The Police Department is required by state law to use this in the context of collecting data on stops. This standard is not required for other types of data collection, including in the Police Department, and may not be appropriate as it was designed to capture perceived race/ethnicity. |
 | Federal Government | Standards for the Classification of Federal Data on Race and Ethnicity \(rev. 1997\) | This standard does not face City Departments. This is included for reference as this may flow down to City departments via federal reporting requirements. |
