@@ -1,7 +1,5 @@
 # San Francisco Recommended Standard
 
-In PROGRESS: Full DRAFT FORTHCOMING&gt;&gt;&gt;March 30, 2018
-
 ## Description of Standard
 
 The purpose of this data standard is to support the consistent collection, maintenance and reporting of data on race and ethnicity across Departments. Consistent race and ethnicity data will:
