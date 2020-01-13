@@ -13,7 +13,7 @@ The [mapping to other data standards crosswalk](https://docs.google.com/spreadsh
 
 ## Appendix B. Example Question Formats
 
-Please view this [google form](https://goo.gl/forms/bjCPQMZxeD9IldsB2) for example question formats for implementing Format's A and B.
+Please view this [google form](https://forms.gle/zfPSBEyYfKVhTDUt7) for example question formats for implementing Format's A and B.
 
 ## Appendix C. Detailed Categories
 
